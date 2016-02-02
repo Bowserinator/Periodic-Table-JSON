@@ -28,7 +28,7 @@ All elements have a three sentence summary from wikipedia. Currently the color t
 <p>		"source":"https://en.wikipedia.org/wiki/Hydrogen",</p>
 <p>		"named_by": "Antoine Lavoisier",</p>
 <p>		"spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",</p>
-<p>		"summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 7000100794000000000♠1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",</p>
+<p>		"summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",</p>
 <p>		"ypos": 1,</p>
 <p>		"xpos": 1</p>
 <p>	}</p>

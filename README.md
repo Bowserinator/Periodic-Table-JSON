@@ -1,11 +1,12 @@
 # Periodic-Table-JSON
 A json of the entire periodic table. Feel free to use it in your projects.
 
+<p>
 Temperatures such as boiling points and melting points are given in degrees kelvin.
 Densities are given in g/L and molar heat in (mol*K)
 Information that is missing is repersented as null. Some elements may have an image link to their spectral bands.
-All elements have a three sentence summary from wikipedia.
-
+All elements have a three sentence summary from wikipedia.</p>
+<code>
 Here's an example of how it's formatted:
 {
   Hydrogen": {
@@ -29,3 +30,4 @@ Here's an example of how it's formatted:
 		"xpos": 1
 	}
 }
+</code>

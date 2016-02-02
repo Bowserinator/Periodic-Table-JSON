@@ -1,35 +1,45 @@
-## [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0)
+## [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0)
+as [cited by Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
 
 This is a human-readable summary of (and not a substitute for) the
-[license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+[license](https://creativecommons.org/licenses/by-sa/3.0/legalcode).
 
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-International License.
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0
+Unported License.
 
-### You are free to:
+### You are free:
 
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
-
-for any purpose, even commercially.
-The licensor cannot revoke these freedoms as long as you follow the license
-terms.
+- to Share — to copy, distribute and transmit the work, and
+- to Remix — to [adapt](https://en.wikipedia.org/wiki/Literary_adaptation) the
+  work
 
 ### Under the following terms:
 
-- Attribution — You must give appropriate credit, provide a link to the license,
-and indicate if changes were made. You may do so in any reasonable manner, but
-not in any way that suggests the licensor endorses you or your use.
-- ShareAlike — If you remix, transform, or build upon the material, you must
-distribute your contributions under the same license as the original.
-- No additional restrictions — You may not apply legal terms or technological
-measures that legally restrict others from doing anything the license permits.
+- Attribution — You must
+  [attribute](https://en.wikipedia.org/wiki/Attribution_(copyright)) the work in
+  the manner specified by the author or
+  [licensor](https://en.wiktionary.org/wiki/licensor) (but not in any way that
+  suggests that they endorse you or your use of the work.)
+- ShareAlike — If you alter, transform, or build upon this work, you may
+  distribute the resulting work only under the same, similar or a compatible
+  license.
 
-### Notices:
+### With the understanding that:
 
-You do not have to comply with the license for elements of the material in the
-public domain or where your use is permitted by an applicable exception or
-limitation.
-No warranties are given. The license may not give you all of the permissions
-necessary for your intended use. For example, other rights such as publicity,
-privacy, or moral rights may limit how you use the material.
+- Waiver — Any of the above conditions can be
+  [waived](https://en.wikipedia.org/wiki/Waiver) if you get permission from the
+  copyright holder.
+- Other Rights — In no way are any of the following rights affected by the
+  license:
+  - your [fair dealing](https://en.wikipedia.org/wiki/Fair_dealing) or
+    [fair use](https://en.wikipedia.org/wiki/Fair_use) rights;
+  - the author's
+    [moral rights](https://en.wikipedia.org/wiki/Moral_rights_(copyright_law));
+    and
+  - rights other persons may have either in the work itself or in how the work
+    is used, such as
+    [publicity](https://en.wikipedia.org/wiki/Personality_rights) or
+    [privacy](https://en.wikipedia.org/wiki/Privacy_law) rights.
+- Notice — For any reuse or distribution, you must make clear to others the
+  license terms of this work. The best way to do that is with a link to
+  [http://creativecommons.org/licenses/by-sa/3.0](http://creativecommons.org/licenses/by-sa/3.0)

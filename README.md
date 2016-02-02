@@ -5,7 +5,7 @@ A json of the entire periodic table. Feel free to use it in your projects.
 Temperatures such as boiling points and melting points are given in degrees kelvin.
 Densities are given in g/L and molar heat in (mol*K)
 Information that is missing is repersented as null. Some elements may have an image link to their spectral bands.
-All elements have a three sentence summary from wikipedia.</p>
+All elements have a three sentence summary from wikipedia. Currently the color tag is useless, so please use appearance instead.</p>
 <code>
 Here's an example of how it's formatted:
 {

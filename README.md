@@ -9,7 +9,7 @@ All elements have a three sentence summary from wikipedia. Currently the color t
 <p>A link to the source where the information was from is provided in each element under the key "source"
 </p>
 <code>
-Here's an example of how it's formatted:
+Here's an example of how it's formatted: \n
 {
   Hydrogen": {
 		"symbol": "H",

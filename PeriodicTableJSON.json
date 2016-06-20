@@ -1,6 +1,6 @@
 {  
    "Lead":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -21,7 +21,7 @@
       "boil":2022
    },
    "Thallium":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -42,7 +42,7 @@
       "boil":1746
    },
    "Lutetium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -63,7 +63,7 @@
       "boil":3675
    },
    "Thulium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -84,7 +84,7 @@
       "boil":2223
    },
    "Americium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Americium_spectrum_visible.png",
       "ypos":9,
       "named_by":null,
@@ -126,7 +126,7 @@
       "boil":10351135
    },
    "Samarium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -147,7 +147,7 @@
       "boil":2173
    },
    "Flerovium":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -168,7 +168,7 @@
       "boil":420
    },
    "Palladium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -189,7 +189,7 @@
       "boil":3236
    },
    "Chlorine":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Chlorine_spectrum_visible.png",
       "ypos":3,
       "named_by":null,
@@ -210,7 +210,7 @@
       "boil":239.11
    },
    "Phosphorus":{  
-      "category":"polyatomic nonmetal ",
+      "category":"polyatomic nonmetal",
       "spectral_img":null,
       "ypos":3,
       "named_by":null,
@@ -231,7 +231,7 @@
       "boil":null
    },
    "Bismuth":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -252,7 +252,7 @@
       "boil":1837
    },
    "Radon":{  
-      "category":"noble gas ",
+      "category":"noble gas",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Radon_spectrum.png",
       "ypos":6,
       "named_by":null,
@@ -273,7 +273,7 @@
       "boil":211.5
    },
    "Tantalum":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Tantalum_spectrum_visible.png",
       "ypos":6,
       "named_by":null,
@@ -294,7 +294,7 @@
       "boil":5731
    },
    "Magnesium":{  
-      "category":"alkaline earth metal ",
+      "category":"alkaline earth metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Magnesium_Spectra.jpg",
       "ypos":3,
       "named_by":null,
@@ -315,7 +315,7 @@
       "boil":1363
    },
    "Fermium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -336,7 +336,7 @@
       "boil":null
    },
    "Krypton":{  
-      "category":"noble gas ",
+      "category":"noble gas",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Krypton_Spectrum.jpg",
       "ypos":4,
       "named_by":null,
@@ -357,7 +357,7 @@
       "boil":119.93
    },
    "Copper":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -378,7 +378,7 @@
       "boil":2835
    },
    "Aluminium":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":3,
       "named_by":"Humphry Davy",
@@ -399,7 +399,7 @@
       "boil":2743
    },
    "Rhenium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":"Walter Noddack",
@@ -420,7 +420,7 @@
       "boil":5869
    },
    "Neon":{  
-      "category":"noble gas ",
+      "category":"noble gas",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Neon_spectra.jpg",
       "ypos":2,
       "named_by":null,
@@ -441,7 +441,7 @@
       "boil":27.104
    },
    "Lawrencium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -462,7 +462,7 @@
       "boil":null
    },
    "Gadolinium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -483,7 +483,7 @@
       "boil":3273
    },
    "Nitrogen":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Nitrogen_Spectra.jpg",
       "ypos":2,
       "named_by":"Jean-Antoine Chaptal",
@@ -504,7 +504,7 @@
       "boil":77.355
    },
    "Platinum":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -525,7 +525,7 @@
       "boil":4098
    },
    "Sodium":{  
-      "category":"alkali metal ",
+      "category":"alkali metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Sodium_Spectra.jpg",
       "ypos":3,
       "named_by":null,
@@ -546,7 +546,7 @@
       "boil":1156.09
    },
    "Sulfur":{  
-      "category":"polyatomic nonmetal ",
+      "category":"polyatomic nonmetal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Sulfur_Spectrum.jpg",
       "ypos":3,
       "named_by":null,
@@ -567,7 +567,7 @@
       "boil":717.8
    },
    "Rhodium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -588,7 +588,7 @@
       "boil":3968
    },
    "Yttrium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -609,7 +609,7 @@
       "boil":3203
    },
    "Nickel":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -630,7 +630,7 @@
       "boil":3003
    },
    "Oxygen":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Oxygen_spectre.jpg",
       "ypos":2,
       "named_by":"Antoine Lavoisier",
@@ -651,7 +651,7 @@
       "boil":90.188
    },
    "Barium":{  
-      "category":"alkaline earth metals ",
+      "category":"alkaline earth metals",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -672,7 +672,7 @@
       "boil":2118
    },
    "Thorium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -693,7 +693,7 @@
       "boil":5061
    },
    "Bromine":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -714,7 +714,7 @@
       "boil":332.0
    },
    "Ununseptium":{  
-      "category":"unknown,probably metalloid ",
+      "category":"unknown,probably metalloid",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -735,7 +735,7 @@
       "boil":883
    },
    "Protactinium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":"Otto Hahn",
@@ -756,7 +756,7 @@
       "boil":4300
    },
    "Einsteinium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -777,7 +777,7 @@
       "boil":1269
    },
    "Rutherfordium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -798,7 +798,7 @@
       "boil":5800
    },
    "Francium":{  
-      "category":"alkali metal ",
+      "category":"alkali metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -819,7 +819,7 @@
       "boil":950
    },
    "Erbium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -840,7 +840,7 @@
       "boil":3141
    },
    "Silicon":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Silicon_Spectra.jpg",
       "ypos":3,
       "named_by":"Thomas Thomson (chemist)",
@@ -861,7 +861,7 @@
       "boil":3538
    },
    "Manganese":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -882,7 +882,7 @@
       "boil":2334
    },
    "Indium":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -903,7 +903,7 @@
       "boil":2345
    },
    "Rubidium":{  
-      "category":"alkali metal ",
+      "category":"alkali metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -924,7 +924,7 @@
       "boil":961
    },
    "Radium":{  
-      "category":"alkaline earth metal ",
+      "category":"alkaline earth metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -945,7 +945,7 @@
       "boil":2010
    },
    "Curium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -966,7 +966,7 @@
       "boil":3383
    },
    "Ununoctium":{  
-      "category":"unknown, predicted to be noble gas ",
+      "category":"unknown, predicted to be noble gas",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -987,7 +987,7 @@
       "boil":35030
    },
    "Germanium":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1008,7 +1008,7 @@
       "boil":3106
    },
    "Titanium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":"Martin Heinrich Klaproth",
@@ -1029,7 +1029,7 @@
       "boil":3560
    },
    "Arsenic":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1050,7 +1050,7 @@
       "boil":null
    },
    "Helium":{  
-      "category":"noble gas ",
+      "category":"noble gas",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Helium_spectrum.jpg",
       "ypos":1,
       "named_by":null,
@@ -1071,7 +1071,7 @@
       "boil":4.222
    },
    "Neodymium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -1092,7 +1092,7 @@
       "boil":3347
    },
    "Mendelevium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1113,7 +1113,7 @@
       "boil":null
    },
    "Antimony":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -1134,7 +1134,7 @@
       "boil":1908
    },
    "Europium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -1155,7 +1155,7 @@
       "boil":1802
    },
    "Iron":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Iron_Spectrum.jpg",
       "ypos":4,
       "named_by":null,
@@ -1176,7 +1176,7 @@
       "boil":3134
    },
    "Seaborgium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -1197,7 +1197,7 @@
       "boil":null
    },
    "Nobelium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1218,7 +1218,7 @@
       "boil":null
    },
    "Cerium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -1239,7 +1239,7 @@
       "boil":3716
    },
    "Osmium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -1260,7 +1260,7 @@
       "boil":5285
    },
    "Copernicium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -1281,7 +1281,7 @@
       "boil":3570
    },
    "Beryllium":{  
-      "category":"alkaline earth metal ",
+      "category":"alkaline earth metal",
       "spectral_img":null,
       "ypos":2,
       "named_by":null,
@@ -1302,7 +1302,7 @@
       "boil":2742
    },
    "Polonium":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -1323,7 +1323,7 @@
       "boil":1235
    },
    "Ruthenium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -1344,7 +1344,7 @@
       "boil":4423
    },
    "Potassium":{  
-      "category":"alkali metal ",
+      "category":"alkali metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Potassium_Spectrum.jpg",
       "ypos":4,
       "named_by":null,
@@ -1365,7 +1365,7 @@
       "boil":1032
    },
    "Dubnium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -1386,7 +1386,7 @@
       "boil":null
    },
    "Argon":{  
-      "category":"noble gas ",
+      "category":"noble gas",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Argon_Spectrum.png",
       "ypos":3,
       "named_by":null,
@@ -1428,7 +1428,7 @@
       "boil":null
    },
    "Scandium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1449,7 +1449,7 @@
       "boil":3109
    },
    "Carbon":{  
-      "category":"polyatomic nonmetal ",
+      "category":"polyatomic nonmetal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Carbon_Spectra.jpg",
       "ypos":2,
       "named_by":null,
@@ -1470,7 +1470,7 @@
       "boil":null
    },
    "Neptunium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1491,7 +1491,7 @@
       "boil":4447
    },
    "Lanthanum":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -1512,7 +1512,7 @@
       "boil":3737
    },
    "Uranium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1533,7 +1533,7 @@
       "boil":4404
    },
    "Zirconium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -1554,7 +1554,7 @@
       "boil":4650
    },
    "Niobium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -1575,7 +1575,7 @@
       "boil":5017
    },
    "Calcium":{  
-      "category":"alkaline earth metal ",
+      "category":"alkaline earth metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Calcium_Spectrum.png",
       "ypos":4,
       "named_by":null,
@@ -1596,7 +1596,7 @@
       "boil":1757
    },
    "Iridium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -1617,7 +1617,7 @@
       "boil":4403
    },
    "Cesium":{  
-      "category":"alkali metal ",
+      "category":"alkali metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -1638,7 +1638,7 @@
       "boil":944
    },
    "Plutonium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1659,7 +1659,7 @@
       "boil":3505
    },
    "Gold":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -1680,7 +1680,7 @@
       "boil":3243
    },
    "Ununtrium":{  
-      "category":"unknown, probably transition metal ",
+      "category":"unknown, probably transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -1701,7 +1701,7 @@
       "boil":1430
    },
    "Cobalt":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1722,7 +1722,7 @@
       "boil":3200
    },
    "Praseodymium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -1743,7 +1743,7 @@
       "boil":3403
    },
    "Zinc":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1764,7 +1764,7 @@
       "boil":1180
    },
    "Berkelium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1806,7 +1806,7 @@
       "boil":null
    },
    "Chromium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1827,7 +1827,7 @@
       "boil":2944
    },
    "Fluorine":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":null,
       "ypos":2,
       "named_by":"Humphry Davy",
@@ -1848,7 +1848,7 @@
       "boil":85.03
    },
    "Hafnium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Hafnium_spectrum_visible.png",
       "ypos":6,
       "named_by":null,
@@ -1869,7 +1869,7 @@
       "boil":4876
    },
    "Selenium":{  
-      "category":"polyatomic nonmetal ",
+      "category":"polyatomic nonmetal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -1890,7 +1890,7 @@
       "boil":958
    },
    "Technetium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -1911,7 +1911,7 @@
       "boil":4538
    },
    "Meitnerium":{  
-      "category":"unknown, probably transition metal ",
+      "category":"unknown, probably transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -1932,7 +1932,7 @@
       "boil":null
    },
    "Tin":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -1953,7 +1953,7 @@
       "boil":2875
    },
    "Terbium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -1974,7 +1974,7 @@
       "boil":3396
    },
    "Actinium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -1995,7 +1995,7 @@
       "boil":3500300
    },
    "Holmium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -2016,7 +2016,7 @@
       "boil":2873
    },
    "Californium":{  
-      "category":"actinide ",
+      "category":"actinide",
       "spectral_img":null,
       "ypos":9,
       "named_by":null,
@@ -2037,7 +2037,7 @@
       "boil":1743
    },
    "Lithium":{  
-      "category":"alkali metal ",
+      "category":"alkali metal",
       "spectral_img":null,
       "ypos":2,
       "named_by":null,
@@ -2058,7 +2058,7 @@
       "boil":1603
    },
    "Ununpentium":{  
-      "category":"unknown, probably post transition metal ",
+      "category":"unknown, probably post transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -2079,7 +2079,7 @@
       "boil":1400
    },
    "Vanadium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":"Isotopes of vanadium",
@@ -2100,7 +2100,7 @@
       "boil":3680
    },
    "Bohrium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -2121,7 +2121,7 @@
       "boil":null
    },
    "Hassium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":7,
       "named_by":null,
@@ -2142,7 +2142,7 @@
       "boil":null
    },
    "Strontium":{  
-      "category":"alkaline earth metal ",
+      "category":"alkaline earth metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -2163,7 +2163,7 @@
       "boil":1650
    },
    "Cadmium":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":"Isotopes of cadmium",
@@ -2184,7 +2184,7 @@
       "boil":1040
    },
    "Boron":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":null,
       "ypos":2,
       "named_by":null,
@@ -2205,7 +2205,7 @@
       "boil":4200
    },
    "Tungsten":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -2226,7 +2226,7 @@
       "boil":6203
    },
    "Silver":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -2247,7 +2247,7 @@
       "boil":2435
    },
    "Promethium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":"Isotopes of promethium",
@@ -2268,7 +2268,7 @@
       "boil":3273
    },
    "Ytterbium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -2289,7 +2289,7 @@
       "boil":1469
    },
    "Molybdenum":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -2310,7 +2310,7 @@
       "boil":4912
    },
    "Gallium":{  
-      "category":"post-transition metal ",
+      "category":"post-transition metal",
       "spectral_img":null,
       "ypos":4,
       "named_by":null,
@@ -2331,7 +2331,7 @@
       "boil":2673
    },
    "Tellurium":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -2352,7 +2352,7 @@
       "boil":1261
    },
    "Xenon":{  
-      "category":"noble gas ",
+      "category":"noble gas",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Xenon_Spectrum.jpg",
       "ypos":5,
       "named_by":null,
@@ -2373,7 +2373,7 @@
       "boil":165.051
    },
    "Mercury (element)":{  
-      "category":"transition metal ",
+      "category":"transition metal",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,
@@ -2394,7 +2394,7 @@
       "boil":629.88
    },
    "Dysprosium":{  
-      "category":"lanthanide ",
+      "category":"lanthanide",
       "spectral_img":null,
       "ypos":8,
       "named_by":null,
@@ -2415,7 +2415,7 @@
       "boil":2840
    },
    "Iodine":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":null,
       "ypos":5,
       "named_by":null,
@@ -2436,7 +2436,7 @@
       "boil":457.4
    },
    "Hydrogen":{  
-      "category":"diatomic nonmetal ",
+      "category":"diatomic nonmetal",
       "spectral_img":"https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
       "ypos":1,
       "named_by":"Antoine Lavoisier",
@@ -2457,7 +2457,7 @@
       "boil":20.271
    },
    "Astatine":{  
-      "category":"metalloid ",
+      "category":"metalloid",
       "spectral_img":null,
       "ypos":6,
       "named_by":null,

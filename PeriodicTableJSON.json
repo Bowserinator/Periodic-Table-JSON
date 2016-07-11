@@ -2351,7 +2351,7 @@
       "xpos": 13, 
       "ypos": 7
    }, 
-   "Ununtrium": {
+   "Nihonium": {
       "appearance": null, 
       "atomic_mass": 286, 
       "boil": 1430, 
@@ -2367,8 +2367,8 @@
       "phase": "Solid", 
       "source": "https://en.wikipedia.org/wiki/Ununtrium", 
       "spectral_img": null, 
-      "summary": "Ununtrium is a chemical element with atomic number 113. It has a temporary name and temporary symbol Uut. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and is extremely radioactive; its most stable known isotope, ununtrium-286, has a half-life of 20 seconds.", 
-      "symbol": "Uut", 
+      "summary": "Nihonium is a chemical element with atomic number 113. It has a symbol Nh. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and is extremely radioactive; its most stable known isotope, nihonium-286, has a half-life of 20 seconds.", 
+      "symbol": "Nh", 
       "xpos": 14, 
       "ypos": 7
    }, 
@@ -2393,7 +2393,7 @@
       "xpos": 15, 
       "ypos": 7
    }, 
-   "Ununpentium": {
+   "Moscovium": {
       "appearance": null, 
       "atomic_mass": 289, 
       "boil": 1400, 
@@ -2409,8 +2409,8 @@
       "phase": "Solid", 
       "source": "https://en.wikipedia.org/wiki/Ununpentium", 
       "spectral_img": null, 
-      "summary": "Ununpentium is the temporary name of a synthetic superheavy element in the periodic table that has the temporary symbol Uup and has the atomic number 115. It is an extremely radioactive element; its most stable known isotope, ununpentium-289, has a half-life of only 220 milliseconds. It is also known as eka-bismuth or simply element 115.", 
-      "symbol": "Uup", 
+      "summary": "Moscovium is the name of a synthetic superheavy element in the periodic table that has the symbol Mc and has the atomic number 115. It is an extremely radioactive element; its most stable known isotope, moscovium-289, has a half-life of only 220 milliseconds. It is also known as eka-bismuth or simply element 115.", 
+      "symbol": "Mc", 
       "xpos": 16, 
       "ypos": 7
    }, 
@@ -2435,7 +2435,7 @@
       "xpos": 17, 
       "ypos": 7
    }, 
-   "Ununseptium": {
+   "Tennessine": {
       "appearance": null, 
       "atomic_mass": 294, 
       "boil": 883, 
@@ -2451,12 +2451,33 @@
       "phase": "Solid", 
       "source": "https://en.wikipedia.org/wiki/Ununseptium", 
       "spectral_img": null, 
-      "summary": "Ununseptium is a superheavy artificial chemical element with an atomic number of 117 and a temporary symbol of Uus. Also known as eka-astatine or element 117, it is the second-heaviest known element and penultimate element of the 7th period of the periodic table. As of 2016, fifteen ununseptium atoms have been observed:six when it was first synthesized in 2010, seven in 2012, and two in 2014.", 
-      "symbol": "Uus", 
+      "summary": "Tennessine is a superheavy artificial chemical element with an atomic number of 117 and a symbol of Ts. Also known as eka-astatine or element 117, it is the second-heaviest known element and penultimate element of the 7th period of the periodic table. As of 2016, fifteen tennessine atoms have been observed:six when it was first synthesized in 2010, seven in 2012, and two in 2014.", 
+      "symbol": "Ts", 
       "xpos": 18, 
       "ypos": 7
    }, 
-   "Ununoctium": {
+   "Oganesson": {
+      "appearance": null, 
+      "atomic_mass": 294, 
+      "boil": 35030, 
+      "category": "unknown, predicted to be noble gas", 
+      "color": null, 
+      "density": 4.95, 
+      "discovered_by": "Joint Institute for Nuclear Research", 
+      "melt": null, 
+      "molar_heat": null, 
+      "named_by": null, 
+      "number": "118", 
+      "period": 7, 
+      "phase": "Solid", 
+      "source": "https://en.wikipedia.org/wiki/Ununoctium", 
+      "spectral_img": null, 
+      "summary": "Ooganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.", 
+      "symbol": "Og", 
+      "xpos": 18, 
+      "ypos": 7
+   },
+   "Ununennium": {
       "appearance": null, 
       "atomic_mass": 294, 
       "boil": 35030, 
@@ -2476,5 +2497,6 @@
       "symbol": "Uuo", 
       "xpos": 18, 
       "ypos": 7
-   }
+   },
+   
 }

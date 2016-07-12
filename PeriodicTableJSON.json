@@ -2476,27 +2476,5 @@
       "symbol": "Og", 
       "xpos": 18, 
       "ypos": 7
-   },
-   "Ununennium": {
-      "appearance": null, 
-      "atomic_mass": 294, 
-      "boil": 35030, 
-      "category": "unknown, predicted to be noble gas", 
-      "color": null, 
-      "density": 4.95, 
-      "discovered_by": "Joint Institute for Nuclear Research", 
-      "melt": null, 
-      "molar_heat": null, 
-      "named_by": null, 
-      "number": "118", 
-      "period": 7, 
-      "phase": "Solid", 
-      "source": "https://en.wikipedia.org/wiki/Ununoctium", 
-      "spectral_img": null, 
-      "summary": "Ununoctium is IUPAC's temporary name for the transactinide element with the atomic number 118 and temporary element symbol Uuo. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Ununoctium is currently the only synthetic member of group 18.", 
-      "symbol": "Uuo", 
-      "xpos": 18, 
-      "ypos": 7
    }
-   
 }

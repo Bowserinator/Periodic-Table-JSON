@@ -12,7 +12,8 @@ A link to the source where the information was from is provided in each element 
 Here's an example of how it's formatted:
 ```json
 {
-  "Hydrogen": {
+  "elements" : [{
+		"name": "Hydrogen",
 		"symbol": "H",
 		"number": "1",
 		"period": 1,
@@ -33,6 +34,6 @@ Here's an example of how it's formatted:
 		"ypos": 1,
 		"xpos": 1
 	}
-}
+]}
 ```
 

@@ -19,7 +19,7 @@ Here's an example of how it's formatted:
 		"period": 1,
 		"category": "diatomic nonmetal ",
 		"atomic_mass": 1.008,
-		"color": "colorless",
+		"color": null,
 		"appearance": "colorless gas",
 		"phase": "Gas",
 		"melt": 13.99,

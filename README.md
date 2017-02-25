@@ -15,7 +15,7 @@ Here's an example of how it's formatted:
   "elements" : [{
 		"name": "Hydrogen",
 		"symbol": "H",
-		"number": "1",
+		"number": 1,
 		"period": 1,
 		"category": "diatomic nonmetal ",
 		"atomic_mass": 1.008,
@@ -32,7 +32,10 @@ Here's an example of how it's formatted:
 		"spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
 		"summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
 		"ypos": 1,
-		"xpos": 1
+		"xpos": 1,
+		"shells": [
+		    1
+		]
 	}
 ]}
 ```

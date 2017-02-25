@@ -7,6 +7,8 @@ Densities are given in g/L and molar heat in (mol*K)
 Information that is missing is repersented as null. Some elements may have an image link to their spectral bands.
 All elements have a three sentence summary from wikipedia. Currently the color tag is useless, so please use appearance instead.
 
+Electron shells are given as an array, the first item is the number of electrons in the first shell, the 2nd item is the number of electrons in the second shell, etc...
+
 A link to the source where the information was from is provided in each element under the key "source"
 
 Here's an example of how it's formatted:

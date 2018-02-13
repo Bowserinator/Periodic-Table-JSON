@@ -3404,7 +3404,7 @@
             "number": 117, 
             "period": 7, 
             "phase": "Solid", 
-            "source": "https://en.wikipedia.org/wiki/Ununseptium", 
+            "source": "https://en.wikipedia.org/wiki/Tennessine",
             "spectral_img": null, 
             "summary": "Tennessine is a superheavy artificial chemical element with an atomic number of 117 and a symbol of Ts. Also known as eka-astatine or element 117, it is the second-heaviest known element and penultimate element of the 7th period of the periodic table. As of 2016, fifteen tennessine atoms have been observed:six when it was first synthesized in 2010, seven in 2012, and two in 2014.", 
             "symbol": "Ts", 
@@ -3435,7 +3435,7 @@
             "number": 118, 
             "period": 7, 
             "phase": "Solid", 
-            "source": "https://en.wikipedia.org/wiki/Ununoctium", 
+            "source": "https://en.wikipedia.org/wiki/Oganesson",
             "spectral_img": null, 
             "summary": "Ooganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.", 
             "symbol": "Og", 
@@ -3449,6 +3449,38 @@
                 32, 
                 18, 
                 8
+            ]
+        },
+        {
+            "name": "Ununennium",
+            "appearance": null,
+            "atomic_mass": 315,
+            "boil": 630,
+            "category": "unknown, but predicted to be an alkali metal",
+            "color": null,
+            "density": 3,
+            "discovered_by": "GSI Helmholtz Centre for Heavy Ion Research",
+            "melt": null,
+            "molar_heat": null,
+            "named_by": null,
+            "number": 119,
+            "period": 8,
+            "phase": "Solid",
+            "source": "https://en.wikipedia.org/wiki/Ununennium",
+            "spectral_img": null,
+            "summary": "Ununennium, also known as eka-francium or simply element 119, is the hypothetical chemical element with symbol Uue and atomic number 119. Ununennium and Uue are the temporary systematic IUPAC name and symbol respectively, until a permanent name is decided upon. In the periodic table of the elements, it is expected to be an s-block element, an alkali metal, and the first element in the eighth period.",
+            "symbol": "Uue",
+            "xpos": 1,
+            "ypos": 8,
+            "shells": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                8,
+                1
             ]
         }
     ]

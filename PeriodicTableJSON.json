@@ -373,7 +373,7 @@
             "boil": null, 
             "category": "polyatomic nonmetal", 
             "color": null, 
-            "density": null, 
+            "density": 1.823, 
             "discovered_by": "Hennig Brand", 
             "melt": null, 
             "molar_heat": 23.824, 

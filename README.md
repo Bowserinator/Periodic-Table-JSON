@@ -6,7 +6,7 @@ Information that is missing is represented as null. Some elements may have an im
 
 All elements have a three sentence summary from Wikipedia. Currently the color tag is useless, so please use appearance instead.
 
-**Electron configuration** is given as a string, with each orbital separated by a space.  **Electron configuration semantic** is given as a string, this is the short-hand versino of the electron configuration. Elements with a semantic electron configuration marked with a "*" mean that the electron configuration has not yet been confirmed. **Electron shells** are given as an array, the first item is the number of electrons in the first shell, the 2nd item is the number of electrons in the second shell, and so on.
+**Electron configuration** is given as a string, with each orbital separated by a space.  **Electron configuration semantic** is given as a string, this is the short-hand version of the electron configuration. Elements with a semantic electron configuration marked with a "*" mean that the electron configuration has not yet been confirmed. **Electron shells** are given as an array, the first item is the number of electrons in the first shell, the 2nd item is the number of electrons in the second shell, and so on.
 
 Both **ionization energy** and **first electron affinities** are given as the energy required to *detach* an electron from the anion.  Ionization energies are given as an array for successive ionization energy.
 
@@ -15,7 +15,7 @@ A link to the source where the information was from is provided in each element 
 Here's an example of how it's formatted:
 ```json
 {
-  "elements" : [{
+	"elements" : [{
 		"name": "Hydrogen",
 		"symbol": "H",
 		"number": 1,
@@ -40,7 +40,7 @@ Here's an example of how it's formatted:
 		    1
 		],
 		"electron_configuration": "1s1",
-        "electron_configuration_semantic": "1s1", 
+		"electron_configuration_semantic": "1s1", 
 		"electron_affinity": 72.769,
 		"electronegativity_pauling": 2.20,
 		"ionization_energies": [

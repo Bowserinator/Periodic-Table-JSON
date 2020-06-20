@@ -37,16 +37,16 @@ Here's an example of how it's formatted:
 		"ypos": 1,
 		"xpos": 1,
 		"shells": [
-		    1
+			1
 		],
 		"electron_configuration": "1s1",
 		"electron_configuration_semantic": "1s1", 
 		"electron_affinity": 72.769,
 		"electronegativity_pauling": 2.20,
 		"ionization_energies": [
-				1312.0
+			1312.0
 		]
-	}
-]}
+	}]
+}
 ```
 

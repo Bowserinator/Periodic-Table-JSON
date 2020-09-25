@@ -4737,7 +4737,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d9 7s1",
             "electron_affinity": null,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Roentgenium",
@@ -4773,7 +4774,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s1",
             "electron_affinity": 151,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Copernicium",
@@ -4809,7 +4811,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2",
             "electron_affinity": null,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Nihonium",
@@ -4845,7 +4848,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p1",
             "electron_affinity": 66.6,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Flerovium",
@@ -4881,7 +4885,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p2",
             "electron_affinity": null,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Moscovium",
@@ -4917,7 +4922,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p3",
             "electron_affinity": 35.3,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Livermorium",
@@ -4953,7 +4959,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p4",
             "electron_affinity": 74.9,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Tennessine",
@@ -4989,7 +4996,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p5",
             "electron_affinity": 165.9,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Oganesson",
@@ -5025,7 +5033,8 @@
             "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p6",
             "electron_affinity": 5.40318,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         },
         {
             "name": "Ununennium",
@@ -5062,7 +5071,8 @@
             "electron_configuration_semantic": "*[Uuo] 8s1",
             "electron_affinity": 63.87,
             "electronegativity_pauling": null,
-            "ionization_energies": []
+            "ionization_energies": [],
+            "cpk-hex": null
         }
     ]
 }

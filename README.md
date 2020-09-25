@@ -45,7 +45,8 @@ Here's an example of how it's formatted:
 		"electronegativity_pauling": 2.20,
 		"ionization_energies": [
 			1312.0
-		]
+		],
+		"cpk-hex": "ffffff"
 	}]
 }
 ```

@@ -14,8 +14,8 @@ with open(PERIODIC_TABLE_JSON) as jfile:
     jdata = json.load(jfile)["elements"]
 
 # Normalize and save to CSV
-# See also: https://stackoverflow.com/questions/1871524/how-can-i-convert-json-to-csv
+# See: https://stackoverflow.com/a/58648286/2038713
 df = pandas.json_normalize(jdata)
 print(df)
-df.to_csv(PERIODIC_TABLE_CSV)
+df.to_csv(PERIODIC_TABLE_CSV, index=False)
 print(f"CSV saved to {PERIODIC_TABLE_CSV}")

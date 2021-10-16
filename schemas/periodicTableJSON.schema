@@ -1,0 +1,266 @@
+{
+  "type": "object",
+  "properties": {
+    "elements": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "appearance": {
+              "type": "string"
+            },
+            "atomic_mass": {
+              "type": "number"
+            },
+            "boil": {
+              "type": "number"
+            },
+            "category": {
+              "type": "string"
+            },
+            "color": {
+              "type": "null"
+            },
+            "density": {
+              "type": "number"
+            },
+            "discovered_by": {
+              "type": "string"
+            },
+            "melt": {
+              "type": "number"
+            },
+            "molar_heat": {
+              "type": "number"
+            },
+            "named_by": {
+              "type": "string"
+            },
+            "number": {
+              "type": "integer"
+            },
+            "period": {
+              "type": "integer"
+            },
+            "phase": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "spectral_img": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "symbol": {
+              "type": "string"
+            },
+            "xpos": {
+              "type": "integer"
+            },
+            "ypos": {
+              "type": "integer"
+            },
+            "shells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "electron_configuration": {
+              "type": "string"
+            },
+            "electron_configuration_semantic": {
+              "type": "string"
+            },
+            "electron_affinity": {
+              "type": "number"
+            },
+            "electronegativity_pauling": {
+              "type": "number"
+            },
+            "ionization_energies": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "cpk-hex": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "appearance",
+            "atomic_mass",
+            "boil",
+            "category",
+            "color",
+            "density",
+            "discovered_by",
+            "melt",
+            "molar_heat",
+            "named_by",
+            "number",
+            "period",
+            "phase",
+            "source",
+            "spectral_img",
+            "summary",
+            "symbol",
+            "xpos",
+            "ypos",
+            "shells",
+            "electron_configuration",
+            "electron_configuration_semantic",
+            "electron_affinity",
+            "electronegativity_pauling",
+            "ionization_energies",
+            "cpk-hex"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "appearance": {
+              "type": "string"
+            },
+            "atomic_mass": {
+              "type": "number"
+            },
+            "boil": {
+              "type": "number"
+            },
+            "category": {
+              "type": "string"
+            },
+            "color": {
+              "type": "null"
+            },
+            "density": {
+              "type": "number"
+            },
+            "discovered_by": {
+              "type": "string"
+            },
+            "melt": {
+              "type": "number"
+            },
+            "molar_heat": {
+              "type": "null"
+            },
+            "named_by": {
+              "type": "null"
+            },
+            "number": {
+              "type": "integer"
+            },
+            "period": {
+              "type": "integer"
+            },
+            "phase": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "spectral_img": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "symbol": {
+              "type": "string"
+            },
+            "xpos": {
+              "type": "integer"
+            },
+            "ypos": {
+              "type": "integer"
+            },
+            "shells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "electron_configuration": {
+              "type": "string"
+            },
+            "electron_configuration_semantic": {
+              "type": "string"
+            },
+            "electron_affinity": {
+              "type": "integer"
+            },
+            "electronegativity_pauling": {
+              "type": "null"
+            },
+            "ionization_energies": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ]
+            },
+            "cpk-hex": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "appearance",
+            "atomic_mass",
+            "boil",
+            "category",
+            "color",
+            "density",
+            "discovered_by",
+            "melt",
+            "molar_heat",
+            "named_by",
+            "number",
+            "period",
+            "phase",
+            "source",
+            "spectral_img",
+            "summary",
+            "symbol",
+            "xpos",
+            "ypos",
+            "shells",
+            "electron_configuration",
+            "electron_configuration_semantic",
+            "electron_affinity",
+            "electronegativity_pauling",
+            "ionization_energies",
+            "cpk-hex"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "elements"
+  ]
+}

@@ -40,7 +40,7 @@ Here's an example of how it's formatted:
 			1
 		],
 		"electron_configuration": "1s1",
-		"electron_configuration_semantic": "1s1", 
+		"electron_configuration_semantic": "1s1",
 		"electron_affinity": 72.769,
 		"electronegativity_pauling": 2.20,
 		"ionization_energies": [
@@ -51,3 +51,12 @@ Here's an example of how it's formatted:
 }
 ```
 
+## Additional Formats
+
+Besides the original JSON file `PeriodicTableJSON.json`, the data is provided in the following additional formats:
+
+- As a lookup table for easy indexing in `periodic-table-lookup.json`.
+
+- As a CSV file (one row per element and one column per property, where some subfields are flattened to strings) in `periodicTableCSV.csv`.
+
+These files are generated from the original data via scripts in the directory `scripts`.

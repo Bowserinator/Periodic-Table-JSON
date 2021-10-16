@@ -126,7 +126,6 @@
         "atomic_mass": 1.008,
         "boil": 20.271,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 0.08988,
         "discovered_by": "Henry Cavendish",
         "melt": 13.99,
@@ -150,7 +149,8 @@
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             1312
-        ]
+        ],
+        "cpk-hex": "ffffff"
     },
     "helium": {
         "name": "Helium",
@@ -158,7 +158,6 @@
         "atomic_mass": 4.0026022,
         "boil": 4.222,
         "category": "noble gas",
-        "color": null,
         "density": 0.1786,
         "discovered_by": "Pierre Janssen",
         "melt": 0.95,
@@ -183,7 +182,8 @@
         "ionization_energies": [
             2372.3,
             5250.5
-        ]
+        ],
+        "cpk-hex": "d9ffff"
     },
     "lithium": {
         "name": "Lithium",
@@ -191,7 +191,6 @@
         "atomic_mass": 6.94,
         "boil": 1603,
         "category": "alkali metal",
-        "color": null,
         "density": 0.534,
         "discovered_by": "Johan August Arfwedson",
         "melt": 453.65,
@@ -218,7 +217,8 @@
             520.2,
             7298.1,
             11815
-        ]
+        ],
+        "cpk-hex": "cc80ff"
     },
     "beryllium": {
         "name": "Beryllium",
@@ -226,7 +226,6 @@
         "atomic_mass": 9.01218315,
         "boil": 2742,
         "category": "alkaline earth metal",
-        "color": null,
         "density": 1.85,
         "discovered_by": "Louis Nicolas Vauquelin",
         "melt": 1560,
@@ -254,7 +253,8 @@
             1757.1,
             14848.7,
             21006.6
-        ]
+        ],
+        "cpk-hex": "c2ff00"
     },
     "boron": {
         "name": "Boron",
@@ -262,7 +262,6 @@
         "atomic_mass": 10.81,
         "boil": 4200,
         "category": "metalloid",
-        "color": null,
         "density": 2.08,
         "discovered_by": "Joseph Louis Gay-Lussac",
         "melt": 2349,
@@ -291,7 +290,8 @@
             3659.7,
             25025.8,
             32826.7
-        ]
+        ],
+        "cpk-hex": "ffb5b5"
     },
     "carbon": {
         "name": "Carbon",
@@ -299,7 +299,6 @@
         "atomic_mass": 12.011,
         "boil": null,
         "category": "polyatomic nonmetal",
-        "color": null,
         "density": 1.821,
         "discovered_by": "Ancient Egypt",
         "melt": null,
@@ -329,7 +328,8 @@
             6222.7,
             37831,
             47277
-        ]
+        ],
+        "cpk-hex": "909090"
     },
     "nitrogen": {
         "name": "Nitrogen",
@@ -337,7 +337,6 @@
         "atomic_mass": 14.007,
         "boil": 77.355,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 1.251,
         "discovered_by": "Daniel Rutherford",
         "melt": 63.15,
@@ -368,7 +367,8 @@
             9444.9,
             53266.6,
             64360
-        ]
+        ],
+        "cpk-hex": "3050f8"
     },
     "oxygen": {
         "name": "Oxygen",
@@ -376,7 +376,6 @@
         "atomic_mass": 15.999,
         "boil": 90.188,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 1.429,
         "discovered_by": "Carl Wilhelm Scheele",
         "melt": 54.36,
@@ -408,7 +407,8 @@
             13326.5,
             71330,
             84078
-        ]
+        ],
+        "cpk-hex": "ff0d0d"
     },
     "fluorine": {
         "name": "Fluorine",
@@ -416,7 +416,6 @@
         "atomic_mass": 18.9984031636,
         "boil": 85.03,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 1.696,
         "discovered_by": "André-Marie Ampère",
         "melt": 53.48,
@@ -449,7 +448,8 @@
             17868,
             92038.1,
             106434.3
-        ]
+        ],
+        "cpk-hex": "90e050"
     },
     "neon": {
         "name": "Neon",
@@ -457,7 +457,6 @@
         "atomic_mass": 20.17976,
         "boil": 27.104,
         "category": "noble gas",
-        "color": null,
         "density": 0.9002,
         "discovered_by": "Morris Travers",
         "melt": 24.56,
@@ -491,7 +490,8 @@
             23069.5,
             115379.5,
             131432
-        ]
+        ],
+        "cpk-hex": "b3e3f5"
     },
     "sodium": {
         "name": "Sodium",
@@ -499,7 +499,6 @@
         "atomic_mass": 22.989769282,
         "boil": 1156.09,
         "category": "alkali metal",
-        "color": null,
         "density": 0.968,
         "discovered_by": "Humphry Davy",
         "melt": 370.944,
@@ -535,7 +534,8 @@
             28932,
             141362,
             159076
-        ]
+        ],
+        "cpk-hex": "ab5cf2"
     },
     "magnesium": {
         "name": "Magnesium",
@@ -543,7 +543,6 @@
         "atomic_mass": 24.305,
         "boil": 1363,
         "category": "alkaline earth metal",
-        "color": null,
         "density": 1.738,
         "discovered_by": "Joseph Black",
         "melt": 923,
@@ -580,7 +579,8 @@
             35458,
             169988,
             189368
-        ]
+        ],
+        "cpk-hex": "8aff00"
     },
     "aluminium": {
         "name": "Aluminium",
@@ -588,7 +588,6 @@
         "atomic_mass": 26.98153857,
         "boil": 2743,
         "category": "post-transition metal",
-        "color": null,
         "density": 2.7,
         "discovered_by": null,
         "melt": 933.47,
@@ -626,7 +625,8 @@
             42647,
             201266,
             222316
-        ]
+        ],
+        "cpk-hex": "bfa6a6"
     },
     "silicon": {
         "name": "Silicon",
@@ -634,7 +634,6 @@
         "atomic_mass": 28.085,
         "boil": 3538,
         "category": "metalloid",
-        "color": null,
         "density": 2.329,
         "discovered_by": "Jöns Jacob Berzelius",
         "melt": 1687,
@@ -673,7 +672,8 @@
             50502,
             235196,
             257923
-        ]
+        ],
+        "cpk-hex": "f0c8a0"
     },
     "phosphorus": {
         "name": "Phosphorus",
@@ -681,7 +681,6 @@
         "atomic_mass": 30.9737619985,
         "boil": null,
         "category": "polyatomic nonmetal",
-        "color": null,
         "density": 1.823,
         "discovered_by": "Hennig Brand",
         "melt": null,
@@ -721,7 +720,8 @@
             59024,
             271791,
             296195
-        ]
+        ],
+        "cpk-hex": "ff8000"
     },
     "sulfur": {
         "name": "Sulfur",
@@ -729,7 +729,6 @@
         "atomic_mass": 32.06,
         "boil": 717.8,
         "category": "polyatomic nonmetal",
-        "color": null,
         "density": 2.07,
         "discovered_by": "Ancient china",
         "melt": 388.36,
@@ -770,7 +769,8 @@
             68216,
             311048,
             337138
-        ]
+        ],
+        "cpk-hex": "ffff30"
     },
     "chlorine": {
         "name": "Chlorine",
@@ -778,7 +778,6 @@
         "atomic_mass": 35.45,
         "boil": 239.11,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 3.2,
         "discovered_by": "Carl Wilhelm Scheele",
         "melt": 171.6,
@@ -820,7 +819,8 @@
             78095,
             352994,
             380760
-        ]
+        ],
+        "cpk-hex": "1ff01f"
     },
     "argon": {
         "name": "Argon",
@@ -828,7 +828,6 @@
         "atomic_mass": 39.9481,
         "boil": 87.302,
         "category": "noble gas",
-        "color": null,
         "density": 1.784,
         "discovered_by": "Lord Rayleigh",
         "melt": 83.81,
@@ -871,7 +870,8 @@
             88576,
             397605,
             427066
-        ]
+        ],
+        "cpk-hex": "80d1e3"
     },
     "potassium": {
         "name": "Potassium",
@@ -879,7 +879,6 @@
         "atomic_mass": 39.09831,
         "boil": 1032,
         "category": "alkali metal",
-        "color": null,
         "density": 0.862,
         "discovered_by": "Humphry Davy",
         "melt": 336.7,
@@ -924,7 +923,8 @@
             99710,
             444880,
             476063
-        ]
+        ],
+        "cpk-hex": "8f40d4"
     },
     "calcium": {
         "name": "Calcium",
@@ -932,7 +932,6 @@
         "atomic_mass": 40.0784,
         "boil": 1757,
         "category": "alkaline earth metal",
-        "color": null,
         "density": 1.55,
         "discovered_by": "Humphry Davy",
         "melt": 1115,
@@ -978,7 +977,8 @@
             111711,
             494850,
             527762
-        ]
+        ],
+        "cpk-hex": "3dff00"
     },
     "scandium": {
         "name": "Scandium",
@@ -986,7 +986,6 @@
         "atomic_mass": 44.9559085,
         "boil": 3109,
         "category": "transition metal",
-        "color": null,
         "density": 2.985,
         "discovered_by": "Lars Fredrik Nilson",
         "melt": 1814,
@@ -1033,7 +1032,8 @@
             124270,
             547530,
             582163
-        ]
+        ],
+        "cpk-hex": "e6e6e6"
     },
     "titanium": {
         "name": "Titanium",
@@ -1041,7 +1041,6 @@
         "atomic_mass": 47.8671,
         "boil": 3560,
         "category": "transition metal",
-        "color": null,
         "density": 4.506,
         "discovered_by": "William Gregor",
         "melt": 1941,
@@ -1089,7 +1088,8 @@
             137530,
             602930,
             639294
-        ]
+        ],
+        "cpk-hex": "bfc2c7"
     },
     "vanadium": {
         "name": "Vanadium",
@@ -1097,7 +1097,6 @@
         "atomic_mass": 50.94151,
         "boil": 3680,
         "category": "transition metal",
-        "color": null,
         "density": 6,
         "discovered_by": "Andrés Manuel del Río",
         "melt": 2183,
@@ -1146,7 +1145,8 @@
             151440,
             661050,
             699144
-        ]
+        ],
+        "cpk-hex": "a6a6ab"
     },
     "chromium": {
         "name": "Chromium",
@@ -1154,7 +1154,6 @@
         "atomic_mass": 51.99616,
         "boil": 2944,
         "category": "transition metal",
-        "color": null,
         "density": 7.19,
         "discovered_by": "Louis Nicolas Vauquelin",
         "melt": 2180,
@@ -1204,7 +1203,8 @@
             166090,
             721870,
             761733
-        ]
+        ],
+        "cpk-hex": "8a99c7"
     },
     "manganese": {
         "name": "Manganese",
@@ -1212,7 +1212,6 @@
         "atomic_mass": 54.9380443,
         "boil": 2334,
         "category": "transition metal",
-        "color": null,
         "density": 7.21,
         "discovered_by": "Torbern Olof Bergman",
         "melt": 1519,
@@ -1263,7 +1262,8 @@
             181380,
             785450,
             827067
-        ]
+        ],
+        "cpk-hex": "9c7ac7"
     },
     "iron": {
         "name": "Iron",
@@ -1271,7 +1271,6 @@
         "atomic_mass": 55.8452,
         "boil": 3134,
         "category": "transition metal",
-        "color": null,
         "density": 7.874,
         "discovered_by": "5000 BC",
         "melt": 1811,
@@ -1323,7 +1322,8 @@
             195200,
             851800,
             895161
-        ]
+        ],
+        "cpk-hex": "e06633"
     },
     "cobalt": {
         "name": "Cobalt",
@@ -1331,7 +1331,6 @@
         "atomic_mass": 58.9331944,
         "boil": 3200,
         "category": "transition metal",
-        "color": "metallic gray",
         "density": 8.9,
         "discovered_by": "Georg Brandt",
         "melt": 1768,
@@ -1384,7 +1383,8 @@
             214100,
             920870,
             966023
-        ]
+        ],
+        "cpk-hex": "f090a0"
     },
     "nickel": {
         "name": "Nickel",
@@ -1392,7 +1392,6 @@
         "atomic_mass": 58.69344,
         "boil": 3003,
         "category": "transition metal",
-        "color": null,
         "density": 8.908,
         "discovered_by": "Axel Fredrik Cronstedt",
         "melt": 1728,
@@ -1446,7 +1445,8 @@
             231490,
             992718,
             1039668
-        ]
+        ],
+        "cpk-hex": "50d050"
     },
     "copper": {
         "name": "Copper",
@@ -1454,7 +1454,6 @@
         "atomic_mass": 63.5463,
         "boil": 2835,
         "category": "transition metal",
-        "color": null,
         "density": 8.96,
         "discovered_by": "Middle East",
         "melt": 1357.77,
@@ -1509,7 +1508,8 @@
             249660,
             1067358,
             1116105
-        ]
+        ],
+        "cpk-hex": "c88033"
     },
     "zinc": {
         "name": "Zinc",
@@ -1517,7 +1517,6 @@
         "atomic_mass": 65.382,
         "boil": 1180,
         "category": "transition metal",
-        "color": null,
         "density": 7.14,
         "discovered_by": "India",
         "melt": 692.68,
@@ -1564,7 +1563,8 @@
             67300,
             71200,
             179100
-        ]
+        ],
+        "cpk-hex": "7d80b0"
     },
     "gallium": {
         "name": "Gallium",
@@ -1572,7 +1572,6 @@
         "atomic_mass": 69.7231,
         "boil": 2673,
         "category": "post-transition metal",
-        "color": null,
         "density": 5.91,
         "discovered_by": "Lecoq de Boisbaudran",
         "melt": 302.9146,
@@ -1602,7 +1601,8 @@
             1979.3,
             2963,
             6180
-        ]
+        ],
+        "cpk-hex": "c28f8f"
     },
     "germanium": {
         "name": "Germanium",
@@ -1610,7 +1610,6 @@
         "atomic_mass": 72.6308,
         "boil": 3106,
         "category": "metalloid",
-        "color": null,
         "density": 5.323,
         "discovered_by": "Clemens Winkler",
         "melt": 1211.4,
@@ -1641,7 +1640,8 @@
             3302.1,
             4411,
             9020
-        ]
+        ],
+        "cpk-hex": "668f8f"
     },
     "arsenic": {
         "name": "Arsenic",
@@ -1649,7 +1649,6 @@
         "atomic_mass": 74.9215956,
         "boil": null,
         "category": "metalloid",
-        "color": null,
         "density": 5.727,
         "discovered_by": "Bronze Age",
         "melt": null,
@@ -1681,7 +1680,8 @@
             4837,
             6043,
             12310
-        ]
+        ],
+        "cpk-hex": "bd80e3"
     },
     "selenium": {
         "name": "Selenium",
@@ -1689,7 +1689,6 @@
         "atomic_mass": 78.9718,
         "boil": 958,
         "category": "polyatomic nonmetal",
-        "color": null,
         "density": 4.81,
         "discovered_by": "Jöns Jakob Berzelius",
         "melt": 494,
@@ -1722,7 +1721,8 @@
             6590,
             7880,
             14990
-        ]
+        ],
+        "cpk-hex": "ffa100"
     },
     "bromine": {
         "name": "Bromine",
@@ -1730,7 +1730,6 @@
         "atomic_mass": 79.904,
         "boil": 332,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 3.1028,
         "discovered_by": "Antoine Jérôme Balard",
         "melt": 265.8,
@@ -1764,7 +1763,8 @@
             8550,
             9940,
             18600
-        ]
+        ],
+        "cpk-hex": "a62929"
     },
     "krypton": {
         "name": "Krypton",
@@ -1772,7 +1772,6 @@
         "atomic_mass": 83.7982,
         "boil": 119.93,
         "category": "noble gas",
-        "color": null,
         "density": 3.749,
         "discovered_by": "William Ramsay",
         "melt": 115.78,
@@ -1828,7 +1827,8 @@
             296200,
             311400,
             326200
-        ]
+        ],
+        "cpk-hex": "5cb8d1"
     },
     "rubidium": {
         "name": "Rubidium",
@@ -1836,7 +1836,6 @@
         "atomic_mass": 85.46783,
         "boil": 961,
         "category": "alkali metal",
-        "color": null,
         "density": 1.532,
         "discovered_by": "Robert Bunsen",
         "melt": 312.45,
@@ -1873,7 +1872,8 @@
             13120,
             14500,
             26740
-        ]
+        ],
+        "cpk-hex": "702eb0"
     },
     "strontium": {
         "name": "Strontium",
@@ -1881,7 +1881,6 @@
         "atomic_mass": 87.621,
         "boil": 1650,
         "category": "alkaline earth metal",
-        "color": null,
         "density": 2.64,
         "discovered_by": "William Cruickshank (chemist)",
         "melt": 1050,
@@ -1919,7 +1918,8 @@
             15600,
             17100,
             31270
-        ]
+        ],
+        "cpk-hex": "00ff00"
     },
     "yttrium": {
         "name": "Yttrium",
@@ -1927,7 +1927,6 @@
         "atomic_mass": 88.905842,
         "boil": 3203,
         "category": "transition metal",
-        "color": null,
         "density": 4.472,
         "discovered_by": "Johan Gadolin",
         "melt": 1799,
@@ -1966,7 +1965,8 @@
             18400,
             19900,
             36090
-        ]
+        ],
+        "cpk-hex": "94ffff"
     },
     "zirconium": {
         "name": "Zirconium",
@@ -1974,7 +1974,6 @@
         "atomic_mass": 91.2242,
         "boil": 4650,
         "category": "transition metal",
-        "color": null,
         "density": 6.52,
         "discovered_by": "Martin Heinrich Klaproth",
         "melt": 2128,
@@ -2007,7 +2006,8 @@
             3313,
             7752,
             9500
-        ]
+        ],
+        "cpk-hex": "94e0e0"
     },
     "niobium": {
         "name": "Niobium",
@@ -2015,7 +2015,6 @@
         "atomic_mass": 92.906372,
         "boil": 5017,
         "category": "transition metal",
-        "color": null,
         "density": 8.57,
         "discovered_by": "Charles Hatchett",
         "melt": 2750,
@@ -2049,7 +2048,8 @@
             4877,
             9847,
             12100
-        ]
+        ],
+        "cpk-hex": "73c2c9"
     },
     "molybdenum": {
         "name": "Molybdenum",
@@ -2057,7 +2057,6 @@
         "atomic_mass": 95.951,
         "boil": 4912,
         "category": "transition metal",
-        "color": null,
         "density": 10.28,
         "discovered_by": "Carl Wilhelm Scheele",
         "melt": 2896,
@@ -2114,7 +2113,8 @@
             139800,
             148100,
             154500
-        ]
+        ],
+        "cpk-hex": "54b5b5"
     },
     "technetium": {
         "name": "Technetium",
@@ -2122,7 +2122,6 @@
         "atomic_mass": 98,
         "boil": 4538,
         "category": "transition metal",
-        "color": null,
         "density": 11,
         "discovered_by": "Emilio Segrè",
         "melt": 2430,
@@ -2152,7 +2151,8 @@
             702,
             1470,
             2850
-        ]
+        ],
+        "cpk-hex": "3b9e9e"
     },
     "ruthenium": {
         "name": "Ruthenium",
@@ -2160,7 +2160,6 @@
         "atomic_mass": 101.072,
         "boil": 4423,
         "category": "transition metal",
-        "color": null,
         "density": 12.45,
         "discovered_by": "Karl Ernst Claus",
         "melt": 2607,
@@ -2190,7 +2189,8 @@
             710.2,
             1620,
             2747
-        ]
+        ],
+        "cpk-hex": "248f8f"
     },
     "rhodium": {
         "name": "Rhodium",
@@ -2198,7 +2198,6 @@
         "atomic_mass": 102.905502,
         "boil": 3968,
         "category": "transition metal",
-        "color": null,
         "density": 12.41,
         "discovered_by": "William Hyde Wollaston",
         "melt": 2237,
@@ -2228,7 +2227,8 @@
             719.7,
             1740,
             2997
-        ]
+        ],
+        "cpk-hex": "0a7d8c"
     },
     "palladium": {
         "name": "Palladium",
@@ -2236,7 +2236,6 @@
         "atomic_mass": 106.421,
         "boil": 3236,
         "category": "transition metal",
-        "color": null,
         "density": 12.023,
         "discovered_by": "William Hyde Wollaston",
         "melt": 1828.05,
@@ -2265,7 +2264,8 @@
             804.4,
             1870,
             3177
-        ]
+        ],
+        "cpk-hex": "006985"
     },
     "silver": {
         "name": "Silver",
@@ -2273,7 +2273,6 @@
         "atomic_mass": 107.86822,
         "boil": 2435,
         "category": "transition metal",
-        "color": null,
         "density": 10.49,
         "discovered_by": "unknown, before 5000 BC",
         "melt": 1234.93,
@@ -2303,7 +2302,8 @@
             731,
             2070,
             3361
-        ]
+        ],
+        "cpk-hex": "c0c0c0"
     },
     "cadmium": {
         "name": "Cadmium",
@@ -2311,7 +2311,6 @@
         "atomic_mass": 112.4144,
         "boil": 1040,
         "category": "transition metal",
-        "color": null,
         "density": 8.65,
         "discovered_by": "Karl Samuel Leberecht Hermann",
         "melt": 594.22,
@@ -2341,7 +2340,8 @@
             867.8,
             1631.4,
             3616
-        ]
+        ],
+        "cpk-hex": "ffd98f"
     },
     "indium": {
         "name": "Indium",
@@ -2349,7 +2349,6 @@
         "atomic_mass": 114.8181,
         "boil": 2345,
         "category": "post-transition metal",
-        "color": null,
         "density": 7.31,
         "discovered_by": "Ferdinand Reich",
         "melt": 429.7485,
@@ -2380,7 +2379,8 @@
             1820.7,
             2704,
             5210
-        ]
+        ],
+        "cpk-hex": "a67573"
     },
     "tin": {
         "name": "Tin",
@@ -2388,7 +2388,6 @@
         "atomic_mass": 118.7107,
         "boil": 2875,
         "category": "post-transition metal",
-        "color": null,
         "density": 7.365,
         "discovered_by": "unknown, before 3500 BC",
         "melt": 505.08,
@@ -2420,7 +2419,8 @@
             2943,
             3930.3,
             7456
-        ]
+        ],
+        "cpk-hex": "668080"
     },
     "antimony": {
         "name": "Antimony",
@@ -2428,7 +2428,6 @@
         "atomic_mass": 121.7601,
         "boil": 1908,
         "category": "metalloid",
-        "color": null,
         "density": 6.697,
         "discovered_by": "unknown, before 3000 BC",
         "melt": 903.78,
@@ -2461,7 +2460,8 @@
             4260,
             5400,
             10400
-        ]
+        ],
+        "cpk-hex": "9e63b5"
     },
     "tellurium": {
         "name": "Tellurium",
@@ -2469,7 +2469,6 @@
         "atomic_mass": 127.603,
         "boil": 1261,
         "category": "metalloid",
-        "color": null,
         "density": 6.24,
         "discovered_by": "Franz-Joseph Müller von Reichenstein",
         "melt": 722.66,
@@ -2503,7 +2502,8 @@
             5668,
             6820,
             13200
-        ]
+        ],
+        "cpk-hex": "d47a00"
     },
     "iodine": {
         "name": "Iodine",
@@ -2511,7 +2511,6 @@
         "atomic_mass": 126.904473,
         "boil": 457.4,
         "category": "diatomic nonmetal",
-        "color": null,
         "density": 4.933,
         "discovered_by": "Bernard Courtois",
         "melt": 386.85,
@@ -2541,7 +2540,8 @@
             1008.4,
             1845.9,
             3180
-        ]
+        ],
+        "cpk-hex": "940094"
     },
     "xenon": {
         "name": "Xenon",
@@ -2549,7 +2549,6 @@
         "atomic_mass": 131.2936,
         "boil": 165.051,
         "category": "noble gas",
-        "color": null,
         "density": 5.894,
         "discovered_by": "William Ramsay",
         "melt": 161.4,
@@ -2579,7 +2578,8 @@
             1170.4,
             2046.4,
             3099.4
-        ]
+        ],
+        "cpk-hex": "429eb0"
     },
     "cesium": {
         "name": "Cesium",
@@ -2587,7 +2587,6 @@
         "atomic_mass": 132.905451966,
         "boil": 944,
         "category": "alkali metal",
-        "color": null,
         "density": 1.93,
         "discovered_by": "Robert Bunsen",
         "melt": 301.7,
@@ -2618,7 +2617,8 @@
             375.7,
             2234.3,
             3400
-        ]
+        ],
+        "cpk-hex": "57178f"
     },
     "barium": {
         "name": "Barium",
@@ -2626,7 +2626,6 @@
         "atomic_mass": 137.3277,
         "boil": 2118,
         "category": "alkaline earth metal",
-        "color": null,
         "density": 3.51,
         "discovered_by": "Carl Wilhelm Scheele",
         "melt": 1000,
@@ -2657,7 +2656,8 @@
             502.9,
             965.2,
             3600
-        ]
+        ],
+        "cpk-hex": "00c900"
     },
     "lanthanum": {
         "name": "Lanthanum",
@@ -2665,7 +2665,6 @@
         "atomic_mass": 138.905477,
         "boil": 3737,
         "category": "lanthanide",
-        "color": null,
         "density": 6.162,
         "discovered_by": "Carl Gustaf Mosander",
         "melt": 1193,
@@ -2698,7 +2697,8 @@
             1850.3,
             4819,
             5940
-        ]
+        ],
+        "cpk-hex": "70d4ff"
     },
     "cerium": {
         "name": "Cerium",
@@ -2706,7 +2706,6 @@
         "atomic_mass": 140.1161,
         "boil": 3716,
         "category": "lanthanide",
-        "color": null,
         "density": 6.77,
         "discovered_by": "Martin Heinrich Klaproth",
         "melt": 1068,
@@ -2740,7 +2739,8 @@
             3547,
             6325,
             7490
-        ]
+        ],
+        "cpk-hex": "ffffc7"
     },
     "praseodymium": {
         "name": "Praseodymium",
@@ -2748,7 +2748,6 @@
         "atomic_mass": 140.907662,
         "boil": 3403,
         "category": "lanthanide",
-        "color": null,
         "density": 6.77,
         "discovered_by": "Carl Auer von Welsbach",
         "melt": 1208,
@@ -2781,7 +2780,8 @@
             2086,
             3761,
             5551
-        ]
+        ],
+        "cpk-hex": "d9ffc7"
     },
     "neodymium": {
         "name": "Neodymium",
@@ -2789,7 +2789,6 @@
         "atomic_mass": 144.2423,
         "boil": 3347,
         "category": "lanthanide",
-        "color": null,
         "density": 7.01,
         "discovered_by": "Carl Auer von Welsbach",
         "melt": 1297,
@@ -2821,7 +2820,8 @@
             1040,
             2130,
             3900
-        ]
+        ],
+        "cpk-hex": "c7ffc7"
     },
     "promethium": {
         "name": "Promethium",
@@ -2829,7 +2829,6 @@
         "atomic_mass": 145,
         "boil": 3273,
         "category": "lanthanide",
-        "color": null,
         "density": 7.26,
         "discovered_by": "Chien Shiung Wu",
         "melt": 1315,
@@ -2861,7 +2860,8 @@
             1050,
             2150,
             3970
-        ]
+        ],
+        "cpk-hex": "a3ffc7"
     },
     "samarium": {
         "name": "Samarium",
@@ -2869,7 +2869,6 @@
         "atomic_mass": 150.362,
         "boil": 2173,
         "category": "lanthanide",
-        "color": null,
         "density": 7.52,
         "discovered_by": "Lecoq de Boisbaudran",
         "melt": 1345,
@@ -2901,7 +2900,8 @@
             1070,
             2260,
             3990
-        ]
+        ],
+        "cpk-hex": "8fffc7"
     },
     "europium": {
         "name": "Europium",
@@ -2909,7 +2909,6 @@
         "atomic_mass": 151.9641,
         "boil": 1802,
         "category": "lanthanide",
-        "color": null,
         "density": 5.264,
         "discovered_by": "Eugène-Anatole Demarçay",
         "melt": 1099,
@@ -2941,7 +2940,8 @@
             1085,
             2404,
             4120
-        ]
+        ],
+        "cpk-hex": "61ffc7"
     },
     "gadolinium": {
         "name": "Gadolinium",
@@ -2949,7 +2949,6 @@
         "atomic_mass": 157.253,
         "boil": 3273,
         "category": "lanthanide",
-        "color": null,
         "density": 7.9,
         "discovered_by": "Jean Charles Galissard de Marignac",
         "melt": 1585,
@@ -2981,7 +2980,8 @@
             1170,
             1990,
             4250
-        ]
+        ],
+        "cpk-hex": "45ffc7"
     },
     "terbium": {
         "name": "Terbium",
@@ -2989,7 +2989,6 @@
         "atomic_mass": 158.925352,
         "boil": 3396,
         "category": "lanthanide",
-        "color": null,
         "density": 8.23,
         "discovered_by": "Carl Gustaf Mosander",
         "melt": 1629,
@@ -3021,7 +3020,8 @@
             1110,
             2114,
             3839
-        ]
+        ],
+        "cpk-hex": "30ffc7"
     },
     "dysprosium": {
         "name": "Dysprosium",
@@ -3029,7 +3029,6 @@
         "atomic_mass": 162.5001,
         "boil": 2840,
         "category": "lanthanide",
-        "color": null,
         "density": 8.54,
         "discovered_by": "Lecoq de Boisbaudran",
         "melt": 1680,
@@ -3061,7 +3060,8 @@
             1130,
             2200,
             3990
-        ]
+        ],
+        "cpk-hex": "1fffc7"
     },
     "holmium": {
         "name": "Holmium",
@@ -3069,7 +3069,6 @@
         "atomic_mass": 164.930332,
         "boil": 2873,
         "category": "lanthanide",
-        "color": null,
         "density": 8.79,
         "discovered_by": "Marc Delafontaine",
         "melt": 1734,
@@ -3101,7 +3100,8 @@
             1140,
             2204,
             4100
-        ]
+        ],
+        "cpk-hex": "00ff9c"
     },
     "erbium": {
         "name": "Erbium",
@@ -3109,7 +3109,6 @@
         "atomic_mass": 167.2593,
         "boil": 3141,
         "category": "lanthanide",
-        "color": null,
         "density": 9.066,
         "discovered_by": "Carl Gustaf Mosander",
         "melt": 1802,
@@ -3141,7 +3140,8 @@
             1150,
             2194,
             4120
-        ]
+        ],
+        "cpk-hex": "00e675"
     },
     "thulium": {
         "name": "Thulium",
@@ -3149,7 +3149,6 @@
         "atomic_mass": 168.934222,
         "boil": 2223,
         "category": "lanthanide",
-        "color": null,
         "density": 9.32,
         "discovered_by": "Per Teodor Cleve",
         "melt": 1818,
@@ -3181,7 +3180,8 @@
             1160,
             2285,
             4120
-        ]
+        ],
+        "cpk-hex": "00d452"
     },
     "ytterbium": {
         "name": "Ytterbium",
@@ -3189,7 +3189,6 @@
         "atomic_mass": 173.0451,
         "boil": 1469,
         "category": "lanthanide",
-        "color": null,
         "density": 6.9,
         "discovered_by": "Jean Charles Galissard de Marignac",
         "melt": 1097,
@@ -3221,7 +3220,8 @@
             1174.8,
             2417,
             4203
-        ]
+        ],
+        "cpk-hex": "00bf38"
     },
     "lutetium": {
         "name": "Lutetium",
@@ -3229,7 +3229,6 @@
         "atomic_mass": 174.96681,
         "boil": 3675,
         "category": "lanthanide",
-        "color": null,
         "density": 9.841,
         "discovered_by": "Georges Urbain",
         "melt": 1925,
@@ -3262,7 +3261,8 @@
             2022.3,
             4370,
             6445
-        ]
+        ],
+        "cpk-hex": "00ab24"
     },
     "hafnium": {
         "name": "Hafnium",
@@ -3270,7 +3270,6 @@
         "atomic_mass": 178.492,
         "boil": 4876,
         "category": "transition metal",
-        "color": null,
         "density": 13.31,
         "discovered_by": "Dirk Coster",
         "melt": 2506,
@@ -3302,7 +3301,8 @@
             1440,
             2250,
             3216
-        ]
+        ],
+        "cpk-hex": "4dc2ff"
     },
     "tantalum": {
         "name": "Tantalum",
@@ -3310,7 +3310,6 @@
         "atomic_mass": 180.947882,
         "boil": 5731,
         "category": "transition metal",
-        "color": null,
         "density": 16.69,
         "discovered_by": "Anders Gustaf Ekeberg",
         "melt": 3290,
@@ -3340,7 +3339,8 @@
         "ionization_energies": [
             761,
             1500
-        ]
+        ],
+        "cpk-hex": "4da6ff"
     },
     "tungsten": {
         "name": "Tungsten",
@@ -3348,7 +3348,6 @@
         "atomic_mass": 183.841,
         "boil": 6203,
         "category": "transition metal",
-        "color": null,
         "density": 19.25,
         "discovered_by": "Carl Wilhelm Scheele",
         "melt": 3695,
@@ -3378,7 +3377,8 @@
         "ionization_energies": [
             770,
             1700
-        ]
+        ],
+        "cpk-hex": "2194d6"
     },
     "rhenium": {
         "name": "Rhenium",
@@ -3386,7 +3386,6 @@
         "atomic_mass": 186.2071,
         "boil": 5869,
         "category": "transition metal",
-        "color": null,
         "density": 21.02,
         "discovered_by": "Masataka Ogawa",
         "melt": 3459,
@@ -3418,7 +3417,8 @@
             1260,
             2510,
             3640
-        ]
+        ],
+        "cpk-hex": "267dab"
     },
     "osmium": {
         "name": "Osmium",
@@ -3426,7 +3426,6 @@
         "atomic_mass": 190.233,
         "boil": 5285,
         "category": "transition metal",
-        "color": null,
         "density": 22.59,
         "discovered_by": "Smithson Tennant",
         "melt": 3306,
@@ -3456,7 +3455,8 @@
         "ionization_energies": [
             840,
             1600
-        ]
+        ],
+        "cpk-hex": "266696"
     },
     "iridium": {
         "name": "Iridium",
@@ -3464,7 +3464,6 @@
         "atomic_mass": 192.2173,
         "boil": 4403,
         "category": "transition metal",
-        "color": null,
         "density": 22.56,
         "discovered_by": "Smithson Tennant",
         "melt": 2719,
@@ -3494,7 +3493,8 @@
         "ionization_energies": [
             880,
             1600
-        ]
+        ],
+        "cpk-hex": "175487"
     },
     "platinum": {
         "name": "Platinum",
@@ -3502,7 +3502,6 @@
         "atomic_mass": 195.0849,
         "boil": 4098,
         "category": "transition metal",
-        "color": null,
         "density": 21.45,
         "discovered_by": "Antonio de Ulloa",
         "melt": 2041.4,
@@ -3532,7 +3531,8 @@
         "ionization_energies": [
             870,
             1791
-        ]
+        ],
+        "cpk-hex": "d0d0e0"
     },
     "gold": {
         "name": "Gold",
@@ -3540,7 +3540,6 @@
         "atomic_mass": 196.9665695,
         "boil": 3243,
         "category": "transition metal",
-        "color": null,
         "density": 19.3,
         "discovered_by": "Middle East",
         "melt": 1337.33,
@@ -3570,7 +3569,8 @@
         "ionization_energies": [
             890.1,
             1980
-        ]
+        ],
+        "cpk-hex": "ffd123"
     },
     "mercury": {
         "name": "Mercury",
@@ -3578,7 +3578,6 @@
         "atomic_mass": 200.5923,
         "boil": 629.88,
         "category": "transition metal",
-        "color": null,
         "density": 13.534,
         "discovered_by": "unknown, before 2000 BCE",
         "melt": 234.321,
@@ -3609,7 +3608,8 @@
             1007.1,
             1810,
             3300
-        ]
+        ],
+        "cpk-hex": "b8b8d0"
     },
     "thallium": {
         "name": "Thallium",
@@ -3617,7 +3617,6 @@
         "atomic_mass": 204.38,
         "boil": 1746,
         "category": "post-transition metal",
-        "color": null,
         "density": 11.85,
         "discovered_by": "William Crookes",
         "melt": 577,
@@ -3648,7 +3647,8 @@
             589.4,
             1971,
             2878
-        ]
+        ],
+        "cpk-hex": "a6544d"
     },
     "lead": {
         "name": "Lead",
@@ -3656,7 +3656,6 @@
         "atomic_mass": 207.21,
         "boil": 2022,
         "category": "post-transition metal",
-        "color": null,
         "density": 11.34,
         "discovered_by": "Middle East",
         "melt": 600.61,
@@ -3689,7 +3688,8 @@
             3081.5,
             4083,
             6640
-        ]
+        ],
+        "cpk-hex": "575961"
     },
     "bismuth": {
         "name": "Bismuth",
@@ -3697,7 +3697,6 @@
         "atomic_mass": 208.980401,
         "boil": 1837,
         "category": "post-transition metal",
-        "color": null,
         "density": 9.78,
         "discovered_by": "Claude François Geoffroy",
         "melt": 544.7,
@@ -3731,7 +3730,8 @@
             4370,
             5400,
             8520
-        ]
+        ],
+        "cpk-hex": "9e4fb5"
     },
     "polonium": {
         "name": "Polonium",
@@ -3739,7 +3739,6 @@
         "atomic_mass": 209,
         "boil": 1235,
         "category": "post-transition metal",
-        "color": null,
         "density": 9.196,
         "discovered_by": "Pierre Curie",
         "melt": 527,
@@ -3768,7 +3767,8 @@
         "electronegativity_pauling": 2,
         "ionization_energies": [
             812.1
-        ]
+        ],
+        "cpk-hex": "ab5c00"
     },
     "astatine": {
         "name": "Astatine",
@@ -3776,7 +3776,6 @@
         "atomic_mass": 210,
         "boil": 610,
         "category": "metalloid",
-        "color": null,
         "density": 6.35,
         "discovered_by": "Dale R. Corson",
         "melt": 575,
@@ -3805,7 +3804,8 @@
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             899.003
-        ]
+        ],
+        "cpk-hex": "754f45"
     },
     "radon": {
         "name": "Radon",
@@ -3813,7 +3813,6 @@
         "atomic_mass": 222,
         "boil": 211.5,
         "category": "noble gas",
-        "color": null,
         "density": 9.73,
         "discovered_by": "Friedrich Ernst Dorn",
         "melt": 202,
@@ -3842,7 +3841,8 @@
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             1037
-        ]
+        ],
+        "cpk-hex": "428296"
     },
     "francium": {
         "name": "Francium",
@@ -3850,7 +3850,6 @@
         "atomic_mass": 223,
         "boil": 950,
         "category": "alkali metal",
-        "color": null,
         "density": 1.87,
         "discovered_by": "Marguerite Perey",
         "melt": 300,
@@ -3880,7 +3879,8 @@
         "electronegativity_pauling": 0.79,
         "ionization_energies": [
             380
-        ]
+        ],
+        "cpk-hex": "420066"
     },
     "radium": {
         "name": "Radium",
@@ -3888,7 +3888,6 @@
         "atomic_mass": 226,
         "boil": 2010,
         "category": "alkaline earth metal",
-        "color": null,
         "density": 5.5,
         "discovered_by": "Pierre Curie",
         "melt": 1233,
@@ -3919,7 +3918,8 @@
         "ionization_energies": [
             509.3,
             979
-        ]
+        ],
+        "cpk-hex": "007d00"
     },
     "actinium": {
         "name": "Actinium",
@@ -3927,7 +3927,6 @@
         "atomic_mass": 227,
         "boil": 3500,
         "category": "actinide",
-        "color": null,
         "density": 10,
         "discovered_by": "Friedrich Oskar Giesel",
         "melt": 1500,
@@ -3958,7 +3957,8 @@
         "ionization_energies": [
             499,
             1170
-        ]
+        ],
+        "cpk-hex": "70abfa"
     },
     "thorium": {
         "name": "Thorium",
@@ -3966,7 +3966,6 @@
         "atomic_mass": 232.03774,
         "boil": 5061,
         "category": "actinide",
-        "color": null,
         "density": 11.724,
         "discovered_by": "Jöns Jakob Berzelius",
         "melt": 2023,
@@ -3999,7 +3998,8 @@
             1110,
             1930,
             2780
-        ]
+        ],
+        "cpk-hex": "00baff"
     },
     "protactinium": {
         "name": "Protactinium",
@@ -4007,7 +4007,6 @@
         "atomic_mass": 231.035882,
         "boil": 4300,
         "category": "actinide",
-        "color": null,
         "density": 15.37,
         "discovered_by": "William Crookes",
         "melt": 1841,
@@ -4037,7 +4036,8 @@
         "electronegativity_pauling": 1.5,
         "ionization_energies": [
             568
-        ]
+        ],
+        "cpk-hex": "00a1ff"
     },
     "uranium": {
         "name": "Uranium",
@@ -4045,7 +4045,6 @@
         "atomic_mass": 238.028913,
         "boil": 4404,
         "category": "actinide",
-        "color": null,
         "density": 19.1,
         "discovered_by": "Martin Heinrich Klaproth",
         "melt": 1405.3,
@@ -4076,7 +4075,8 @@
         "ionization_energies": [
             597.6,
             1420
-        ]
+        ],
+        "cpk-hex": "008fff"
     },
     "neptunium": {
         "name": "Neptunium",
@@ -4084,7 +4084,6 @@
         "atomic_mass": 237,
         "boil": 4447,
         "category": "actinide",
-        "color": null,
         "density": 20.45,
         "discovered_by": "Edwin McMillan",
         "melt": 912,
@@ -4114,7 +4113,8 @@
         "electronegativity_pauling": 1.36,
         "ionization_energies": [
             604.5
-        ]
+        ],
+        "cpk-hex": "0080ff"
     },
     "plutonium": {
         "name": "Plutonium",
@@ -4122,7 +4122,6 @@
         "atomic_mass": 244,
         "boil": 3505,
         "category": "actinide",
-        "color": null,
         "density": 19.816,
         "discovered_by": "Glenn T. Seaborg",
         "melt": 912.5,
@@ -4152,7 +4151,8 @@
         "electronegativity_pauling": 1.28,
         "ionization_energies": [
             584.7
-        ]
+        ],
+        "cpk-hex": "006bff"
     },
     "americium": {
         "name": "Americium",
@@ -4160,7 +4160,6 @@
         "atomic_mass": 243,
         "boil": 2880,
         "category": "actinide",
-        "color": null,
         "density": 12,
         "discovered_by": "Glenn T. Seaborg",
         "melt": 1449,
@@ -4190,7 +4189,8 @@
         "electronegativity_pauling": 1.13,
         "ionization_energies": [
             578
-        ]
+        ],
+        "cpk-hex": "545cf2"
     },
     "curium": {
         "name": "Curium",
@@ -4198,7 +4198,6 @@
         "atomic_mass": 247,
         "boil": 3383,
         "category": "actinide",
-        "color": null,
         "density": 13.51,
         "discovered_by": "Glenn T. Seaborg",
         "melt": 1613,
@@ -4228,7 +4227,8 @@
         "electronegativity_pauling": 1.28,
         "ionization_energies": [
             581
-        ]
+        ],
+        "cpk-hex": "785ce3"
     },
     "berkelium": {
         "name": "Berkelium",
@@ -4236,7 +4236,6 @@
         "atomic_mass": 247,
         "boil": 2900,
         "category": "actinide",
-        "color": null,
         "density": 14.78,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": 1259,
@@ -4266,7 +4265,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             601
-        ]
+        ],
+        "cpk-hex": "8a4fe3"
     },
     "californium": {
         "name": "Californium",
@@ -4274,7 +4274,6 @@
         "atomic_mass": 251,
         "boil": 1743,
         "category": "actinide",
-        "color": null,
         "density": 15.1,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": 1173,
@@ -4304,7 +4303,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             608
-        ]
+        ],
+        "cpk-hex": "a136d4"
     },
     "einsteinium": {
         "name": "Einsteinium",
@@ -4312,7 +4312,6 @@
         "atomic_mass": 252,
         "boil": 1269,
         "category": "actinide",
-        "color": null,
         "density": 8.84,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": 1133,
@@ -4342,7 +4341,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             619
-        ]
+        ],
+        "cpk-hex": "b31fd4"
     },
     "fermium": {
         "name": "Fermium",
@@ -4350,7 +4350,6 @@
         "atomic_mass": 257,
         "boil": null,
         "category": "actinide",
-        "color": null,
         "density": null,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": 1800,
@@ -4380,7 +4379,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             627
-        ]
+        ],
+        "cpk-hex": "b31fba"
     },
     "mendelevium": {
         "name": "Mendelevium",
@@ -4388,7 +4388,6 @@
         "atomic_mass": 258,
         "boil": null,
         "category": "actinide",
-        "color": null,
         "density": null,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": 1100,
@@ -4418,7 +4417,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             635
-        ]
+        ],
+        "cpk-hex": "b30da6"
     },
     "nobelium": {
         "name": "Nobelium",
@@ -4426,7 +4426,6 @@
         "atomic_mass": 259,
         "boil": null,
         "category": "actinide",
-        "color": null,
         "density": null,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 1100,
@@ -4456,7 +4455,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             642
-        ]
+        ],
+        "cpk-hex": "bd0d87"
     },
     "lawrencium": {
         "name": "Lawrencium",
@@ -4464,7 +4464,6 @@
         "atomic_mass": 266,
         "boil": null,
         "category": "actinide",
-        "color": null,
         "density": null,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": 1900,
@@ -4494,7 +4493,8 @@
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             470
-        ]
+        ],
+        "cpk-hex": "c70066"
     },
     "rutherfordium": {
         "name": "Rutherfordium",
@@ -4502,7 +4502,6 @@
         "atomic_mass": 267,
         "boil": 5800,
         "category": "transition metal",
-        "color": null,
         "density": 23.2,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 2400,
@@ -4532,7 +4531,8 @@
         "electronegativity_pauling": null,
         "ionization_energies": [
             580
-        ]
+        ],
+        "cpk-hex": "cc0059"
     },
     "dubnium": {
         "name": "Dubnium",
@@ -4540,7 +4540,6 @@
         "atomic_mass": 268,
         "boil": null,
         "category": "transition metal",
-        "color": null,
         "density": 29.3,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": null,
@@ -4568,7 +4567,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d3 7s2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": "d1004f"
     },
     "seaborgium": {
         "name": "Seaborgium",
@@ -4576,7 +4576,6 @@
         "atomic_mass": 269,
         "boil": null,
         "category": "transition metal",
-        "color": null,
         "density": 35,
         "discovered_by": "Lawrence Berkeley National Laboratory",
         "melt": null,
@@ -4604,7 +4603,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d4 7s2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": "d90045"
     },
     "bohrium": {
         "name": "Bohrium",
@@ -4612,7 +4612,6 @@
         "atomic_mass": 270,
         "boil": null,
         "category": "transition metal",
-        "color": null,
         "density": 37.1,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": null,
@@ -4640,7 +4639,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d5 7s2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": "e00038"
     },
     "hassium": {
         "name": "Hassium",
@@ -4648,7 +4648,6 @@
         "atomic_mass": 269,
         "boil": null,
         "category": "transition metal",
-        "color": null,
         "density": 40.7,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": 126,
@@ -4676,7 +4675,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d6 7s2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": "e6002e"
     },
     "meitnerium": {
         "name": "Meitnerium",
@@ -4684,7 +4684,6 @@
         "atomic_mass": 278,
         "boil": null,
         "category": "unknown, probably transition metal",
-        "color": null,
         "density": 37.4,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": null,
@@ -4712,7 +4711,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d7 7s2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": "eb0026"
     },
     "darmstadtium": {
         "name": "Darmstadtium",
@@ -4720,7 +4720,6 @@
         "atomic_mass": 281,
         "boil": null,
         "category": "unknown, probably transition metal",
-        "color": null,
         "density": 34.8,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": null,
@@ -4748,7 +4747,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d9 7s1",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "roentgenium": {
         "name": "Roentgenium",
@@ -4756,7 +4756,6 @@
         "atomic_mass": 282,
         "boil": null,
         "category": "unknown, probably transition metal",
-        "color": null,
         "density": 28.7,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": null,
@@ -4784,7 +4783,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s1",
         "electron_affinity": 151,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "copernicium": {
         "name": "Copernicium",
@@ -4792,7 +4792,6 @@
         "atomic_mass": 285,
         "boil": 3570,
         "category": "transition metal",
-        "color": null,
         "density": 23.7,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": null,
@@ -4820,7 +4819,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "nihonium": {
         "name": "Nihonium",
@@ -4828,7 +4828,6 @@
         "atomic_mass": 286,
         "boil": 1430,
         "category": "unknown, probably transition metal",
-        "color": null,
         "density": 16,
         "discovered_by": "RIKEN",
         "melt": 700,
@@ -4856,7 +4855,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p1",
         "electron_affinity": 66.6,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "flerovium": {
         "name": "Flerovium",
@@ -4864,7 +4864,6 @@
         "atomic_mass": 289,
         "boil": 420,
         "category": "post-transition metal",
-        "color": null,
         "density": 14,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 340,
@@ -4892,7 +4891,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p2",
         "electron_affinity": null,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "moscovium": {
         "name": "Moscovium",
@@ -4900,7 +4900,6 @@
         "atomic_mass": 289,
         "boil": 1400,
         "category": "unknown, probably post-transition metal",
-        "color": null,
         "density": 13.5,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 670,
@@ -4928,7 +4927,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p3",
         "electron_affinity": 35.3,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "livermorium": {
         "name": "Livermorium",
@@ -4936,7 +4936,6 @@
         "atomic_mass": 293,
         "boil": 1085,
         "category": "unknown, probably post-transition metal",
-        "color": null,
         "density": 12.9,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 709,
@@ -4964,7 +4963,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p4",
         "electron_affinity": 74.9,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "tennessine": {
         "name": "Tennessine",
@@ -4972,7 +4972,6 @@
         "atomic_mass": 294,
         "boil": 883,
         "category": "unknown, probably metalloid",
-        "color": null,
         "density": 7.17,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 723,
@@ -5000,7 +4999,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p5",
         "electron_affinity": 165.9,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "oganesson": {
         "name": "Oganesson",
@@ -5008,7 +5008,6 @@
         "atomic_mass": 294,
         "boil": 350,
         "category": "unknown, predicted to be noble gas",
-        "color": null,
         "density": 4.95,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": null,
@@ -5036,7 +5035,8 @@
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p6",
         "electron_affinity": 5.40318,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     },
     "ununennium": {
         "name": "Ununennium",
@@ -5044,7 +5044,6 @@
         "atomic_mass": 315,
         "boil": 630,
         "category": "unknown, but predicted to be an alkali metal",
-        "color": null,
         "density": 3,
         "discovered_by": "GSI Helmholtz Centre for Heavy Ion Research",
         "melt": null,
@@ -5073,6 +5072,7 @@
         "electron_configuration_semantic": "*[Uuo] 8s1",
         "electron_affinity": 63.87,
         "electronegativity_pauling": null,
-        "ionization_energies": []
+        "ionization_energies": [],
+        "cpk-hex": null
     }
 }

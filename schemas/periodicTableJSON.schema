@@ -22,9 +22,6 @@
             "category": {
               "type": "string"
             },
-            "color": {
-              "type": "null"
-            },
             "density": {
               "type": "number"
             },
@@ -105,7 +102,6 @@
             "atomic_mass",
             "boil",
             "category",
-            "color",
             "density",
             "discovered_by",
             "melt",
@@ -146,9 +142,6 @@
             },
             "category": {
               "type": "string"
-            },
-            "color": {
-              "type": "null"
             },
             "density": {
               "type": "number"
@@ -233,7 +226,6 @@
             "atomic_mass",
             "boil",
             "category",
-            "color",
             "density",
             "discovered_by",
             "melt",

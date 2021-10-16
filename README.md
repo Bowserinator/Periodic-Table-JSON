@@ -4,7 +4,7 @@ A json of the entire periodic table. Feel free to use it in your projects.
 Temperatures such as boiling points and melting points are given in degrees kelvin.  Densities are given in g/l for gases and g/cm³ for solids and liquids and molar heat in (mol*K).
 Information that is missing is represented as null. Some elements may have an image link to their spectral bands.
 
-All elements have a three sentence summary from Wikipedia. Currently the color tag is useless, so please use appearance instead.
+All elements have a three sentence summary from Wikipedia.
 
 **Electron configuration** is given as a string, with each orbital separated by a space.  **Electron configuration semantic** is given as a string, this is the short-hand version of the electron configuration. Elements with a semantic electron configuration marked with a "*" mean that the electron configuration has not yet been confirmed. **Electron shells** are given as an array, the first item is the number of electrons in the first shell, the 2nd item is the number of electrons in the second shell, and so on.
 
@@ -22,7 +22,6 @@ Here's an example of how it's formatted:
 		"period": 1,
 		"category": "diatomic nonmetal ",
 		"atomic_mass": 1.008,
-		"color": null,
 		"appearance": "colorless gas",
 		"phase": "Gas",
 		"melt": 13.99,

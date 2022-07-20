@@ -12,6 +12,9 @@ Both **ionization energy** and **first electron affinities** are given as the en
 
 A link to the source where the information was from is provided in each element under the key "source".
 
+A link to image Bohr model (of the atom) is available under "bohr_model_image" key.
+A link to 3d-image of Bohr model available under "bohr_model_3d" key, file obtained from google with ```.glb``` extention and these 3d models can easily display on web using [google model-viewer script](https://modelviewer.dev/)
+
 Here's an example of how it's formatted:
 ```json
 {
@@ -32,8 +35,7 @@ Here's an example of how it's formatted:
 		"source":"https://en.wikipedia.org/wiki/Hydrogen",
 		"named_by": "Antoine Lavoisier",
 		"bohr_model_image":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen_srp_th.png",
-    	"bohr_model_3d":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
-           
+		"bohr_model_3d":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
 		"spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
 		"summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
 		"ypos": 1,

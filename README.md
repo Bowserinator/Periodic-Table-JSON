@@ -31,6 +31,9 @@ Here's an example of how it's formatted:
 		"molar_heat": 28.836,
 		"source":"https://en.wikipedia.org/wiki/Hydrogen",
 		"named_by": "Antoine Lavoisier",
+		"bohr_model_image":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen_srp_th.png",
+        "bohr_model_3d":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
+           
 		"spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
 		"summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
 		"ypos": 1,

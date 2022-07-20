@@ -1,4 +1,5 @@
-import json, os
+import json, os 
+from pathlib import Path
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -19,10 +20,7 @@ full_path = os.getcwd().split('\\')
 full_path.pop()
 
 clear()
-
-path = str('\\'.join(full_path)) + '\\PeriodicTableJSON.json'
-
-with open(path, encoding="utf8") as f:
+with open(os.path.join(Path(__file__).parents[1], 'PeriodicTableJSON.json'), encoding="utf8") as f:
     elements = json.load(f)['elements']
 
 data_needed = {}
@@ -46,7 +44,7 @@ for key in keys:
     clear()
 
 
-with open(r'../SpecificJSON.json', 'w') as f:
+with open(os.path.join(Path(__file__).parents[1], 'SpecificJSON.json'), 'w') as f:
     elem_to_write = []
 
     for element in elements:
@@ -57,4 +55,17 @@ with open(r'../SpecificJSON.json', 'w') as f:
         elem_to_write.append(e)
 
     f.write(json.dumps(elem_to_write, indent=4))
+    f.write('\n')
+
+with open(os.path.join(Path(__file__).parents[1], 'SpecificCSV.csv'), 'w', encoding="utf8") as f:
+    elem_to_write = []
+
+    for element in elements:
+        e = ""
+        for key in data_needed:
+            if data_needed[key]:
+                e += element[key] + ','
+        elem_to_write.append(e)
+
+    f.write("\n".join(elem_to_write))
     f.write('\n')

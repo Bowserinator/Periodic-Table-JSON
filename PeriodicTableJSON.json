@@ -240,7 +240,7 @@
             "source": "https://en.wikipedia.org/wiki/Nitrogen",
             "bohr_model_image":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen_srp_th.png",
             "bohr_model_3d":"https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb",
-            "https://en.wikipedia.org/wiki/File:Nitrogen_Spectra.jpg",
+            "spectral_img":"https://en.wikipedia.org/wiki/File:Nitrogen_Spectra.jpg",
             "summary": "Nitrogen is a chemical element with symbol N and atomic number 7. It is the lightest pnictogen and at room temperature, it is a transparent, odorless diatomic gas. Nitrogen is a common element in the universe, estimated at about seventh in total abundance in the Milky Way and the Solar System.",
             "symbol": "N",
             "xpos": 15,

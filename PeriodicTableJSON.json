@@ -3263,8 +3263,8 @@
             "spectral_img": null,
             "summary": "Lutetium is a chemical element with symbol Lu and atomic number 71. It is a silvery white metal, which resists corrosion in dry, but not in moist air. It is considered the first element of the 6th-period transition metals and the last element in the lanthanide series, and is traditionally counted among the rare earths.",
             "symbol": "Lu",
-            "xpos": 17,
-            "ypos": 9,
+            "xpos": 3,
+            "ypos": 6,
             "shells": [
                 2,
                 8,
@@ -4562,8 +4562,8 @@
             "spectral_img": null,
             "summary": "Lawrencium is a synthetic chemical element with chemical symbol Lr (formerly Lw) and atomic number 103. It is named in honor of Ernest Lawrence, inventor of the cyclotron, a device that was used to discover many artificial radioactive elements. A radioactive metal, lawrencium is the eleventh transuranic element and is also the final member of the actinide series.",
             "symbol": "Lr",
-            "xpos": 17,
-            "ypos": 10,
+            "xpos": 3,
+            "ypos": 7,
             "shells": [
                 2,
                 8,

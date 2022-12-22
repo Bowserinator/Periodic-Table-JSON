@@ -6,7 +6,7 @@ Convert the JSON data to CSV
 import json
 import pandas
 
-PERIODIC_TABLE_CSV = "PeriodicTableCSV.csv"
+PERIODIC_TABLE_CSV = "../PeriodicTableCSV.csv"
 
 # Validate and load data
 from validate_json import PERIODIC_TABLE_JSON

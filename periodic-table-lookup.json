@@ -133,6 +133,7 @@
         "named_by": "Antoine Lavoisier",
         "number": 1,
         "period": 1,
+        "group": 1,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Hydrogen",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen_srp_th.png",
@@ -142,6 +143,8 @@
         "symbol": "H",
         "xpos": 1,
         "ypos": 1,
+        "wxpos": 1,
+        "wypos": 1,
         "shells": [
             1
         ],
@@ -157,7 +160,8 @@
             "title": "Vial of glowing ultrapure hydrogen, H2. Original size in cm: 1 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hydrogenglow.jpg",
             "attribution": "User:Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/hydrogen.php"
-        }
+        },
+        "block": "s"
     },
     "helium": {
         "name": "Helium",
@@ -172,6 +176,7 @@
         "named_by": null,
         "number": 2,
         "period": 1,
+        "group": 18,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Helium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium_srp_th.png",
@@ -181,6 +186,8 @@
         "symbol": "He",
         "xpos": 18,
         "ypos": 1,
+        "wxpos": 32,
+        "wypos": 1,
         "shells": [
             2
         ],
@@ -193,11 +200,12 @@
             5250.5
         ],
         "cpk-hex": "d9ffff",
-        "image":{
+        "image": {
             "title": "Vial of glowing ultrapure helium. Original size in cm: 1 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Helium-glow.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/helium.php"
-        }
+        },
+        "block": "s"
     },
     "lithium": {
         "name": "Lithium",
@@ -212,6 +220,7 @@
         "named_by": null,
         "number": 3,
         "period": 2,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Lithium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_003_lithium/element_003_lithium_srp_th.png",
@@ -221,6 +230,8 @@
         "symbol": "Li",
         "xpos": 1,
         "ypos": 2,
+        "wxpos": 1,
+        "wypos": 2,
         "shells": [
             2,
             1
@@ -235,11 +246,12 @@
             11815
         ],
         "cpk-hex": "cc80ff",
-        "image":{
+        "image": {
             "title": "0.5 Grams Lithium under Argon. Original size of the largest piece in cm: 0.3 x 4",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/0.5_grams_lithium_under_argon.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lithium.php"
-        }
+        },
+        "block": "s"
     },
     "beryllium": {
         "name": "Beryllium",
@@ -254,6 +266,7 @@
         "named_by": null,
         "number": 4,
         "period": 2,
+        "group": 2,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Beryllium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_004_beryllium/element_004_beryllium_srp_th.png",
@@ -263,6 +276,8 @@
         "symbol": "Be",
         "xpos": 2,
         "ypos": 2,
+        "wxpos": 2,
+        "wypos": 2,
         "shells": [
             2,
             2
@@ -278,11 +293,12 @@
             21006.6
         ],
         "cpk-hex": "c2ff00",
-        "image":{
+        "image": {
             "title": "Pure Beryllium bead, 2.5 grams. Original size in cm: 1 x 1.5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Beryllium_%28Be%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/beryllium.php"
-        }
+        },
+        "block": "s"
     },
     "boron": {
         "name": "Boron",
@@ -297,6 +313,7 @@
         "named_by": null,
         "number": 5,
         "period": 2,
+        "group": 13,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Boron",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_005_boron/element_005_boron_srp_th.png",
@@ -306,6 +323,8 @@
         "symbol": "B",
         "xpos": 13,
         "ypos": 2,
+        "wxpos": 27,
+        "wypos": 2,
         "shells": [
             2,
             3
@@ -326,7 +345,8 @@
             "title": "Pure Crystalline Boron, front and back side. Original size in cm: 2 x 3",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Boron.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/boron.php"
-        }
+        },
+        "block": "p"
     },
     "carbon": {
         "name": "Carbon",
@@ -341,6 +361,7 @@
         "named_by": null,
         "number": 6,
         "period": 2,
+        "group": 14,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Carbon",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_006_carbon/element_006_carbon_srp_th.png",
@@ -350,6 +371,8 @@
         "symbol": "C",
         "xpos": 14,
         "ypos": 2,
+        "wxpos": 28,
+        "wypos": 2,
         "shells": [
             2,
             4
@@ -367,11 +390,12 @@
             47277
         ],
         "cpk-hex": "909090",
-        "image":{
+        "image": {
             "title": "Element 6 - Carbon",
-            "url":"https://upload.wikimedia.org/wikipedia/commons/6/68/Pure_Carbon.png",
-            "attribution":"Texas Lane, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-        }
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pure_Carbon.png",
+            "attribution": "Texas Lane, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
+        },
+        "block": "p"
     },
     "nitrogen": {
         "name": "Nitrogen",
@@ -386,6 +410,7 @@
         "named_by": "Jean-Antoine Chaptal",
         "number": 7,
         "period": 2,
+        "group": 15,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Nitrogen",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen_srp_th.png",
@@ -395,6 +420,8 @@
         "symbol": "N",
         "xpos": 15,
         "ypos": 2,
+        "wxpos": 29,
+        "wypos": 2,
         "shells": [
             2,
             5
@@ -413,11 +440,12 @@
             64360
         ],
         "cpk-hex": "3050f8",
-        "image":{
+        "image": {
             "title": "Vial of Glowing Ultrapure Nitrogen, N2. Original size in cm: 1 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nitrogen-glow.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/nitrogen.php"
-        }
+        },
+        "block": "p"
     },
     "oxygen": {
         "name": "Oxygen",
@@ -432,6 +460,7 @@
         "named_by": "Antoine Lavoisier",
         "number": 8,
         "period": 2,
+        "group": 16,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Oxygen",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_008_oxygen/element_008_oxygen_srp_th.png",
@@ -441,6 +470,8 @@
         "symbol": "O",
         "xpos": 16,
         "ypos": 2,
+        "wxpos": 30,
+        "wypos": 2,
         "shells": [
             2,
             6
@@ -460,11 +491,12 @@
             84078
         ],
         "cpk-hex": "ff0d0d",
-        "image":{
+        "image": {
             "title": "Liquid Oxygen in a Beaker",
-            "url":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Liquid_oxygen_in_a_beaker_%28cropped_and_retouched%29.jpg",
-            "attribution":"Staff Sgt. Nika Glover, U.S. Air Force, Public domain, via Wikimedia Commons"
-        }
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Liquid_oxygen_in_a_beaker_%28cropped_and_retouched%29.jpg",
+            "attribution": "Staff Sgt. Nika Glover, U.S. Air Force, Public domain, via Wikimedia Commons"
+        },
+        "block": "p"
     },
     "fluorine": {
         "name": "Fluorine",
@@ -479,6 +511,7 @@
         "named_by": "Humphry Davy",
         "number": 9,
         "period": 2,
+        "group": 17,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Fluorine",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_009_fluorine/element_009_fluorine_srp_th.png",
@@ -488,6 +521,8 @@
         "symbol": "F",
         "xpos": 17,
         "ypos": 2,
+        "wxpos": 31,
+        "wypos": 2,
         "shells": [
             2,
             7
@@ -508,11 +543,12 @@
             106434.3
         ],
         "cpk-hex": "90e050",
-        "image":{
+        "image": {
             "title": "Liquid Fluorine at -196°C",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg",
             "attribution": "Fulvio314, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "p"
     },
     "neon": {
         "name": "Neon",
@@ -527,6 +563,7 @@
         "named_by": null,
         "number": 10,
         "period": 2,
+        "group": 18,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Neon",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_010_neon/element_010_neon_srp_th.png",
@@ -536,6 +573,8 @@
         "symbol": "Ne",
         "xpos": 18,
         "ypos": 2,
+        "wxpos": 32,
+        "wypos": 2,
         "shells": [
             2,
             8
@@ -557,11 +596,12 @@
             131432
         ],
         "cpk-hex": "b3e3f5",
-        "image":{
+        "image": {
             "title": "Vial of Glowing Ultrapure neon. Original size in cm: 1 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Neon-glow.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/neon.php"
-        }
+        },
+        "block": "p"
     },
     "sodium": {
         "name": "Sodium",
@@ -576,6 +616,7 @@
         "named_by": null,
         "number": 11,
         "period": 3,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Sodium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_011_sodium/element_011_sodium_srp_th.png",
@@ -585,6 +626,8 @@
         "symbol": "Na",
         "xpos": 1,
         "ypos": 3,
+        "wxpos": 1,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -608,11 +651,12 @@
             159076
         ],
         "cpk-hex": "ab5cf2",
-        "image":{
+        "image": {
             "title": "Na (Sodium) Metal",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Na_%28Sodium%29.jpg",
             "attribution": "The original uploader was Dnn87 at English Wikipedia., CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "s"
     },
     "magnesium": {
         "name": "Magnesium",
@@ -627,6 +671,7 @@
         "named_by": null,
         "number": 12,
         "period": 3,
+        "group": 2,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Magnesium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_012_magnesium/element_012_magnesium_srp_th.png",
@@ -636,6 +681,8 @@
         "symbol": "Mg",
         "xpos": 2,
         "ypos": 3,
+        "wxpos": 2,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -660,11 +707,12 @@
             189368
         ],
         "cpk-hex": "8aff00",
-        "image":{
+        "image": {
             "title": "Magnesium crystals",
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Magnesium_crystals.jpg",
             "attribution": "Warut Roonguthai, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "s"
     },
     "aluminium": {
         "name": "Aluminium",
@@ -679,6 +727,7 @@
         "named_by": "Humphry Davy",
         "number": 13,
         "period": 3,
+        "group": 13,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Aluminium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_013_aluminum/element_013_aluminum_srp_th.png",
@@ -688,6 +737,8 @@
         "symbol": "Al",
         "xpos": 13,
         "ypos": 3,
+        "wxpos": 27,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -713,11 +764,12 @@
             222316
         ],
         "cpk-hex": "bfa6a6",
-        "image":{
+        "image": {
             "title": "Pure aluminium foil. Original size in cm: 5 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aluminium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/aluminium.php "
-        }
+        },
+        "block": "p"
     },
     "silicon": {
         "name": "Silicon",
@@ -732,6 +784,7 @@
         "named_by": "Thomas Thomson (chemist)",
         "number": 14,
         "period": 3,
+        "group": 14,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Silicon",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_014_silicon/element_014_silicon_srp_th.png",
@@ -741,6 +794,8 @@
         "symbol": "Si",
         "xpos": 14,
         "ypos": 3,
+        "wxpos": 28,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -767,11 +822,12 @@
             257923
         ],
         "cpk-hex": "f0c8a0",
-        "image":{
+        "image": {
             "title": "Chunk of Ultrapure Silicon, 2 x 2 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Silicon.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/silicon.php"
-        }
+        },
+        "block": "p"
     },
     "phosphorus": {
         "name": "Phosphorus",
@@ -786,6 +842,7 @@
         "named_by": null,
         "number": 15,
         "period": 3,
+        "group": 15,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Phosphorus",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_015_phosphorus/element_015_phosphorus_srp_th.png",
@@ -795,6 +852,8 @@
         "symbol": "P",
         "xpos": 15,
         "ypos": 3,
+        "wxpos": 29,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -822,11 +881,12 @@
             296195
         ],
         "cpk-hex": "ff8000",
-        "image":{
+        "image": {
             "title": "Purple Phosphorus",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Phosphorus-purple.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/phosphorus.php"
-        }
+        },
+        "block": "p"
     },
     "sulfur": {
         "name": "Sulfur",
@@ -841,6 +901,7 @@
         "named_by": null,
         "number": 16,
         "period": 3,
+        "group": 16,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Sulfur",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_016_sulfur/element_016_sulfur_srp_th.png",
@@ -850,6 +911,8 @@
         "symbol": "S",
         "xpos": 16,
         "ypos": 3,
+        "wxpos": 30,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -878,12 +941,12 @@
             337138
         ],
         "cpk-hex": "ffff30",
-        "image":{
+        "image": {
             "title": "Native Sulfur From Russia",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Native_sulfur_%28Vodinskoe_Deposit%3B_quarry_near_Samara%2C_Russia%29_9.jpg",
             "attribution": "James St. John, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons"
-        }
-        
+        },
+        "block": "p"
     },
     "chlorine": {
         "name": "Chlorine",
@@ -898,6 +961,7 @@
         "named_by": null,
         "number": 17,
         "period": 3,
+        "group": 17,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Chlorine",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_017_chlorine/element_017_chlorine_srp_th.png",
@@ -907,6 +971,8 @@
         "symbol": "Cl",
         "xpos": 17,
         "ypos": 3,
+        "wxpos": 31,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -936,11 +1002,12 @@
             380760
         ],
         "cpk-hex": "1ff01f",
-        "image":{
+        "image": {
             "title": "A Sample of Chlorine",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Chlorine-sample-flip.jpg",
             "attribution": "Benjah-bmm27, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "p"
     },
     "argon": {
         "name": "Argon",
@@ -955,6 +1022,7 @@
         "named_by": null,
         "number": 18,
         "period": 3,
+        "group": 18,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Argon",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_018_argon/element_018_argon_srp_th.png",
@@ -964,6 +1032,8 @@
         "symbol": "Ar",
         "xpos": 18,
         "ypos": 3,
+        "wxpos": 32,
+        "wypos": 3,
         "shells": [
             2,
             8,
@@ -994,11 +1064,12 @@
             427066
         ],
         "cpk-hex": "80d1e3",
-        "image":{
+        "image": {
             "title": "Vial of glowing ultrapure argon. Original size in cm: 1 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Argon-glow.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/argon.php"
-        }
+        },
+        "block": "p"
     },
     "potassium": {
         "name": "Potassium",
@@ -1013,6 +1084,7 @@
         "named_by": null,
         "number": 19,
         "period": 4,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Potassium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_019_potassium/element_019_potassium_srp_th.png",
@@ -1022,6 +1094,8 @@
         "symbol": "K",
         "xpos": 1,
         "ypos": 4,
+        "wxpos": 1,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1054,11 +1128,12 @@
             476063
         ],
         "cpk-hex": "8f40d4",
-        "image":{
+        "image": {
             "title": "Potassium Pieces",
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Potassium.JPG",
             "attribution": "Dnn87, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "s"
     },
     "calcium": {
         "name": "Calcium",
@@ -1073,6 +1148,7 @@
         "named_by": null,
         "number": 20,
         "period": 4,
+        "group": 2,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Calcium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_020_calcium/element_020_calcium_srp_th.png",
@@ -1082,6 +1158,8 @@
         "symbol": "Ca",
         "xpos": 2,
         "ypos": 4,
+        "wxpos": 2,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1115,11 +1193,12 @@
             527762
         ],
         "cpk-hex": "3dff00",
-        "image":{
+        "image": {
             "title": "Calcium Grains, grain size about 1 mm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Calcium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/calcium.php"
-        }
+        },
+        "block": "s"
     },
     "scandium": {
         "name": "Scandium",
@@ -1134,6 +1213,7 @@
         "named_by": null,
         "number": 21,
         "period": 4,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Scandium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_021_scandium/element_021_scandium_srp_th.png",
@@ -1143,6 +1223,8 @@
         "symbol": "Sc",
         "xpos": 3,
         "ypos": 4,
+        "wxpos": 17,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1177,11 +1259,12 @@
             582163
         ],
         "cpk-hex": "e6e6e6",
-        "image":{
+        "image": {
             "title": "Crystal of Scandium. About 1g",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Scandium%2C_Sc.jpg",
             "attribution": "JanDerChemiker, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "titanium": {
         "name": "Titanium",
@@ -1196,6 +1279,7 @@
         "named_by": "Martin Heinrich Klaproth",
         "number": 22,
         "period": 4,
+        "group": 4,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Titanium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_022_titanium/element_022_titanium_srp_th.png",
@@ -1205,6 +1289,8 @@
         "symbol": "Ti",
         "xpos": 4,
         "ypos": 4,
+        "wxpos": 18,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1240,11 +1326,12 @@
             639294
         ],
         "cpk-hex": "bfc2c7",
-        "image":{
+        "image": {
             "title": "Titanium Crystal made with the van Arkel-de Booer Process. 87 grams, Orginial size in cm: 2.5 x 4",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Titanium.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/titanium.php"
-        }
+        },
+        "block": "d"
     },
     "vanadium": {
         "name": "Vanadium",
@@ -1259,6 +1346,7 @@
         "named_by": "Isotopes of vanadium",
         "number": 23,
         "period": 4,
+        "group": 5,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Vanadium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_023_vanadium/element_023_vanadium_srp_th.png",
@@ -1268,6 +1356,8 @@
         "symbol": "V",
         "xpos": 5,
         "ypos": 4,
+        "wxpos": 19,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1304,11 +1394,12 @@
             699144
         ],
         "cpk-hex": "a6a6ab",
-        "image":{
+        "image": {
             "title": "Pieces of Pure Vanadium with Oxide Layer",
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Vanadium-pieces.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/vanadium.php"
-        }
+        },
+        "block": "d"
     },
     "chromium": {
         "name": "Chromium",
@@ -1323,6 +1414,7 @@
         "named_by": null,
         "number": 24,
         "period": 4,
+        "group": 6,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Chromium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium_srp_th.png",
@@ -1332,6 +1424,8 @@
         "symbol": "Cr",
         "xpos": 6,
         "ypos": 4,
+        "wxpos": 20,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1369,11 +1463,12 @@
             761733
         ],
         "cpk-hex": "8a99c7",
-        "image":{
+        "image": {
             "title": "Piece of Chromium Metal",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Chromium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/chromium.php"
-        }
+        },
+        "block": "d"
     },
     "manganese": {
         "name": "Manganese",
@@ -1388,6 +1483,7 @@
         "named_by": null,
         "number": 25,
         "period": 4,
+        "group": 7,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Manganese",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_025_manganese/element_025_manganese_srp_th.png",
@@ -1397,6 +1493,8 @@
         "symbol": "Mn",
         "xpos": 7,
         "ypos": 4,
+        "wxpos": 21,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1435,11 +1533,12 @@
             827067
         ],
         "cpk-hex": "9c7ac7",
-        "image":{
+        "image": {
             "title": "Two Oieces of Manganese Metal",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Manganese_element.jpg",
             "attribution": "W. Oelen, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "iron": {
         "name": "Iron",
@@ -1454,6 +1553,7 @@
         "named_by": null,
         "number": 26,
         "period": 4,
+        "group": 8,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Iron",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_026_iron/element_026_iron_srp_th.png",
@@ -1463,6 +1563,8 @@
         "symbol": "Fe",
         "xpos": 8,
         "ypos": 4,
+        "wxpos": 22,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1502,11 +1604,12 @@
             895161
         ],
         "cpk-hex": "e06633",
-        "image":{
+        "image": {
             "title": "Fragments of an iron meteorite, about 92% iron. Original size of the single pieces in cm: 0.4 - 0.8",
             "url": "https://images-of-elements.com/iron-2.jpg",
             "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/iron.php"
-        }
+        },
+        "block": "d"
     },
     "cobalt": {
         "name": "Cobalt",
@@ -1521,6 +1624,7 @@
         "named_by": null,
         "number": 27,
         "period": 4,
+        "group": 9,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Cobalt",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_027_cobalt/element_027_cobalt_srp_th.png",
@@ -1530,6 +1634,8 @@
         "symbol": "Co",
         "xpos": 9,
         "ypos": 4,
+        "wxpos": 23,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1570,11 +1676,12 @@
             966023
         ],
         "cpk-hex": "f090a0",
-        "image":{
+        "image": {
             "title": "Fractions from a cobalt, 7 and 4 grams. Original size in cm: 2 x 2",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Cobalt_ore_2.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/cobalt.php"
-        }
+        },
+        "block": "d"
     },
     "nickel": {
         "name": "Nickel",
@@ -1589,6 +1696,7 @@
         "named_by": null,
         "number": 28,
         "period": 4,
+        "group": 10,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Nickel",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_028_nickel/element_028_nickel_srp_th.png",
@@ -1598,6 +1706,8 @@
         "symbol": "Ni",
         "xpos": 10,
         "ypos": 4,
+        "wxpos": 24,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1639,11 +1749,12 @@
             1039668
         ],
         "cpk-hex": "50d050",
-        "image":{
+        "image": {
             "title": "Nickel Chunk",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nickel_chunk.jpg",
             "attribution": "Materialscientist at English Wikipedia, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "copper": {
         "name": "Copper",
@@ -1658,6 +1769,7 @@
         "named_by": null,
         "number": 29,
         "period": 4,
+        "group": 11,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Copper",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_029_copper/element_029_copper_srp_th.png",
@@ -1667,6 +1779,8 @@
         "symbol": "Cu",
         "xpos": 11,
         "ypos": 4,
+        "wxpos": 25,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1709,11 +1823,12 @@
             1116105
         ],
         "cpk-hex": "c88033",
-        "image":{
+        "image": {
             "title": "Macro of Native Copper about 1 ½ inches (4 cm) in size",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NatCopper.jpg",
             "attribution": "Native_Copper_Macro_Digon3.jpg: 'Jonathan Zander (Digon3)' derivative work: Materialscientist, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "zinc": {
         "name": "Zinc",
@@ -1728,6 +1843,7 @@
         "named_by": null,
         "number": 30,
         "period": 4,
+        "group": 12,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Zinc",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_030_zinc/element_030_zinc_srp_th.png",
@@ -1737,6 +1853,8 @@
         "symbol": "Zn",
         "xpos": 12,
         "ypos": 4,
+        "wxpos": 26,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1771,11 +1889,12 @@
             179100
         ],
         "cpk-hex": "7d80b0",
-        "image":{
+        "image": {
             "title": "30 grams Zinc, front and back side. Original size in cm: 3",
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Zinc_%2830_Zn%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/zinc.php"
-        }
+        },
+        "block": "d"
     },
     "gallium": {
         "name": "Gallium",
@@ -1790,6 +1909,7 @@
         "named_by": null,
         "number": 31,
         "period": 4,
+        "group": 13,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Gallium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_031_gallium/element_031_gallium_srp_th.png",
@@ -1799,6 +1919,8 @@
         "symbol": "Ga",
         "xpos": 13,
         "ypos": 4,
+        "wxpos": 27,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1816,11 +1938,12 @@
             6180
         ],
         "cpk-hex": "c28f8f",
-        "image":{
+        "image": {
             "title": "Solid gallium, fresh and after some time (2 months) at room temperature",
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Solid_gallium_%28Ga%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/gallium.php"
-        }
+        },
+        "block": "p"
     },
     "germanium": {
         "name": "Germanium",
@@ -1835,6 +1958,7 @@
         "named_by": null,
         "number": 32,
         "period": 4,
+        "group": 14,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Germanium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_032_germanium/element_032_germanium_srp_th.png",
@@ -1844,6 +1968,8 @@
         "symbol": "Ge",
         "xpos": 14,
         "ypos": 4,
+        "wxpos": 28,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1862,11 +1988,12 @@
             9020
         ],
         "cpk-hex": "668f8f",
-        "image":{
+        "image": {
             "title": "12 Grams Polycrystalline Germanium, 2*3 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Polycrystalline-germanium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/germanium.php"
-        }
+        },
+        "block": "p"
     },
     "arsenic": {
         "name": "Arsenic",
@@ -1881,6 +2008,7 @@
         "named_by": null,
         "number": 33,
         "period": 4,
+        "group": 15,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Arsenic",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_033_arsenic/element_033_arsenic_srp_th.png",
@@ -1890,6 +2018,8 @@
         "symbol": "As",
         "xpos": 15,
         "ypos": 4,
+        "wxpos": 29,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1909,11 +2039,12 @@
             12310
         ],
         "cpk-hex": "bd80e3",
-        "image":{
+        "image": {
             "title": "Ultrapure Metallic Arsenic under Argon, 1 - 2 grams. Original size of each piece in cm: 0.5 x 1",
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Arsenic_%2833_As%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/arsenic.php"
-        }
+        },
+        "block": "p"
     },
     "selenium": {
         "name": "Selenium",
@@ -1928,6 +2059,7 @@
         "named_by": null,
         "number": 34,
         "period": 4,
+        "group": 16,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Selenium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_034_selenium/element_034_selenium_srp_th.png",
@@ -1937,6 +2069,8 @@
         "symbol": "Se",
         "xpos": 16,
         "ypos": 4,
+        "wxpos": 30,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -1957,11 +2091,12 @@
             14990
         ],
         "cpk-hex": "ffa100",
-        "image":{
+        "image": {
             "title": "Ultrapure Black, Amorphous Selenium, 3 - 4 grams. Original size in cm: 2",
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Selenium.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/selenium.php"
-        }
+        },
+        "block": "p"
     },
     "bromine": {
         "name": "Bromine",
@@ -1976,6 +2111,7 @@
         "named_by": null,
         "number": 35,
         "period": 4,
+        "group": 17,
         "phase": "Liquid",
         "source": "https://en.wikipedia.org/wiki/Bromine",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_035_bromine/element_035_bromine_srp_th.png",
@@ -1985,6 +2121,8 @@
         "symbol": "Br",
         "xpos": 17,
         "ypos": 4,
+        "wxpos": 31,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -2006,11 +2144,12 @@
             18600
         ],
         "cpk-hex": "a62929",
-        "image":{
+        "image": {
             "title": "99.5 % pure liquid Bromine in a 4 x 1 cm big glass ampoule, cast in acrylic",
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bromine-ampoule.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/bromine.php"
-        }
+        },
+        "block": "p"
     },
     "krypton": {
         "name": "Krypton",
@@ -2025,6 +2164,7 @@
         "named_by": null,
         "number": 36,
         "period": 4,
+        "group": 18,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Krypton",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_036_krypton/element_036_krypton_srp_th.png",
@@ -2034,6 +2174,8 @@
         "symbol": "Kr",
         "xpos": 18,
         "ypos": 4,
+        "wxpos": 32,
+        "wypos": 4,
         "shells": [
             2,
             8,
@@ -2077,11 +2219,12 @@
             326200
         ],
         "cpk-hex": "5cb8d1",
-        "image":{
+        "image": {
             "title": "Vial of Glowing Ultrapure Krypton. Original size in cm: 1 x 5.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Krypton-glow.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/krypton.php"
-        }
+        },
+        "block": "p"
     },
     "rubidium": {
         "name": "Rubidium",
@@ -2096,6 +2239,7 @@
         "named_by": null,
         "number": 37,
         "period": 5,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Rubidium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_037_rubidium/element_037_rubidium_srp_th.png",
@@ -2105,6 +2249,8 @@
         "symbol": "Rb",
         "xpos": 1,
         "ypos": 5,
+        "wxpos": 1,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2129,11 +2275,12 @@
             26740
         ],
         "cpk-hex": "702eb0",
-        "image":{
+        "image": {
             "title": "Rubidium Metal Sample",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rb5.JPG",
             "attribution": "Dnn87, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "s"
     },
     "strontium": {
         "name": "Strontium",
@@ -2148,6 +2295,7 @@
         "named_by": null,
         "number": 38,
         "period": 5,
+        "group": 2,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Strontium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_038_strontium/element_038_strontium_srp_th.png",
@@ -2157,6 +2305,8 @@
         "symbol": "Sr",
         "xpos": 2,
         "ypos": 5,
+        "wxpos": 2,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2182,11 +2332,12 @@
             31270
         ],
         "cpk-hex": "00ff00",
-        "image":{
+        "image": {
             "title": "Strontium Pieces under Paraffin Oil.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Strontium-1.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/strontium.php"
-        }
+        },
+        "block": "s"
     },
     "yttrium": {
         "name": "Yttrium",
@@ -2201,6 +2352,7 @@
         "named_by": null,
         "number": 39,
         "period": 5,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Yttrium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_039_yttrium/element_039_yttrium_srp_th.png",
@@ -2210,6 +2362,8 @@
         "symbol": "Y",
         "xpos": 3,
         "ypos": 5,
+        "wxpos": 17,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2236,11 +2390,12 @@
             36090
         ],
         "cpk-hex": "94ffff",
-        "image":{
+        "image": {
             "title": "6,21g Yttrium, Reinheit mindestens 99%.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Piece_of_Yttrium.jpg",
             "attribution": "Jan Anskeit, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "zirconium": {
         "name": "Zirconium",
@@ -2255,6 +2410,7 @@
         "named_by": null,
         "number": 40,
         "period": 5,
+        "group": 4,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Zirconium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_040_zirconium/element_040_zirconium_srp_th.png",
@@ -2264,6 +2420,8 @@
         "symbol": "Zr",
         "xpos": 4,
         "ypos": 5,
+        "wxpos": 18,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2284,11 +2442,12 @@
             9500
         ],
         "cpk-hex": "94e0e0",
-        "image":{
+        "image": {
             "title": "Two pieces of Zirconium, 1 cm each.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zirconium-pieces.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/zirconium.php"
-        }
+        },
+        "block": "d"
     },
     "niobium": {
         "name": "Niobium",
@@ -2303,6 +2462,7 @@
         "named_by": null,
         "number": 41,
         "period": 5,
+        "group": 5,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Niobium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium_srp_th.png",
@@ -2312,6 +2472,8 @@
         "symbol": "Nb",
         "xpos": 5,
         "ypos": 5,
+        "wxpos": 19,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2333,11 +2495,12 @@
             12100
         ],
         "cpk-hex": "73c2c9",
-        "image":{
+        "image": {
             "title": "Niobium strips",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Niobium_strips.JPG",
             "attribution": "Mauro Cateb, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "molybdenum": {
         "name": "Molybdenum",
@@ -2352,6 +2515,7 @@
         "named_by": null,
         "number": 42,
         "period": 5,
+        "group": 6,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Molybdenum",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_042_molybdenum/element_042_molybdenum_srp_th.png",
@@ -2361,6 +2525,8 @@
         "symbol": "Mo",
         "xpos": 6,
         "ypos": 5,
+        "wxpos": 20,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2405,11 +2571,12 @@
             154500
         ],
         "cpk-hex": "54b5b5",
-        "image":{
+        "image": {
             "title": "99.9 Pure Molybdenum Crystal, about 2 x 3 cm, with anodisation color",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Molybdenum.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/molybdenum.php"
-        }
+        },
+        "block": "d"
     },
     "technetium": {
         "name": "Technetium",
@@ -2424,6 +2591,7 @@
         "named_by": null,
         "number": 43,
         "period": 5,
+        "group": 7,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Technetium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_043_technetium/element_043_technetium_srp_th.png",
@@ -2433,6 +2601,8 @@
         "symbol": "Tc",
         "xpos": 7,
         "ypos": 5,
+        "wxpos": 21,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2450,11 +2620,12 @@
             2850
         ],
         "cpk-hex": "3b9e9e",
-        "image":{
+        "image": {
             "title": "Technetium Sample inside a sealed glass ampoule, filled with argon gas. 6x1 mm goldfoil covered with 99Tc powder (electroplated).",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
             "attribution": "GFDL, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "ruthenium": {
         "name": "Ruthenium",
@@ -2469,6 +2640,7 @@
         "named_by": null,
         "number": 44,
         "period": 5,
+        "group": 8,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Ruthenium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_044_ruthenium/element_044_ruthenium_srp_th.png",
@@ -2478,6 +2650,8 @@
         "symbol": "Ru",
         "xpos": 8,
         "ypos": 5,
+        "wxpos": 22,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2495,11 +2669,12 @@
             2747
         ],
         "cpk-hex": "248f8f",
-        "image":{
+        "image": {
             "title": "Ruthenium Crystal, 0.6 grams, 0.6 x 1.3 cm size",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ruthenium_crystal.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/ruthenium.php"
-        }
+        },
+        "block": "d"
     },
     "rhodium": {
         "name": "Rhodium",
@@ -2514,6 +2689,7 @@
         "named_by": null,
         "number": 45,
         "period": 5,
+        "group": 9,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Rhodium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_045_rhodium/element_045_rhodium_srp_th.png",
@@ -2523,6 +2699,8 @@
         "symbol": "Rh",
         "xpos": 9,
         "ypos": 5,
+        "wxpos": 23,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2540,11 +2718,12 @@
             2997
         ],
         "cpk-hex": "0a7d8c",
-        "image":{
+        "image": {
             "title": "Pure Rhodium Bead, 1 gram. Original size in cm: 0.5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rhodium_%28Rh%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/rhodium.php"
-        }
+        },
+        "block": "d"
     },
     "palladium": {
         "name": "Palladium",
@@ -2559,6 +2738,7 @@
         "named_by": null,
         "number": 46,
         "period": 5,
+        "group": 10,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Palladium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_046_palladium/element_046_palladium_srp_th.png",
@@ -2568,6 +2748,8 @@
         "symbol": "Pd",
         "xpos": 10,
         "ypos": 5,
+        "wxpos": 24,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2584,11 +2766,12 @@
             3177
         ],
         "cpk-hex": "006985",
-        "image":{
+        "image": {
             "title": "Palladium Crystal, about 1 gram. Original size in cm: 0.5 x 1",
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/palladium.php"
-        }
+        },
+        "block": "d"
     },
     "silver": {
         "name": "Silver",
@@ -2603,6 +2786,7 @@
         "named_by": null,
         "number": 47,
         "period": 5,
+        "group": 11,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Silver",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_047_silver/element_047_silver_srp_th.png",
@@ -2612,6 +2796,8 @@
         "symbol": "Ag",
         "xpos": 11,
         "ypos": 5,
+        "wxpos": 25,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2629,11 +2815,12 @@
             3361
         ],
         "cpk-hex": "c0c0c0",
-        "image":{
+        "image": {
             "title": "Natural silver nugget, 1 cm long.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Silver-nugget.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: http://images-of-elements.com/silver.php"
-        }
+        },
+        "block": "d"
     },
     "cadmium": {
         "name": "Cadmium",
@@ -2648,6 +2835,7 @@
         "named_by": "Isotopes of cadmium",
         "number": 48,
         "period": 5,
+        "group": 12,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Cadmium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_048_cadmium/element_048_cadmium_srp_th.png",
@@ -2657,6 +2845,8 @@
         "symbol": "Cd",
         "xpos": 12,
         "ypos": 5,
+        "wxpos": 26,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2674,11 +2864,12 @@
             3616
         ],
         "cpk-hex": "ffd98f",
-        "image":{
+        "image": {
             "title": "48 Cd Cadmium",
             "url": "https://images-of-elements.com/cadmium-4.jpg",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/cadmium.php"
-        }
+        },
+        "block": "d"
     },
     "indium": {
         "name": "Indium",
@@ -2693,6 +2884,7 @@
         "named_by": null,
         "number": 49,
         "period": 5,
+        "group": 13,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Indium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_049_indium/element_049_indium_srp_th.png",
@@ -2702,6 +2894,8 @@
         "symbol": "In",
         "xpos": 13,
         "ypos": 5,
+        "wxpos": 27,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2720,11 +2914,12 @@
             5210
         ],
         "cpk-hex": "a67573",
-        "image":{
+        "image": {
             "title": "1.5 x 1.5 cm liquid indium",
             "url": "https://images-of-elements.com/indium-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: http://images-of-elements.com/indium.php"
-        }
+        },
+        "block": "p"
     },
     "tin": {
         "name": "Tin",
@@ -2739,6 +2934,7 @@
         "named_by": null,
         "number": 50,
         "period": 5,
+        "group": 14,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Tin",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin_srp_th.png",
@@ -2748,6 +2944,8 @@
         "symbol": "Sn",
         "xpos": 14,
         "ypos": 5,
+        "wxpos": 28,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2767,11 +2965,12 @@
             7456
         ],
         "cpk-hex": "668080",
-        "image":{
+        "image": {
             "title": "Tin blob",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: http://images-of-elements.com/tin.php"
-        }
+        },
+        "block": "p"
     },
     "antimony": {
         "name": "Antimony",
@@ -2786,6 +2985,7 @@
         "named_by": null,
         "number": 51,
         "period": 5,
+        "group": 15,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Antimony",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_051_antimony/element_051_antimony_srp_th.png",
@@ -2795,6 +2995,8 @@
         "symbol": "Sb",
         "xpos": 15,
         "ypos": 5,
+        "wxpos": 29,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2815,11 +3017,12 @@
             10400
         ],
         "cpk-hex": "9e63b5",
-        "image":{
+        "image": {
             "title": "Antimony crystal, 2 grams, 1 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/antimony.php"
-        }
+        },
+        "block": "p"
     },
     "tellurium": {
         "name": "Tellurium",
@@ -2834,6 +3037,7 @@
         "named_by": null,
         "number": 52,
         "period": 5,
+        "group": 16,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Tellurium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_052_tellurium/element_052_tellurium_srp_th.png",
@@ -2843,6 +3047,8 @@
         "symbol": "Te",
         "xpos": 16,
         "ypos": 5,
+        "wxpos": 30,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2864,11 +3070,12 @@
             13200
         ],
         "cpk-hex": "d47a00",
-        "image":{
+        "image": {
             "title": "Metallic tellurium, diameter 3.5 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tellurium2.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/tellurium.php"
-        }
+        },
+        "block": "p"
     },
     "iodine": {
         "name": "Iodine",
@@ -2883,6 +3090,7 @@
         "named_by": null,
         "number": 53,
         "period": 5,
+        "group": 17,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Iodine",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_053_iodine/element_053_iodine_srp_th.png",
@@ -2892,6 +3100,8 @@
         "symbol": "I",
         "xpos": 17,
         "ypos": 5,
+        "wxpos": 31,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2909,11 +3119,12 @@
             3180
         ],
         "cpk-hex": "940094",
-        "image":{
+        "image": {
             "title": "Iodine Sample",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Iodine-sample.jpg",
             "attribution": "Benjah-bmm27, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "p"
     },
     "xenon": {
         "name": "Xenon",
@@ -2928,6 +3139,7 @@
         "named_by": null,
         "number": 54,
         "period": 5,
+        "group": 18,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Xenon",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_054_xenon/element_054_xenon_srp_th.png",
@@ -2937,6 +3149,8 @@
         "symbol": "Xe",
         "xpos": 18,
         "ypos": 5,
+        "wxpos": 32,
+        "wypos": 5,
         "shells": [
             2,
             8,
@@ -2954,11 +3168,12 @@
             3099.4
         ],
         "cpk-hex": "429eb0",
-        "image":{
+        "image": {
             "title": "Vial of glowing ultrapure xenon. Original size in cm: 1 x 5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Xenon-glow.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/xenon.php"
-        }
+        },
+        "block": "p"
     },
     "cesium": {
         "name": "Cesium",
@@ -2973,6 +3188,7 @@
         "named_by": null,
         "number": 55,
         "period": 6,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Cesium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_055_cesium/element_055_cesium_srp_th.png",
@@ -2982,6 +3198,8 @@
         "symbol": "Cs",
         "xpos": 1,
         "ypos": 6,
+        "wxpos": 1,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3000,11 +3218,12 @@
             3400
         ],
         "cpk-hex": "57178f",
-        "image":{
+        "image": {
             "title": "Cesium/Caesium metal",
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cesium.jpg",
             "attribution": "Dnn87 Contact email: Dnn87yahoo.dk, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "s"
     },
     "barium": {
         "name": "Barium",
@@ -3019,6 +3238,7 @@
         "named_by": null,
         "number": 56,
         "period": 6,
+        "group": 2,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Barium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_056_barium/element_056_barium_srp_th.png",
@@ -3028,6 +3248,8 @@
         "symbol": "Ba",
         "xpos": 2,
         "ypos": 6,
+        "wxpos": 2,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3046,11 +3268,12 @@
             3600
         ],
         "cpk-hex": "00c900",
-        "image":{
+        "image": {
             "title": "1.5 Grams Barium with a Grey Oxide Layer under Argon. Original size in cm: 0.7 x 1",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Barium_%2856_Ba%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/barium.php"
-        }
+        },
+        "block": "s"
     },
     "lanthanum": {
         "name": "Lanthanum",
@@ -3065,6 +3288,7 @@
         "named_by": null,
         "number": 57,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Lanthanum",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_057_lanthanum/element_057_lanthanum_srp_th.png",
@@ -3074,6 +3298,8 @@
         "symbol": "La",
         "xpos": 3,
         "ypos": 9,
+        "wxpos": 3,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3094,11 +3320,12 @@
             5940
         ],
         "cpk-hex": "70d4ff",
-        "image":{
+        "image": {
             "title": "1 cm Big Piece of Pure Lanthanum",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Lanthanum.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lanthanum.php"
-        }
+        },
+        "block": "f"
     },
     "cerium": {
         "name": "Cerium",
@@ -3113,6 +3340,7 @@
         "named_by": null,
         "number": 58,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Cerium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_058_cerium/element_058_cerium_srp_th.png",
@@ -3122,6 +3350,8 @@
         "symbol": "Ce",
         "xpos": 4,
         "ypos": 9,
+        "wxpos": 4,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3143,11 +3373,12 @@
             7490
         ],
         "cpk-hex": "ffffc7",
-        "image":{
+        "image": {
             "title": "Ultrapure Cerium under Argon, 1.5 grams. Original size in cm: 1 x 1",
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cerium2.jpg",
             "attribution": "Jurii, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/cerium.php"
-        }
+        },
+        "block": "f"
     },
     "praseodymium": {
         "name": "Praseodymium",
@@ -3162,6 +3393,7 @@
         "named_by": null,
         "number": 59,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Praseodymium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_059_praseodymium/element_059_praseodymium_srp_th.png",
@@ -3171,6 +3403,8 @@
         "symbol": "Pr",
         "xpos": 5,
         "ypos": 9,
+        "wxpos": 5,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3191,11 +3425,12 @@
             5551
         ],
         "cpk-hex": "d9ffc7",
-        "image":{
+        "image": {
             "title": "1.5 Grams Praseodymium under Argon, 0.5 cm big pieces",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Praseodymium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/praseodymium.php"
-        }
+        },
+        "block": "f"
     },
     "neodymium": {
         "name": "Neodymium",
@@ -3210,6 +3445,7 @@
         "named_by": null,
         "number": 60,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Neodymium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_060_neodymium/element_060_neodymium_srp_th.png",
@@ -3219,6 +3455,8 @@
         "symbol": "Nd",
         "xpos": 6,
         "ypos": 9,
+        "wxpos": 6,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3238,11 +3476,12 @@
             3900
         ],
         "cpk-hex": "c7ffc7",
-        "image":{
+        "image": {
             "title": "Ultrapure Neodymium under Argon, 5 grams. Original length of the large piece in cm: 1",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Neodymium_%2860_Nd%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/neodymium.php"
-        }
+        },
+        "block": "f"
     },
     "promethium": {
         "name": "Promethium",
@@ -3257,6 +3496,7 @@
         "named_by": "Isotopes of promethium",
         "number": 61,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Promethium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_061_promethium/element_061_promethium_srp_th.png",
@@ -3266,6 +3506,8 @@
         "symbol": "Pm",
         "xpos": 7,
         "ypos": 9,
+        "wxpos": 7,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3285,11 +3527,12 @@
             3970
         ],
         "cpk-hex": "a3ffc7",
-        "image":{
+        "image": {
             "title": "Photomontage of what promethium metal might look like (it is too radioactive and real images are not available)",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Promethium.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/promethium.php"
-        }
+        },
+        "block": "f"
     },
     "samarium": {
         "name": "Samarium",
@@ -3304,6 +3547,7 @@
         "named_by": null,
         "number": 62,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Samarium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_062_samarium/element_062_samarium_srp_th.png",
@@ -3313,6 +3557,8 @@
         "symbol": "Sm",
         "xpos": 8,
         "ypos": 9,
+        "wxpos": 8,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3332,11 +3578,12 @@
             3990
         ],
         "cpk-hex": "8fffc7",
-        "image":{
+        "image": {
             "title": "Ultrapure Sublimated Samarium, 2 grams. Original size in cm: 0.8 x 1.5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Samarium-2.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/samarium.php"
-        }
+        },
+        "block": "f"
     },
     "europium": {
         "name": "Europium",
@@ -3351,6 +3598,7 @@
         "named_by": null,
         "number": 63,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Europium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_063_europium/element_063_europium_srp_th.png",
@@ -3360,6 +3608,8 @@
         "symbol": "Eu",
         "xpos": 9,
         "ypos": 9,
+        "wxpos": 9,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3379,11 +3629,12 @@
             4120
         ],
         "cpk-hex": "61ffc7",
-        "image":{
+        "image": {
             "title": "Weakly Oxidized Europium, hence slightly yellowish. 1.5 grams, large piece 0.6 x 1.6 cm.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Europium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/europium.php"
-        }
+        },
+        "block": "f"
     },
     "gadolinium": {
         "name": "Gadolinium",
@@ -3398,6 +3649,7 @@
         "named_by": null,
         "number": 64,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Gadolinium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_064_gadolinium/element_064_gadolinium_srp_th.png",
@@ -3407,6 +3659,8 @@
         "symbol": "Gd",
         "xpos": 10,
         "ypos": 9,
+        "wxpos": 10,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3426,11 +3680,12 @@
             4250
         ],
         "cpk-hex": "45ffc7",
-        "image":{
+        "image": {
             "title": "Pure (99.95%) Amorphous Gadolinium, about 12 grams, 2 × 1.5 × 0.5 cm, cast in acrylic glass",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Gadolinium-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/gadolinium.php"
-        }
+        },
+        "block": "f"
     },
     "terbium": {
         "name": "Terbium",
@@ -3445,6 +3700,7 @@
         "named_by": null,
         "number": 65,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Terbium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_065_terbium/element_065_terbium_srp_th.png",
@@ -3454,6 +3710,8 @@
         "symbol": "Tb",
         "xpos": 11,
         "ypos": 9,
+        "wxpos": 11,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3473,11 +3731,12 @@
             3839
         ],
         "cpk-hex": "30ffc7",
-        "image":{
+        "image": {
             "title": "Pure Terbium, 3 grams. Original size: 1 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/terbium.php"
-        }
+        },
+        "block": "f"
     },
     "dysprosium": {
         "name": "Dysprosium",
@@ -3492,6 +3751,7 @@
         "named_by": null,
         "number": 66,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Dysprosium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_066_dysprosium/element_066_dysprosium_srp_th.png",
@@ -3501,6 +3761,8 @@
         "symbol": "Dy",
         "xpos": 12,
         "ypos": 9,
+        "wxpos": 12,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3520,11 +3782,12 @@
             3990
         ],
         "cpk-hex": "1fffc7",
-        "image":{
+        "image": {
             "title": "Pure Dysprosium Dendrites",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Dysprosium-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/dysprosium.php"
-        }
+        },
+        "block": "f"
     },
     "holmium": {
         "name": "Holmium",
@@ -3539,6 +3802,7 @@
         "named_by": null,
         "number": 67,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Holmium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_067_holmium/element_067_holmium_srp_th.png",
@@ -3548,6 +3812,8 @@
         "symbol": "Ho",
         "xpos": 13,
         "ypos": 9,
+        "wxpos": 13,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3567,11 +3833,12 @@
             4100
         ],
         "cpk-hex": "00ff9c",
-        "image":{
+        "image": {
             "title": "Ultrapure Holmium, 17 grams. Original size in cm: 1.5 x 2.5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holmium2.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/holmium.php"
-        }
+        },
+        "block": "f"
     },
     "erbium": {
         "name": "Erbium",
@@ -3586,6 +3853,7 @@
         "named_by": null,
         "number": 68,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Erbium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_068_erbium/element_068_erbium_srp_th.png",
@@ -3595,6 +3863,8 @@
         "symbol": "Er",
         "xpos": 14,
         "ypos": 9,
+        "wxpos": 14,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3614,11 +3884,12 @@
             4120
         ],
         "cpk-hex": "00e675",
-        "image":{
+        "image": {
             "title": "9.5 Gramms Pure Erbium, 2 x 2 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Erbium-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/erbium.php"
-        }
+        },
+        "block": "f"
     },
     "thulium": {
         "name": "Thulium",
@@ -3633,6 +3904,7 @@
         "named_by": null,
         "number": 69,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Thulium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_069_thulium/element_069_thulium_srp_th.png",
@@ -3642,6 +3914,8 @@
         "symbol": "Tm",
         "xpos": 15,
         "ypos": 9,
+        "wxpos": 15,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3661,11 +3935,12 @@
             4120
         ],
         "cpk-hex": "00d452",
-        "image":{
+        "image": {
             "title": "Ultrapure (99.997%) Crystalline Thulium, 22.3 grams, 3 × 3 × 2 cm in size",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Thulium-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/thulium.php"
-        }
+        },
+        "block": "f"
     },
     "ytterbium": {
         "name": "Ytterbium",
@@ -3680,6 +3955,7 @@
         "named_by": null,
         "number": 70,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Ytterbium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_070_ytterbium/element_070_ytterbium_srp_th.png",
@@ -3689,6 +3965,8 @@
         "symbol": "Yb",
         "xpos": 16,
         "ypos": 9,
+        "wxpos": 16,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3708,11 +3986,12 @@
             4203
         ],
         "cpk-hex": "00bf38",
-        "image":{
+        "image": {
             "title": "Ytterbium, 0.5 x 1 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ytterbium-3.jpg",
             "attribution": "Jurii, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/ytterbium.php"
-        }
+        },
+        "block": "f"
     },
     "lutetium": {
         "name": "Lutetium",
@@ -3727,6 +4006,7 @@
         "named_by": null,
         "number": 71,
         "period": 6,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Lutetium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_071_lutetium/element_071_lutetium_srp_th.png",
@@ -3736,6 +4016,8 @@
         "symbol": "Lu",
         "xpos": 17,
         "ypos": 9,
+        "wxpos": 17,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3756,11 +4038,12 @@
             6445
         ],
         "cpk-hex": "00ab24",
-        "image":{
+        "image": {
             "title": "1 cm Big Piece of Pure Lutetium",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lutetium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lutetium.php"
-        }
+        },
+        "block": "f"
     },
     "hafnium": {
         "name": "Hafnium",
@@ -3775,6 +4058,7 @@
         "named_by": null,
         "number": 72,
         "period": 6,
+        "group": 4,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Hafnium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_072_hafnium/element_072_hafnium_srp_th.png",
@@ -3784,6 +4068,8 @@
         "symbol": "Hf",
         "xpos": 4,
         "ypos": 6,
+        "wxpos": 18,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3803,11 +4089,12 @@
             3216
         ],
         "cpk-hex": "4dc2ff",
-        "image":{
+        "image": {
             "title": "Electrolytic Hafnium, 22 grams. Original size in cm: 1 x 2 x 3",
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Hafnium_%2872_Hf%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/hafnium.php"
-        }
+        },
+        "block": "d"
     },
     "tantalum": {
         "name": "Tantalum",
@@ -3822,6 +4109,7 @@
         "named_by": null,
         "number": 73,
         "period": 6,
+        "group": 5,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Tantalum",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_073_tantalum/element_073_tantalum_srp_th.png",
@@ -3831,6 +4119,8 @@
         "symbol": "Ta",
         "xpos": 5,
         "ypos": 6,
+        "wxpos": 19,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3848,11 +4138,12 @@
             1500
         ],
         "cpk-hex": "4da6ff",
-        "image":{
+        "image": {
             "title": "Piece of tantalum, 1 cm in size",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Tantalum.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/tantalum.php"
-        }
+        },
+        "block": "d"
     },
     "tungsten": {
         "name": "Tungsten",
@@ -3867,6 +4158,7 @@
         "named_by": null,
         "number": 74,
         "period": 6,
+        "group": 6,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Tungsten",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_074_tungsten/element_074_tungsten_srp_th.png",
@@ -3876,6 +4168,8 @@
         "symbol": "W",
         "xpos": 6,
         "ypos": 6,
+        "wxpos": 20,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3893,11 +4187,12 @@
             1700
         ],
         "cpk-hex": "2194d6",
-        "image":{
+        "image": {
             "title": "Tungsten rod with oxidised surface, 80 grams. Original size in cm: 1.3 x 3",
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Tungsten_rod_with_oxidised_surface.jpg",
             "attribution": "Jurii, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/tungsten.php"
-        }
+        },
+        "block": "d"
     },
     "rhenium": {
         "name": "Rhenium",
@@ -3912,6 +4207,7 @@
         "named_by": "Walter Noddack",
         "number": 75,
         "period": 6,
+        "group": 7,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Rhenium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_075_rhenium/element_075_rhenium_srp_th.png",
@@ -3921,6 +4217,8 @@
         "symbol": "Re",
         "xpos": 7,
         "ypos": 6,
+        "wxpos": 21,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3940,12 +4238,12 @@
             3640
         ],
         "cpk-hex": "267dab",
-        "image":{
+        "image": {
             "title": "Pure Rhenium Bead, arc melted, 21 grams. Original size in cm: 1.5 x 1.7. Measured radiation dose <0.05 μS/h.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pure_rhenium_bead%2C_arc_melted%2C_21_grams._Original_size_in_cm_-_1.5_x_1.7.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/rhenium.php"
-        }
-        
+        },
+        "block": "d"
     },
     "osmium": {
         "name": "Osmium",
@@ -3960,6 +4258,7 @@
         "named_by": null,
         "number": 76,
         "period": 6,
+        "group": 8,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Osmium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_076_osmium/element_076_osmium_srp_th.png",
@@ -3969,6 +4268,8 @@
         "symbol": "Os",
         "xpos": 8,
         "ypos": 6,
+        "wxpos": 22,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -3986,11 +4287,12 @@
             1600
         ],
         "cpk-hex": "266696",
-        "image":{
+        "image": {
             "title": "Pure Osmium Bead",
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Osmium-bead.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/osmium.php"
-        }
+        },
+        "block": "d"
     },
     "iridium": {
         "name": "Iridium",
@@ -4005,6 +4307,7 @@
         "named_by": null,
         "number": 77,
         "period": 6,
+        "group": 9,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Iridium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_077_iridium/element_077_iridium_srp_th.png",
@@ -4014,6 +4317,8 @@
         "symbol": "Ir",
         "xpos": 9,
         "ypos": 6,
+        "wxpos": 23,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4031,11 +4336,12 @@
             1600
         ],
         "cpk-hex": "175487",
-        "image":{
+        "image": {
             "title": "Pieces of Pure Iridium, 1 gram. Original size: 0.1 - 0.3 cm each",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iridium-2.jpg",
             "attribution": "Unknown authorUnknown author, CC BY 1.0 <https://creativecommons.org/licenses/by/1.0>, via Wikimedia Commons, source: https://images-of-elements.com/iridium.php"
-        }
+        },
+        "block": "d"
     },
     "platinum": {
         "name": "Platinum",
@@ -4050,6 +4356,7 @@
         "named_by": null,
         "number": 78,
         "period": 6,
+        "group": 10,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Platinum",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_078_platinum/element_078_platinum_srp_th.png",
@@ -4059,6 +4366,8 @@
         "symbol": "Pt",
         "xpos": 10,
         "ypos": 6,
+        "wxpos": 24,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4076,11 +4385,12 @@
             1791
         ],
         "cpk-hex": "d0d0e0",
-        "image":{
+        "image": {
             "title": "Crystals of Pure Platinum grown by gas phase transport",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
             "attribution": "Periodictableru, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "d"
     },
     "gold": {
         "name": "Gold",
@@ -4095,6 +4405,7 @@
         "named_by": null,
         "number": 79,
         "period": 6,
+        "group": 11,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Gold",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_079_gold/element_079_gold_srp_th.png",
@@ -4104,6 +4415,8 @@
         "symbol": "Au",
         "xpos": 11,
         "ypos": 6,
+        "wxpos": 25,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4121,11 +4434,12 @@
             1980
         ],
         "cpk-hex": "ffd123",
-        "image":{
+        "image": {
             "title": "Ultrapure Gold Leaf",
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gold_%2879_Au%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/gold.php"
-        }
+        },
+        "block": "d"
     },
     "mercury": {
         "name": "Mercury",
@@ -4140,6 +4454,7 @@
         "named_by": null,
         "number": 80,
         "period": 6,
+        "group": 12,
         "phase": "Liquid",
         "source": "https://en.wikipedia.org/wiki/Mercury (Element)",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_080_mercury/element_080_mercury_srp_th.png",
@@ -4149,6 +4464,8 @@
         "symbol": "Hg",
         "xpos": 12,
         "ypos": 6,
+        "wxpos": 26,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4167,11 +4484,12 @@
             3300
         ],
         "cpk-hex": "b8b8d0",
-        "image":{
+        "image": {
             "title": "6 grams pure mercury. Diameter of the inner disc: 2 cm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hydrargyrum_%2880_Hg%29.jpg",
             "attribution": "Hi-Res Images of Chemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/mercury.php"
-        }
+        },
+        "block": "d"
     },
     "thallium": {
         "name": "Thallium",
@@ -4186,6 +4504,7 @@
         "named_by": null,
         "number": 81,
         "period": 6,
+        "group": 13,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Thallium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_081_thallium/element_081_thallium_srp_th.png",
@@ -4195,6 +4514,8 @@
         "symbol": "Tl",
         "xpos": 13,
         "ypos": 6,
+        "wxpos": 27,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4213,11 +4534,12 @@
             2878
         ],
         "cpk-hex": "a6544d",
-        "image":{
+        "image": {
             "title": "8 grams pure thallium under argon. Original size in cm: 0.7 x 1.5",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Thallium_%2881_Tl%29.jpg",
             "attribution": "Hi-Res Images ofChemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/thallium.php"
-        }
+        },
+        "block": "p"
     },
     "lead": {
         "name": "Lead",
@@ -4232,6 +4554,7 @@
         "named_by": null,
         "number": 82,
         "period": 6,
+        "group": 14,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Lead_(element)",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_082_lead/element_082_lead_srp_th.png",
@@ -4241,6 +4564,8 @@
         "symbol": "Pb",
         "xpos": 14,
         "ypos": 6,
+        "wxpos": 28,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4261,11 +4586,12 @@
             6640
         ],
         "cpk-hex": "575961",
-        "image":{
+        "image": {
             "title": "Ultrapure Lead Bead from two sides. Original size in cm: 1.5 x 2",
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lead-2.jpg",
             "attribution": "Chemical Elements, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lead.php"
-        }
+        },
+        "block": "p"
     },
     "bismuth": {
         "name": "Bismuth",
@@ -4280,6 +4606,7 @@
         "named_by": null,
         "number": 83,
         "period": 6,
+        "group": 15,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Bismuth",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_083_bismuth/element_083_bismuth_srp_th.png",
@@ -4289,6 +4616,8 @@
         "symbol": "Bi",
         "xpos": 15,
         "ypos": 6,
+        "wxpos": 29,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4310,11 +4639,12 @@
             8520
         ],
         "cpk-hex": "9e4fb5",
-        "image":{
+        "image": {
             "title": "Bismuth Crystal",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bismuth-2.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/bismuth.php"
-        }
+        },
+        "block": "p"
     },
     "polonium": {
         "name": "Polonium",
@@ -4329,6 +4659,7 @@
         "named_by": null,
         "number": 84,
         "period": 6,
+        "group": 16,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Polonium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_084_polonium/element_084_polonium_srp_th.png",
@@ -4338,6 +4669,8 @@
         "symbol": "Po",
         "xpos": 16,
         "ypos": 6,
+        "wxpos": 30,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4354,11 +4687,12 @@
             812.1
         ],
         "cpk-hex": "ab5c00",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not polonium itself. A silvery, radioactive metal, producing so much heat that it gets liquid and ionizes the surrounding air",
             "url": "https://images-of-elements.com/polonium.jpg",
             "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/polonium.php"
-        }
+        },
+        "block": "p"
     },
     "astatine": {
         "name": "Astatine",
@@ -4373,6 +4707,7 @@
         "named_by": null,
         "number": 85,
         "period": 6,
+        "group": 17,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Astatine",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_085_astatine/element_085_astatine_srp_th.png",
@@ -4382,6 +4717,8 @@
         "symbol": "At",
         "xpos": 17,
         "ypos": 6,
+        "wxpos": 31,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4398,11 +4735,12 @@
             899.003
         ],
         "cpk-hex": "754f45",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not astatine itself. Crystals similar to iodine, but darker in color than these, which due to the extreme radioactivity glow blue and evaporate to dark purple gas",
             "url": "https://images-of-elements.com/astatine.jpg",
             "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/astatine.php"
-        }
+        },
+        "block": "p"
     },
     "radon": {
         "name": "Radon",
@@ -4417,6 +4755,7 @@
         "named_by": null,
         "number": 86,
         "period": 6,
+        "group": 18,
         "phase": "Gas",
         "source": "https://en.wikipedia.org/wiki/Radon",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_086_radon/element_086_radon_srp_th.png",
@@ -4426,6 +4765,8 @@
         "symbol": "Rn",
         "xpos": 18,
         "ypos": 6,
+        "wxpos": 32,
+        "wypos": 6,
         "shells": [
             2,
             8,
@@ -4442,11 +4783,12 @@
             1037
         ],
         "cpk-hex": "428296",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not radon itself. Radon is said to glow red in discharge tubes, although it practically is never used for this, due to its strong radioactivity.",
             "url": "https://images-of-elements.com/radon.jpg",
             "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/radon.php"
-        }
+        },
+        "block": "p"
     },
     "francium": {
         "name": "Francium",
@@ -4461,6 +4803,7 @@
         "named_by": null,
         "number": 87,
         "period": 7,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Francium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_087_francium/element_087_francium_srp_th.png",
@@ -4470,6 +4813,8 @@
         "symbol": "Fr",
         "xpos": 1,
         "ypos": 7,
+        "wxpos": 1,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4487,11 +4832,12 @@
             380
         ],
         "cpk-hex": "420066",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not francium itself.",
             "url": "https://images-of-elements.com/francium.jpg",
             "attribution": "Chemical ELements A Virtual Museum, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0> source: https://images-of-elements.com/francium.jpg"
-        }
+        },
+        "block": "s"
     },
     "radium": {
         "name": "Radium",
@@ -4506,6 +4852,7 @@
         "named_by": null,
         "number": 88,
         "period": 7,
+        "group": 2,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Radium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_088_radium/element_088_radium_srp_th.png",
@@ -4515,6 +4862,8 @@
         "symbol": "Ra",
         "xpos": 2,
         "ypos": 7,
+        "wxpos": 2,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4533,11 +4882,12 @@
             979
         ],
         "cpk-hex": "007d00",
-        "image":{
+        "image": {
             "title": "Radium electroplated on a very small sample of copper foil and covered with polyurethane to prevent reaction with the air",
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
             "attribution": "grenadier, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "s"
     },
     "actinium": {
         "name": "Actinium",
@@ -4552,6 +4902,7 @@
         "named_by": null,
         "number": 89,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Actinium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_089_actinium/element_089_actinium_srp_th.png",
@@ -4561,6 +4912,8 @@
         "symbol": "Ac",
         "xpos": 3,
         "ypos": 10,
+        "wxpos": 3,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4579,11 +4932,12 @@
             1170
         ],
         "cpk-hex": "70abfa",
-        "image":{
+        "image": {
             "title": "Actinium-225 medical radioisotope held in a v-vial at ORNL. The blue glow comes from the ionization of surrounding air by alpha particles",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
             "attribution": "Oak Ridge National Laboratory, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons, source: https://www.flickr.com/photos/oakridgelab/31481701837/"
-        }
+        },
+        "block": "f"
     },
     "thorium": {
         "name": "Thorium",
@@ -4598,6 +4952,7 @@
         "named_by": null,
         "number": 90,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Thorium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_090_thorium/element_090_thorium_srp_th.png",
@@ -4607,6 +4962,8 @@
         "symbol": "Th",
         "xpos": 4,
         "ypos": 10,
+        "wxpos": 4,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4627,11 +4984,12 @@
             2780
         ],
         "cpk-hex": "00baff",
-        "image":{
+        "image": {
             "title": "Thorium Metal in Ampoule, corroded",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Thorium-1.jpg",
             "attribution": "W. Oelen, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "protactinium": {
         "name": "Protactinium",
@@ -4646,6 +5004,7 @@
         "named_by": "Otto Hahn",
         "number": 91,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Protactinium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_091_protactinium/element_091_protactinium_srp_th.png",
@@ -4655,6 +5014,8 @@
         "symbol": "Pa",
         "xpos": 5,
         "ypos": 10,
+        "wxpos": 5,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4672,11 +5033,12 @@
             568
         ],
         "cpk-hex": "00a1ff",
-        "image":{
+        "image": {
             "title": "This sample of Protactinium-233 (dark circular area in the photo) was photographed in the light from its own radioactive emission (the lighter area) at the National Reactor Testing Station in Idaho.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
             "attribution": "ENERGY.GOV, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "uranium": {
         "name": "Uranium",
@@ -4691,6 +5053,7 @@
         "named_by": null,
         "number": 92,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Uranium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_092_uranium/element_092_uranium_srp_th.png",
@@ -4700,6 +5063,8 @@
         "symbol": "U",
         "xpos": 6,
         "ypos": 10,
+        "wxpos": 6,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4718,11 +5083,12 @@
             1420
         ],
         "cpk-hex": "008fff",
-        "image":{
+        "image": {
             "title": "A biscuit of uranium metal after reduction via the Ames Process. c.1943.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ames_Process_uranium_biscuit.jpg",
             "attribution": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "neptunium": {
         "name": "Neptunium",
@@ -4737,6 +5103,7 @@
         "named_by": null,
         "number": 93,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Neptunium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_093_neptunium/element_093_neptunium_srp_th.png",
@@ -4746,6 +5113,8 @@
         "symbol": "Np",
         "xpos": 7,
         "ypos": 10,
+        "wxpos": 7,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4763,11 +5132,12 @@
             604.5
         ],
         "cpk-hex": "0080ff",
-        "image":{
+        "image": {
             "title": "Neptunium 237 sphere (6 kg)",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Neptunium2.jpg",
             "attribution": "Los Alamos National Laboratory,, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "plutonium": {
         "name": "Plutonium",
@@ -4782,6 +5152,7 @@
         "named_by": null,
         "number": 94,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Plutonium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_094_plutonium/element_094_plutonium_srp_th.png",
@@ -4791,6 +5162,8 @@
         "symbol": "Pu",
         "xpos": 8,
         "ypos": 10,
+        "wxpos": 8,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4808,11 +5181,12 @@
             584.7
         ],
         "cpk-hex": "006bff",
-        "image":{
+        "image": {
             "title": "Plutonium Ring",
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
             "attribution": "Los Alamos National Laboratory, Attribution, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "americium": {
         "name": "Americium",
@@ -4827,6 +5201,7 @@
         "named_by": null,
         "number": 95,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Americium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_095_americium/element_095_americium_srp_th.png",
@@ -4836,6 +5211,8 @@
         "symbol": "Am",
         "xpos": 9,
         "ypos": 10,
+        "wxpos": 9,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4853,11 +5230,12 @@
             578
         ],
         "cpk-hex": "545cf2",
-        "image":{
+        "image": {
             "title": "A small disc of Am-241 under the microscope.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
             "attribution": "Bionerd, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "curium": {
         "name": "Curium",
@@ -4872,6 +5250,7 @@
         "named_by": null,
         "number": 96,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Curium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_096_curium/element_096_curium_srp_th.png",
@@ -4881,6 +5260,8 @@
         "symbol": "Cm",
         "xpos": 10,
         "ypos": 10,
+        "wxpos": 10,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4898,11 +5279,12 @@
             581
         ],
         "cpk-hex": "785ce3",
-        "image":{
+        "image": {
             "title": "A piece of curium, which emitts strong radiation that makes it glow",
             "url": "https://images-of-elements.com/s/curium-glow.jpg",
             "attribution": "European Union, The Actinide Group, Institute for Transuranium Elements (JRC-ITU), source: https://images-of-elements.com/curium.php"
-        }
+        },
+        "block": "f"
     },
     "berkelium": {
         "name": "Berkelium",
@@ -4917,6 +5299,7 @@
         "named_by": null,
         "number": 97,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Berkelium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_097_berkelium/element_097_berkelium_srp_th.png",
@@ -4926,6 +5309,8 @@
         "symbol": "Bk",
         "xpos": 11,
         "ypos": 10,
+        "wxpos": 11,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4943,11 +5328,12 @@
             601
         ],
         "cpk-hex": "8a4fe3",
-        "image":{
+        "image": {
             "title": "It took 250 days to make enough berkelium, shown here (in dissolved state), to synthesize element 117",
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Berkelium.jpg",
             "attribution": "ORNL, Department of Energy, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "californium": {
         "name": "Californium",
@@ -4962,6 +5348,7 @@
         "named_by": null,
         "number": 98,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Californium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_098_californium/element_098_californium_srp_th.png",
@@ -4971,6 +5358,8 @@
         "symbol": "Cf",
         "xpos": 12,
         "ypos": 10,
+        "wxpos": 12,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -4988,11 +5377,12 @@
             608
         ],
         "cpk-hex": "a136d4",
-        "image":{
+        "image": {
             "title": "A disc of californium metal (249Cf, 10 mg). The source implies that the disc has a diameter about twice the thickness of a typical pin, or on the order of 1 mm",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
             "attribution": "United States Department of Energy (see File:Einsteinium.jpg), Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "einsteinium": {
         "name": "Einsteinium",
@@ -5007,6 +5397,7 @@
         "named_by": null,
         "number": 99,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Einsteinium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_099_einsteinium/element_099_einsteinium_srp_th.png",
@@ -5016,6 +5407,8 @@
         "symbol": "Es",
         "xpos": 13,
         "ypos": 10,
+        "wxpos": 13,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5033,11 +5426,12 @@
             619
         ],
         "cpk-hex": "b31fd4",
-        "image":{
+        "image": {
             "title": "300 micrograms of Einsteinium 253, which has a half-life of 20 days.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
             "attribution": "Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia., Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "fermium": {
         "name": "Fermium",
@@ -5052,6 +5446,7 @@
         "named_by": null,
         "number": 100,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Fermium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_100_fermium/element_100_fermium_srp_th.png",
@@ -5061,6 +5456,8 @@
         "symbol": "Fm",
         "xpos": 14,
         "ypos": 10,
+        "wxpos": 14,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5078,11 +5475,12 @@
             627
         ],
         "cpk-hex": "b31fba",
-        "image":{
+        "image": {
             "title": "Fermium was first observed in the fallout from the Ivy Mike nuclear test.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ivy_Mike_-_mushroom_cloud.jpg",
             "attribution": "U.S. Department of Energy, Public domain, via Wikimedia Commons"
-        }
+        },
+        "block": "f"
     },
     "mendelevium": {
         "name": "Mendelevium",
@@ -5097,6 +5495,7 @@
         "named_by": null,
         "number": 101,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Mendelevium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_101_mendelevium/element_101_mendelevium_srp_th.png",
@@ -5106,6 +5505,8 @@
         "symbol": "Md",
         "xpos": 15,
         "ypos": 10,
+        "wxpos": 15,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5123,11 +5524,12 @@
             635
         ],
         "cpk-hex": "b30da6",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not mendelevium itself. Chemically similar to Thulium, the highly radioactive heavy metal emits very energetic α-radiation.",
             "url": "https://images-of-elements.com/s/mendelevium.jpg",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/mendelevium.php"
-        }
+        },
+        "block": "f"
     },
     "nobelium": {
         "name": "Nobelium",
@@ -5142,6 +5544,7 @@
         "named_by": null,
         "number": 102,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Nobelium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_102_nobelium/element_102_nobelium_srp_th.png",
@@ -5151,6 +5554,8 @@
         "symbol": "No",
         "xpos": 16,
         "ypos": 10,
+        "wxpos": 16,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5168,11 +5573,12 @@
             642
         ],
         "cpk-hex": "bd0d87",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not nobelium itself. Nobelium can only be made in very small amounts and emits strong radiation of various kinds.",
             "url": "https://images-of-elements.com/nobelium.jpg",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/nobelium.php"
-        }
+        },
+        "block": "f"
     },
     "lawrencium": {
         "name": "Lawrencium",
@@ -5187,6 +5593,7 @@
         "named_by": null,
         "number": 103,
         "period": 7,
+        "group": 3,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Lawrencium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_103_lawrencium/element_103_lawrencium_srp_th.png",
@@ -5196,6 +5603,8 @@
         "symbol": "Lr",
         "xpos": 17,
         "ypos": 10,
+        "wxpos": 17,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5213,11 +5622,12 @@
             470
         ],
         "cpk-hex": "c70066",
-        "image":{
+        "image": {
             "title": "This is only an illustration, not lawrencium itself. Lawrencium can only be made in very small amounts and emits strong radiation",
             "url": "https://images-of-elements.com/lawrencium.jpg",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/lawrencium.php"
-        }
+        },
+        "block": "f"
     },
     "rutherfordium": {
         "name": "Rutherfordium",
@@ -5232,6 +5642,7 @@
         "named_by": null,
         "number": 104,
         "period": 7,
+        "group": 4,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Rutherfordium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_104_rutherfordium/element_104_rutherfordium_srp_th.png",
@@ -5241,6 +5652,8 @@
         "symbol": "Rf",
         "xpos": 4,
         "ypos": 7,
+        "wxpos": 18,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5258,11 +5671,12 @@
             580
         ],
         "cpk-hex": "cc0059",
-        "image":{
+        "image": {
             "title": "Decay traces in a spark chamber, not of rutherfordium, but of a pion. This is a completely different, unrelated particle, but the decay of rutherfordium would make streaks there, too.",
             "url": "https://images-of-elements.com/s/rutherfordium.jpg",
             "attribution": "Image © CERN, Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/rutherfordium.php"
-        }
+        },
+        "block": "d"
     },
     "dubnium": {
         "name": "Dubnium",
@@ -5277,6 +5691,7 @@
         "named_by": null,
         "number": 105,
         "period": 7,
+        "group": 5,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Dubnium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_105_dubnium/element_105_dubnium_srp_th.png",
@@ -5286,6 +5701,8 @@
         "symbol": "Db",
         "xpos": 5,
         "ypos": 7,
+        "wxpos": 19,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5301,11 +5718,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "d1004f",
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/dubnium.php"
-        }
+        },
+        "block": "d"
     },
     "seaborgium": {
         "name": "Seaborgium",
@@ -5320,6 +5738,7 @@
         "named_by": null,
         "number": 106,
         "period": 7,
+        "group": 6,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Seaborgium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_106_seaborgium/element_106_seaborgium_srp_th.png",
@@ -5329,6 +5748,8 @@
         "symbol": "Sg",
         "xpos": 6,
         "ypos": 7,
+        "wxpos": 20,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5344,11 +5765,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "d90045",
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/seaborgium.php"
-        }
+        },
+        "block": "d"
     },
     "bohrium": {
         "name": "Bohrium",
@@ -5363,6 +5785,7 @@
         "named_by": null,
         "number": 107,
         "period": 7,
+        "group": 7,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Bohrium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_107_bohrium/element_107_bohrium_srp_th.png",
@@ -5372,6 +5795,8 @@
         "symbol": "Bh",
         "xpos": 7,
         "ypos": 7,
+        "wxpos": 21,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5387,11 +5812,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "e00038",
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/bohrium.php"
-        }
+        },
+        "block": "d"
     },
     "hassium": {
         "name": "Hassium",
@@ -5406,6 +5832,7 @@
         "named_by": null,
         "number": 108,
         "period": 7,
+        "group": 8,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Hassium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_108_hassium/element_108_hassium_srp_th.png",
@@ -5415,6 +5842,8 @@
         "symbol": "Hs",
         "xpos": 8,
         "ypos": 7,
+        "wxpos": 22,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5430,11 +5859,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "e6002e",
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/hassium.php"
-        }
+        },
+        "block": "d"
     },
     "meitnerium": {
         "name": "Meitnerium",
@@ -5449,6 +5879,7 @@
         "named_by": null,
         "number": 109,
         "period": 7,
+        "group": 9,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Meitnerium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_109_meitnerium/element_109_meitnerium_srp_th.png",
@@ -5458,6 +5889,8 @@
         "symbol": "Mt",
         "xpos": 9,
         "ypos": 7,
+        "wxpos": 23,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5473,11 +5906,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "eb0026",
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/meitnerium.php"
-        }
+        },
+        "block": "d"
     },
     "darmstadtium": {
         "name": "Darmstadtium",
@@ -5492,6 +5926,7 @@
         "named_by": null,
         "number": 110,
         "period": 7,
+        "group": 10,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Darmstadtium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium_srp_th.png",
@@ -5501,6 +5936,8 @@
         "symbol": "Ds",
         "xpos": 10,
         "ypos": 7,
+        "wxpos": 24,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5516,11 +5953,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/darmstadtium.php"
-        }
+        },
+        "block": "d"
     },
     "roentgenium": {
         "name": "Roentgenium",
@@ -5535,6 +5973,7 @@
         "named_by": null,
         "number": 111,
         "period": 7,
+        "group": 11,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Roentgenium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_111_roentgenium/element_111_roentgenium_srp_th.png",
@@ -5544,6 +5983,8 @@
         "symbol": "Rg",
         "xpos": 11,
         "ypos": 7,
+        "wxpos": 25,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5559,18 +6000,19 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/roentgenium.php"
-        }
+        },
+        "block": "d"
     },
     "copernicium": {
         "name": "Copernicium",
         "appearance": null,
         "atomic_mass": 285,
         "boil": 3570,
-        "category": "unknown",
+        "category": "transition metal",
         "density": 14,
         "discovered_by": "Gesellschaft für Schwerionenforschung",
         "melt": null,
@@ -5578,6 +6020,7 @@
         "named_by": null,
         "number": 112,
         "period": 7,
+        "group": 12,
         "phase": "Liquid",
         "source": "https://en.wikipedia.org/wiki/Copernicium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_112_copernicium/element_112_copernicium_srp_th.png",
@@ -5587,6 +6030,8 @@
         "symbol": "Cn",
         "xpos": 12,
         "ypos": 7,
+        "wxpos": 26,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5602,11 +6047,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/copernicium.php"
-        }
+        },
+        "block": "d"
     },
     "nihonium": {
         "name": "Nihonium",
@@ -5621,6 +6067,7 @@
         "named_by": null,
         "number": 113,
         "period": 7,
+        "group": 13,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Ununtrium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_113_nihonium/element_113_nihonium_srp_th.png",
@@ -5630,6 +6077,8 @@
         "symbol": "Nh",
         "xpos": 13,
         "ypos": 7,
+        "wxpos": 27,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5645,18 +6094,19 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/nihonium.php"
-        }
+        },
+        "block": "p"
     },
     "flerovium": {
         "name": "Flerovium",
         "appearance": null,
         "atomic_mass": 289,
         "boil": 420,
-        "category": "unknown",
+        "category": "post-transition metal",
         "density": 14,
         "discovered_by": "Joint Institute for Nuclear Research",
         "melt": 340,
@@ -5664,6 +6114,7 @@
         "named_by": null,
         "number": 114,
         "period": 7,
+        "group": 14,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Flerovium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium_srp_th.png",
@@ -5673,6 +6124,8 @@
         "symbol": "Fl",
         "xpos": 14,
         "ypos": 7,
+        "wxpos": 28,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5688,11 +6141,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/flerovium.php"
-        }
+        },
+        "block": "p"
     },
     "moscovium": {
         "name": "Moscovium",
@@ -5707,6 +6161,7 @@
         "named_by": null,
         "number": 115,
         "period": 7,
+        "group": 15,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Ununpentium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_115_moscovium/element_115_moscovium_srp_th.png",
@@ -5716,6 +6171,8 @@
         "symbol": "Mc",
         "xpos": 15,
         "ypos": 7,
+        "wxpos": 29,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5731,11 +6188,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/moscovium.php"
-        }
+        },
+        "block": "p"
     },
     "livermorium": {
         "name": "Livermorium",
@@ -5750,6 +6208,7 @@
         "named_by": null,
         "number": 116,
         "period": 7,
+        "group": 16,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Livermorium",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium_srp_th.png",
@@ -5759,6 +6218,8 @@
         "symbol": "Lv",
         "xpos": 16,
         "ypos": 7,
+        "wxpos": 30,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5774,11 +6235,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/livermorium.php"
-        }
+        },
+        "block": "p"
     },
     "tennessine": {
         "name": "Tennessine",
@@ -5793,6 +6255,7 @@
         "named_by": null,
         "number": 117,
         "period": 7,
+        "group": 17,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Tennessine",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine_srp_th.png",
@@ -5802,6 +6265,8 @@
         "symbol": "Ts",
         "xpos": 17,
         "ypos": 7,
+        "wxpos": 31,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5817,12 +6282,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/tenessine.php"
-        }
-        
+        },
+        "block": "p"
     },
     "oganesson": {
         "name": "Oganesson",
@@ -5837,6 +6302,7 @@
         "named_by": null,
         "number": 118,
         "period": 7,
+        "group": 18,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Oganesson",
         "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson_srp_th.png",
@@ -5846,6 +6312,8 @@
         "symbol": "Og",
         "xpos": 18,
         "ypos": 7,
+        "wxpos": 32,
+        "wypos": 7,
         "shells": [
             2,
             8,
@@ -5861,11 +6329,12 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/oganesson.php"
-        }
+        },
+        "block": "p"
     },
     "ununennium": {
         "name": "Ununennium",
@@ -5880,6 +6349,7 @@
         "named_by": null,
         "number": 119,
         "period": 8,
+        "group": 1,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Ununennium",
         "bohr_model_image": null,
@@ -5889,6 +6359,8 @@
         "symbol": "Uue",
         "xpos": 1,
         "ypos": 8,
+        "wxpos": 1,
+        "wypos": 8,
         "shells": [
             2,
             8,
@@ -5905,11 +6377,11 @@
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
-        "image":{
+        "image": {
             "title": "No Image Found",
             "url": "https://images-of-elements.com/s/transactinoid.png",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com"
-        }
+        },
+        "block": "s"
     }
-    
 }

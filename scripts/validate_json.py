@@ -7,8 +7,8 @@ to the template in the 'schemas' directory.
 import json
 import jsonschema
 
-PERIODIC_TABLE_JSON = "periodicTableJSON.json"
-PERIODIC_TABLE_SCHEMA = "schemas/periodicTableJSON.schema"
+PERIODIC_TABLE_JSON = "../PeriodicTableJSON.json"
+PERIODIC_TABLE_SCHEMA = "../schemas/periodicTableJSON.schema"
 
 print(f"Validating {PERIODIC_TABLE_JSON} against {PERIODIC_TABLE_SCHEMA}")
 with open(PERIODIC_TABLE_JSON) as jfile, open(PERIODIC_TABLE_SCHEMA) as sfile:

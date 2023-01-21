@@ -4043,7 +4043,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lutetium.jpg",
             "attribution": "Jurii, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, source: https://images-of-elements.com/lutetium.php"
         },
-        "block": "f"
+        "block": "d"
     },
     "hafnium": {
         "name": "Hafnium",
@@ -5627,7 +5627,7 @@
             "url": "https://images-of-elements.com/lawrencium.jpg",
             "attribution": "Chemical Elments A Virtual Museum under a Creative Commons Attribution 3.0 Unported License, source: https://images-of-elements.com/lawrencium.php"
         },
-        "block": "f"
+        "block": "d"
     },
     "rutherfordium": {
         "name": "Rutherfordium",

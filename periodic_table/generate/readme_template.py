@@ -6,7 +6,7 @@ Currently only the single valued str, float, and int are supported. The JSON fie
 
 
 # Installation 
-  pip install periodic_table
+  pip install periodic_table_dataclasses
 
 # Usage
 

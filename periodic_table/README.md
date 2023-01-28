@@ -1,8 +1,8 @@
-_README="""A Python library of periodic data statically generated from **PeriodicTableJSON.json**  (https://github.com/NMRbox/Periodic-Table-JSON) on {datestamp}.
+A Python library of periodic data statically generated from **PeriodicTableJSON.json**  (https://github.com/NMRbox/Periodic-Table-JSON) on 2023 Jan 28.
 
 An *Element* dataclass and *PeriodicTable* container class is generated from the JSON data.
 
-Currently only the single valued str, float, and int are supported. The JSON fields {missing} are omitted. 
+Currently only the single valued str, float, and int are supported. The JSON fields *shells*, *ionization_energies*, *image* are omitted. 
 
 
 # Installation 
@@ -34,4 +34,4 @@ checking and code completion when working in Python integrated development envir
 
 ### Additional feature
 The *PeriodicTable.search_name* features supports the British spellings *aluminium* and *sulphur*.
-"""
+

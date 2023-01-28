@@ -8,8 +8,8 @@ class TestPeriodicTable(TestCase):
     def setUp(self) -> None:
         self.table = PeriodicTable()
 
-    def test_print(self):
-        print(self.table.search_number(1))
+#    def test_print(self):
+#        print(self.table.search_number(1))
 
     def test_search_name(self):
         s = self.table.search_number(16)

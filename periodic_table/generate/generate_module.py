@@ -32,7 +32,7 @@ class CodeBuilder:
         self.skipped : List[str] = []
 
     def __enter__(self):
-        script = os.path.join(os.path.dirname(__file__), '..', 'src', 'periodic_table', 'table_template.py')
+        script = os.path.join(os.path.dirname(__file__), '..', 'src', 'periodic_table', 'table.py')
         self.code = open(script, 'w')
         self.datestamp = datetime.datetime.now().strftime('%Y %b %d')
         print(f'# generated from {JSON_SOURCE} {self.datestamp}. Do not hand edit',file=self.code)

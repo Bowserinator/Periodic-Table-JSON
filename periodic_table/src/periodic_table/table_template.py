@@ -1,4 +1,4 @@
-# generated from PeriodicTableJSON.json 2023Jan28
+# generated from PeriodicTableJSON.json 2023 Jan 28. Do not hand edit
 import io
 from dataclasses import dataclass, field,fields
 from dataclasses_json import dataclass_json

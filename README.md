@@ -13,7 +13,7 @@ Both **ionization energy** and **first electron affinities** are given as the en
 A link to the source where the information was from is provided in each element under the key "source".
 
 A link to image Bohr model (of the atom) is available under "bohr_model_image" key.
-A link to 3d-image of Bohr model available under "bohr_model_3d" key, file obtained from google with ```.glb``` extention and these 3d models can easily display on web using [google model-viewer script](https://modelviewer.dev/)
+A link to 3d-image of Bohr model available under "bohr_model_3d" key, file obtained from google with ```.glb``` extension and these 3d models can easily display on web using [google model-viewer script](https://modelviewer.dev/)
 
 Here's an example of how it's formatted:
 ```json

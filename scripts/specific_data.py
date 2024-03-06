@@ -91,6 +91,8 @@ if args.properties:
 
 if args.interactive:
     for key in keys:
+        if key in data_needed:   # Already selected, move to next
+            continue
         needed = ''
         while True:
             print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected: {c.END}{c.UNDERLINE}{list(data_needed.keys())}')

@@ -4,6 +4,7 @@ import sys
 import json, os, argparse
 from pathlib import Path
 
+output = 'SpecificData'
 
 parser = argparse.ArgumentParser(
     description='Selects specific data about elements and outputs it.',
@@ -16,22 +17,21 @@ parser = argparse.ArgumentParser(
     Properties written to a csv file:
        $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
 
-    Properties written into both files SpecificData.json and SpecificData.csv:
+    Properties written into both files {output}.json and {output}.csv:
        $ {sys.argv[0]} --properties=name,atomic_mass
 
     Select properties interactively:
        $ {sys.argv[0]} --interactive""",
     formatter_class=argparse.RawDescriptionHelpFormatter,
 )
-parser.add_argument('--properties', metavar='PROPERTY_NAMES', nargs=1,
+parser.add_argument('--properties', metavar='P1,...', nargs=1,
                     help='comma separated list of properties')
 
 parser.add_argument('--interactive', action="store_true",
                     help='whether to interactively select data')
 
-output = 'SpecificData'
 parser.add_argument('--output', metavar='FILENAME', nargs='?', const=output, default='',
-                    help='where to output the data (default: SpecificData.{json,csv})')
+                    help=f'where to output the data (default: {output}.{{json,csv}})')
 
 args = parser.parse_args()
 

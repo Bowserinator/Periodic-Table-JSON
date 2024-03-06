@@ -12,20 +12,17 @@ import argparse
 import textwrap
 import json
 from pathlib import Path
+from collections import namedtuple
 
+ColorCodes = namedtuple('ColorCodes', ['PURPLE', 'CYAN', 'DARKCYAN',
+                                       'BLUE', 'GREEN', 'YELLOW',
+                                       'RED', 'BOLD', 'UNDERLINE',
+                                       'END',])
 
-class c:
-    PURPLE = '\033[95m'
-    CYAN = '\033[96m'
-    DARKCYAN = '\033[36m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
-
+color_code = ColorCodes(PURPLE='\033[95m', CYAN='\033[96m', DARKCYAN='\033[36m',
+                         BLUE='\033[94m', GREEN='\033[92m', YELLOW='\033[93m',
+                         RED='\033[91m', BOLD='\033[1m', UNDERLINE='\033[4m',
+                         END='\033[0m',)
 
 # pylint: disable=missing-function-docstring
 def create_commandeline_parser(default_file):

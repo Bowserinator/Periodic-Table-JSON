@@ -55,7 +55,7 @@ def create_commandeline_parser(default_file):
 def read_periodic_table():
     with open(os.path.join(Path(__file__).parents[1], 'PeriodicTableJSON.json'), encoding="utf8") as f:
         elements = json.load(f)['elements']
-    return elements
+    return elements, elements[0].keys()
 
 
 def parse_properties(data_needed, args, keys):
@@ -85,6 +85,7 @@ def parse_properties(data_needed, args, keys):
 
 
 def parse_interactive(data_needed, keys):
+    clear()
     for key in keys:
         if key in data_needed:   # Already selected, move to next
             continue
@@ -164,17 +165,13 @@ if __name__ == '__main__':
     parser = create_commandeline_parser(default_file)
 
     args = parser.parse_args()
-    elements = read_periodic_table()
+    elements, keys = read_periodic_table()
 
-    clear()
-
-    keys = elements[0].keys()
     data_needed = {}
     if args.properties:
         data_needed = parse_properties(data_needed, args, keys)
     if args.interactive:
         data_needed = parse_interactive(data_needed, keys)
-
     if data_needed:
         save2file(args, elements, data_needed, default_file)
     else:

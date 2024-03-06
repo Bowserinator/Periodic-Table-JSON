@@ -41,7 +41,10 @@ def create_commandeline_parser(default_file):
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument('--properties', metavar='P1,...', nargs=1,
+
+    def comma_separated(arg):
+        return arg.split(",")
+    parser.add_argument('--properties', type=comma_separated, metavar='P1,...', nargs=1,
                         help='comma separated list of properties')
 
     parser.add_argument('--interactive', action="store_true",
@@ -59,28 +62,18 @@ def read_periodic_table():
 
 
 def parse_properties(data_needed, args, keys):
-    properties = args.properties[0]
-    props = []
-    z = ""
-    for x in properties:
-        if x == ',':
-            props.append(z)
-            z = ""
-        else:
-            z += x
-    if z != "":
-        props.append(z)
+    props = set(args.properties[0])
+    keys_as_set = set(keys)
 
-    for prop in props:
-        if prop not in keys:
-            print(c.RED + 'Property ' + prop + ' not found.' + c.END)
-            props.remove(prop)
-        else:
-            data_needed[prop] = True
-            print(c.GREEN + 'Property ' + prop + ' found.' + c.END)
+    bad = props - keys_as_set
+    good = props & keys_as_set
+    data_needed.update({k:True for k in good})
 
-    for p in props:
-        data_needed[p] = True
+    for p in bad:
+        print(c.RED + 'Property ' + p + ' not found.' + c.END)
+    for p in good:
+        print(c.GREEN + 'Property ' + p + ' found.' + c.END)
+
     return data_needed
 
 

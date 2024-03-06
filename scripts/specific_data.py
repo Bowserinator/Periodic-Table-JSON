@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+"""Select specific data about elements and write them to a named file.
+
+Use the --help for options and examples.
+
+"""
+
 import sys
 import os
 import argparse
@@ -59,6 +65,19 @@ def create_commandeline_parser(default_file):
 
 
 def read_periodic_table():
+    """
+    Load and return elements from the Periodic Table JSON file.
+
+    This function reads the Periodic Table data from a JSON file located
+    one directory above the current file's directory.
+
+    Returns:
+        tuple: A tuple containing two elements:
+            - A list of dictionaries, where each dictionary represents an element
+              with its properties as key-value pairs.
+            - A set of strings, representing the keys (properties) available in
+              the element dictionaries.
+    """
     with open(os.path.join(Path(__file__).parents[1],'PeriodicTableJSON.json'),
               encoding="utf8") as file:
         elements = json.load(file)['elements']
@@ -124,6 +143,22 @@ def parse_interactive(data_needed, keys):
 
 
 def save2file(args, elements, data_needed, default_file):
+    """
+    Save elements to file(s) in JSON and/or CSV format based on args.
+
+    This function writes the specified elements to a file or files, using
+    JSON and/or CSV formats.
+
+    Parameters:
+        args: An object containing command line arguments, including 'output'
+              which specifies the output file name and format.
+        elements (list): A list of dictionaries, each representing an element
+                         with data to be saved.
+        data_needed (dict): A dictionary specifying which data from elements
+                            should be included in the output file(s).
+        default_file (str): The default file name to use if no output file is
+                            specified or if the specified file is the default.
+    """
     if not args.output or args.output == default_file:
         # Use default and write to both csv and json files.
         write_json(default_file, elements, data_needed)
@@ -139,6 +174,14 @@ def save2file(args, elements, data_needed, default_file):
 
 
 def write_csv(output, elements, data_needed):
+    """
+    Write selected data from elements to a CSV file.
+
+    Parameters:
+        output (str): The base name of the output file.
+        elements (list): A list of dictionaries with element data.
+        data_needed (dict): A dict indicating which keys to include.
+    """
     with open(os.path.join(Path(__file__).parents[1], output + '.csv'),
               'w', encoding="utf8") as file:
         elem_to_write = []
@@ -151,12 +194,19 @@ def write_csv(output, elements, data_needed):
             if elmnt[-1] == ',':
                 elmnt = elmnt[:-1]
             elem_to_write.append(elmnt)
-
         file.write("\n".join(elem_to_write))
         file.write('\n')
 
 
 def write_json(output, elements, data_needed):
+    """
+    Write selected data from elements to a JSON file.
+
+    Parameters:
+        output (str): The base name of the output file.
+        elements (list): A list of dictionaries with element data.
+        data_needed (dict): A dict indicating which keys to write.
+    """
     with open(os.path.join(Path(__file__).parents[1], output + '.json'),
               'w', encoding="utf8") as file:
         elem_to_write = []
@@ -167,15 +217,11 @@ def write_json(output, elements, data_needed):
                 if data_needed[key]:
                     elmnt[key] = element[key]
             elem_to_write.append(elmnt)
-
         file.write(json.dumps(elem_to_write, indent=4))
         file.write('\n')
 
 
-def clear():
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-
+# pylint: disable=missing-function-docstring
 def main():
     default_file = 'SpecificData'
     parser = create_commandeline_parser(default_file)

@@ -117,6 +117,7 @@ if len(data_needed.keys()) == 0:
     print(c.RED + 'No properties selected.' + c.END)
     exit()
 
+
 def writeCSV(output, elements, data_needed):
     with open(os.path.join(Path(__file__).parents[1], output + '.csv'), 'w', encoding="utf8") as f:
         elem_to_write = []
@@ -133,6 +134,7 @@ def writeCSV(output, elements, data_needed):
         f.write("\n".join(elem_to_write))
         f.write('\n')
 
+
 def writeJSON(output, elements, data_needed):
     with open(os.path.join(Path(__file__).parents[1], output + '.json'), 'w') as f:
         elem_to_write = []
@@ -147,16 +149,14 @@ def writeJSON(output, elements, data_needed):
         f.write(json.dumps(elem_to_write, indent=4))
         f.write('\n')
 
-if args.output != "":
-    if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
-        output = args.output.replace('.json', '').replace('.csv', '')
 
-    if 'json' in args.output.lower():
-        writeJSON(output, elements, data_needed)
-        exit()
-    if 'csv' in args.output.lower():
-        writeCSV(output, elements, data_needed)
-        exit()
-else:
+if not args.output or args.output == output:   # Use default and write to both csv and json files.
     writeJSON(output, elements, data_needed)
     writeCSV(output, elements, data_needed)
+else:                                          # Write to provided file name.
+    if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
+        output = args.output.replace('.json', '').replace('.csv', '')
+    if 'json' in args.output.lower():
+        writeJSON(output, elements, data_needed)
+    if 'csv' in args.output.lower():
+        writeCSV(output, elements, data_needed)

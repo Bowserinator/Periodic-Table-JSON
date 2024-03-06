@@ -78,27 +78,42 @@ def parse_properties(data_needed, args, keys):
 
 
 def parse_interactive(data_needed, keys):
+    def show_selected():
+        print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected '
+              f'{c.END}{c.UNDERLINE}{list(data_needed.keys())}')
+
+    def show_next():
+        print(f'{c.END}Do you need {c.BOLD + c.CYAN}{key}? {c.END}')
+
+    def default_input(prompt, default="y"):
+        user_input = input(prompt)
+        return user_input if  user_input else default
+
+    def select_next():
+        prompt = (f'({c.GREEN}y/{c.RED}n/{c.BLUE}q(uit){c.END})'
+                  f'[{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
+        return default_input(prompt)
+
     clear()
     for key in keys:
-        if key in data_needed:   # Already selected, move to next
-            continue
-        needed = ''
+        if key in data_needed: continue
+        done = False
         while True:
-            print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected '
-                  f'{c.END}{c.UNDERLINE}{list(data_needed.keys())}')
-            print(f'{c.END}Do you need {c.BOLD + c.CYAN}{key}? {c.END}')
-            needed = input(f'({c.GREEN}y/{c.RED}n{c.END}/{c.BLUE}q(uit){c.END}) [{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
-            if needed == 'y':
+            show_selected()
+            show_next()
+            needed = select_next()
+            if needed == '' or needed == 'y':
                 data_needed[key] = True
             elif needed == 'n':
                 break
             elif needed == 'q':
+                done = True
                 break
             else:
                 print('Invalid input')
                 continue
             break
-        if needed == 'q':
+        if done:
             break
         clear()
     return data_needed

@@ -144,10 +144,6 @@ def writeJSON(output):
         f.write(json.dumps(elem_to_write, indent=4))
         f.write('\n')
 
-print(args.properties)
-print(args.output)
-print(output)
-
 if args.output != "":
     if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
         output = args.output.replace('.json', '').replace('.csv', '')

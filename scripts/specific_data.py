@@ -9,6 +9,7 @@ Use the --help for options and examples.
 import sys
 import os
 import argparse
+import textwrap
 import json
 from pathlib import Path
 
@@ -26,28 +27,30 @@ class c:
     END = '\033[0m'
 
 
+# pylint: disable=missing-function-docstring
 def create_commandeline_parser(default_file):
-    """Create command line parser"""
     parser = argparse.ArgumentParser(
-        description='Selects specific data about elements and outputs it.',
-        epilog=f"""Examples:
+        description=__doc__,
+        epilog=textwrap.dedent(f"""
+        examples:
+          Properties written to a json file:
+             $ {sys.argv[0]} --properties=name,atomic_mass --output name_mass.json
+
+          Properties written to a csv file:
+             $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
+
+          Properties written into both files {default_file}.json and {default_file}.csv:
+             $ {sys.argv[0]} --properties=name,atomic_mass
+
+          Union of properties written into both files {default_file}.json and {default_file}.csv:
+             $ {sys.argv[0]} --properties=name,atomic_mass --interactive
+
+          Select properties interactively and write to files {default_file}.json and {default_file}.csv:
+             $ {sys.argv[0]} --interactive
+
         NOTE: output files are written to the directory above {sys.argv[0]}.
 
-        Properties written to a json file:
-           $ {sys.argv[0]} --properties=name,atomic_mass --output name_mass.json
-
-        Properties written to a csv file:
-           $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
-
-        Properties written into both files {default_file}.json and {default_file}.csv:
-           $ {sys.argv[0]} --properties=name,atomic_mass
-
-        Union of properties written into both files {default_file}.json and {default_file}.csv:
-           $ {sys.argv[0]} --properties=name,atomic_mass --interactive
-
-        Select properties interactively and write to files {default_file}.json and {default_file}.csv:
-           $ {sys.argv[0]} --interactive
-        """,
+        """),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
 
@@ -85,37 +88,113 @@ def read_periodic_table():
 
 
 def parse_properties(data_needed, args, keys):
+    """
+    Update data_needed with properties specified in args if they exist in keys.
+
+    Parameters:
+        data_needed (dict): A dictionary where each key represents a property name,
+            and the value indicates whether the property is needed (True or False).
+        args (argparse.Namespace): An object containing command line arguments.
+            This function expects args to have a 'properties' attribute, which is
+            a list of lists containing property names as strings.
+        keys (list): A list of strings representing valid property names.
+
+    Returns:
+        dict: The updated data_needed dictionary with keys set to True for properties
+           that are both requested in args and exist in keys.
+
+    Side Effects:
+        - Prints messages to the console indicating whether each requested property
+          was found or not found.
+        - Modifies the data_needed dictionary in-place by updating the values for
+          keys that represent valid properties.
+    """
+    def show_bad(pval):
+        message = ''.join([color_code.RED, 'Property ',
+                           color_code.BLUE, pval,
+                           color_code.RED, ' not found.',
+                           color_code.END,])
+        print(message)
+
+    def show_good(pval):
+        message = ''.join([color_code.GREEN, 'Property ',
+                           color_code.BLUE, pval,
+                           color_code.GREEN,' found.',
+                           color_code.END,])
+        print(message)
+
     props = set(args.properties[0])
     keys_as_set = set(keys)
-
     bad = props - keys_as_set
     good = props & keys_as_set
     data_needed.update({k:True for k in good})
 
-    for pval  in bad:
-        print(c.RED + 'Property ' + pval + ' not found.' + c.END)
+    for pval in bad:
+        show_bad(pval)
     for pval in good:
-        print(c.GREEN + 'Property ' + pval + ' found.' + c.END)
-
+        show_good(pval)
     return data_needed
 
 
 def parse_interactive(data_needed, keys):
+    """
+    Interactively update the data_needed dictionary based on user input.
+
+    This function iterates over a list of keys, presenting each to the user
+    and asking if it is needed. The user's response is used to update the
+    data_needed dictionary: setting the value to True for keys that are needed.
+
+    Parameters:
+        data_needed (dict): A dictionary where each key represents a potential
+            option, and the value (True/False) indicates whether it is needed.
+        keys (list): A list of strings representing all possible options that
+            the user can choose from.
+
+    Returns:
+        dict: The updated data_needed dictionary reflecting the user's choices.
+            Keys corresponding to needed options are set to True.
+
+
+    Note:
+        The function calls an external 'clear()' function to clear the console
+        before each iteration, improving readability of the interactive session.
+    """
     def show_selected():
-        print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected '
-              f'{c.END}{c.UNDERLINE}{list(data_needed.keys())}')
+        message = ''.join([
+            color_code.BOLD, color_code.GREEN,
+            f'{len(data_needed)}', ' Option(s) Selected ',
+            color_code.END,
+            color_code.UNDERLINE, f'{list(data_needed.keys())}',
+            color_code.END,
+        ])
+        print(message)
 
     def show_next():
-        print(f'{c.END}Do you need {c.BOLD + c.CYAN}{key}? {c.END}')
+        message = ''.join([
+            'Do you need ',
+            color_code.BOLD, color_code.BLUE, key, '? ',
+            color_code.END,
+        ])
+        print(message)
 
-    def default_input(prompt, default="y"):
+    def default_input(prompt, default='y'):
         user_input = input(prompt)
         return user_input if  user_input else default
 
     def select_next():
-        prompt = (f'({c.GREEN}y/{c.RED}n/{c.BLUE}q(uit){c.END})'
-                  f'[{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
+        prompt = ''.join([
+            color_code.GREEN, 'y/',
+            color_code.RED, 'n/',
+            color_code.BLUE, 'q(uit)',
+            color_code.END, '[',
+            color_code.PURPLE, 'default: ',
+            color_code.GREEN, 'y',
+            color_code.END, ']:',
+        ])
         return default_input(prompt)
+
+    def clear():
+        os.system('cls' if os.name == 'nt' else 'clear')
 
     clear()
     for key in keys:
@@ -237,7 +316,7 @@ def main():
     if data_needed:
         save2file(args, elements, data_needed, default_file)
     else:
-        print(c.RED + 'No properties selected.' + c.END)
+        print(color_code.RED + 'No properties selected.' + color_code.END)
 
 
 if __name__ == '__main__':

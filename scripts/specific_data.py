@@ -102,8 +102,9 @@ def parse_interactive(data_needed, keys):
             show_selected()
             show_next()
             needed = select_next()
-            if needed == '' or needed == 'y':
+            if needed == 'y':
                 data_needed[key] = True
+                break
             elif needed == 'n':
                 break
             elif needed == 'q':
@@ -112,7 +113,6 @@ def parse_interactive(data_needed, keys):
             else:
                 print('Invalid input')
                 continue
-            break
         if done:
             break
         clear()

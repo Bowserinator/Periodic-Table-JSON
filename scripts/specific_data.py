@@ -86,17 +86,22 @@ if args.properties:
 
 if args.interactive:
     for key in keys:
+        needed = ''
         while True:
             print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected: {c.END}{c.UNDERLINE}{list(data_needed.keys())}')
             print(f'{c.END}Do you need {c.BOLD + c.CYAN}{key}? {c.END}')
-            needed = input(f'({c.GREEN}y/{c.RED}n{c.END}) [{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
+            needed = input(f'({c.GREEN}y/{c.RED}n{c.END}/{c.BLUE}q{c.END}) [{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
             if needed == 'y':
                 data_needed[key] = True
             elif needed == 'n':
                 break
+            elif needed == 'q':
+                break
             else:
                 print('Invalid input')
                 continue
+            break
+        if needed == 'q':
             break
         clear()
 

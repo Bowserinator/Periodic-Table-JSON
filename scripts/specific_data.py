@@ -8,7 +8,7 @@ from pathlib import Path
 parser = argparse.ArgumentParser(
     description='Selects specific data about elements and outputs it.',
     epilog=f"""Examples:
-    Output files are written to the directory above {sys.argv[0]}.
+    NOTE: output files are written to the directory above {sys.argv[0]}.
 
     Properties written to a json file:
        $ {sys.argv[0]} --properties=name,atomic_mass --output name_mass.json
@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(
     Properties written to a csv file:
        $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
 
-    Properties into files SpecificData.json and SpecificData.csv:
+    Properties written into both files SpecificData.json and SpecificData.csv:
        $ {sys.argv[0]} --properties=name,atomic_mass
 
     Select properties interactively:

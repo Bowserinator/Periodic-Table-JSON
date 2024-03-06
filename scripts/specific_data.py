@@ -4,118 +4,8 @@ import sys
 import json, os, argparse
 from pathlib import Path
 
-output = 'SpecificData'
-
-parser = argparse.ArgumentParser(
-    description='Selects specific data about elements and outputs it.',
-    epilog=f"""Examples:
-    NOTE: output files are written to the directory above {sys.argv[0]}.
-
-    Properties written to a json file:
-       $ {sys.argv[0]} --properties=name,atomic_mass --output name_mass.json
-
-    Properties written to a csv file:
-       $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
-
-    Properties written into both files {output}.json and {output}.csv:
-       $ {sys.argv[0]} --properties=name,atomic_mass
-
-    Union of properties written into both files {output}.json and {output}.csv:
-       $ {sys.argv[0]} --properties=name,atomic_mass --interactive
-
-    Select properties interactively and write to files {output}.json and {output}.csv:
-       $ {sys.argv[0]} --interactive
-    """,
-    formatter_class=argparse.RawDescriptionHelpFormatter,
-)
-parser.add_argument('--properties', metavar='P1,...', nargs=1,
-                    help='comma separated list of properties')
-
-parser.add_argument('--interactive', action="store_true",
-                    help='whether to interactively select data')
-
-parser.add_argument('--output', metavar='FILENAME', nargs='?', const=output, default='',
-                    help=f'where to output the data (default: {output}.{{json,csv}})')
-
-args = parser.parse_args()
-
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-
-class c:
-   PURPLE = '\033[95m'
-   CYAN = '\033[96m'
-   DARKCYAN = '\033[36m'
-   BLUE = '\033[94m'
-   GREEN = '\033[92m'
-   YELLOW = '\033[93m'
-   RED = '\033[91m'
-   BOLD = '\033[1m'
-   UNDERLINE = '\033[4m'
-   END = '\033[0m'
-
-full_path = os.getcwd().split('\\')
-full_path.pop()
-
-clear()
-with open(os.path.join(Path(__file__).parents[1], 'PeriodicTableJSON.json'), encoding="utf8") as f:
-    elements = json.load(f)['elements']
-
-data_needed = {}
-first_element = elements[0]
-
-keys = first_element.keys()
-if args.properties:
-    properties = args.properties[0]
-    props = []
-    z = ""
-    for x in properties:
-        if x == ',':
-            props.append(z)
-            z = ""
-        else:
-            z += x
-    if z != "":
-        props.append(z)
-
-    for prop in props:
-        if prop not in keys:
-            print(c.RED + 'Property ' + prop + ' not found.' + c.END)
-            props.remove(prop)
-        else:
-            data_needed[prop] = True
-            print(c.GREEN + 'Property ' + prop + ' found.' + c.END)
-
-    for p in props:
-        data_needed[p] = True
-
-if args.interactive:
-    for key in keys:
-        if key in data_needed:   # Already selected, move to next
-            continue
-        needed = ''
-        while True:
-            print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected: {c.END}{c.UNDERLINE}{list(data_needed.keys())}')
-            print(f'{c.END}Do you need {c.BOLD + c.CYAN}{key}? {c.END}')
-            needed = input(f'({c.GREEN}y/{c.RED}n{c.END}/{c.BLUE}q(uit){c.END}) [{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
-            if needed == 'y':
-                data_needed[key] = True
-            elif needed == 'n':
-                break
-            elif needed == 'q':
-                break
-            else:
-                print('Invalid input')
-                continue
-            break
-        if needed == 'q':
-            break
-        clear()
-
-
-if len(data_needed.keys()) == 0:
-    print(c.RED + 'No properties selected.' + c.END)
-    exit()
 
 
 def writeCSV(output, elements, data_needed):
@@ -149,14 +39,127 @@ def writeJSON(output, elements, data_needed):
         f.write(json.dumps(elem_to_write, indent=4))
         f.write('\n')
 
+if __name__ == '__main__':
+    default_file = 'SpecificData'
 
-if not args.output or args.output == output:   # Use default and write to both csv and json files.
-    writeJSON(output, elements, data_needed)
-    writeCSV(output, elements, data_needed)
-else:                                          # Write to provided file name.
-    if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
-        output = args.output.replace('.json', '').replace('.csv', '')
-    if 'json' in args.output.lower():
-        writeJSON(output, elements, data_needed)
-    if 'csv' in args.output.lower():
-        writeCSV(output, elements, data_needed)
+    parser = argparse.ArgumentParser(
+        description='Selects specific data about elements and outputs it.',
+        epilog=f"""Examples:
+        NOTE: output files are written to the directory above {sys.argv[0]}.
+
+        Properties written to a json file:
+           $ {sys.argv[0]} --properties=name,atomic_mass --output name_mass.json
+
+        Properties written to a csv file:
+           $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
+
+        Properties written into both files {default_file}.json and {default_file}.csv:
+           $ {sys.argv[0]} --properties=name,atomic_mass
+
+        Union of properties written into both files {default_file}.json and {default_file}.csv:
+           $ {sys.argv[0]} --properties=name,atomic_mass --interactive
+
+        Select properties interactively and write to files {default_file}.json and {default_file}.csv:
+           $ {sys.argv[0]} --interactive
+        """,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument('--properties', metavar='P1,...', nargs=1,
+                        help='comma separated list of properties')
+
+    parser.add_argument('--interactive', action="store_true",
+                        help='whether to interactively select data')
+
+    parser.add_argument('--output', metavar='FILENAME', nargs='?', const=default_file, default='',
+                        help=f'where to output the data (default: {default_file}.{{json,csv}})')
+
+    args = parser.parse_args()
+
+    class c:
+       PURPLE = '\033[95m'
+       CYAN = '\033[96m'
+       DARKCYAN = '\033[36m'
+       BLUE = '\033[94m'
+       GREEN = '\033[92m'
+       YELLOW = '\033[93m'
+       RED = '\033[91m'
+       BOLD = '\033[1m'
+       UNDERLINE = '\033[4m'
+       END = '\033[0m'
+
+    full_path = os.getcwd().split('\\')
+    full_path.pop()
+
+    clear()
+    with open(os.path.join(Path(__file__).parents[1], 'PeriodicTableJSON.json'), encoding="utf8") as f:
+        elements = json.load(f)['elements']
+
+    data_needed = {}
+    first_element = elements[0]
+
+    keys = first_element.keys()
+    if args.properties:
+        properties = args.properties[0]
+        props = []
+        z = ""
+        for x in properties:
+            if x == ',':
+                props.append(z)
+                z = ""
+            else:
+                z += x
+        if z != "":
+            props.append(z)
+
+        for prop in props:
+            if prop not in keys:
+                print(c.RED + 'Property ' + prop + ' not found.' + c.END)
+                props.remove(prop)
+            else:
+                data_needed[prop] = True
+                print(c.GREEN + 'Property ' + prop + ' found.' + c.END)
+
+        for p in props:
+            data_needed[p] = True
+
+    if args.interactive:
+        for key in keys:
+            if key in data_needed:   # Already selected, move to next
+                continue
+            needed = ''
+            while True:
+                print(f'{c.BOLD + c.GREEN}{len(data_needed.keys())} Option(s) Selected: {c.END}{c.UNDERLINE}{list(data_needed.keys())}')
+                print(f'{c.END}Do you need {c.BOLD + c.CYAN}{key}? {c.END}')
+                needed = input(f'({c.GREEN}y/{c.RED}n{c.END}/{c.BLUE}q(uit){c.END}) [{c.PURPLE}default: {c.GREEN}y{c.END}]: ')
+                if needed == 'y':
+                    data_needed[key] = True
+                elif needed == 'n':
+                    break
+                elif needed == 'q':
+                    break
+                else:
+                    print('Invalid input')
+                    continue
+                break
+            if needed == 'q':
+                break
+            clear()
+
+
+    if len(data_needed.keys()) == 0:
+        print(c.RED + 'No properties selected.' + c.END)
+        exit()
+
+
+    if not args.output or args.output == default_file:   # Use default and write to both csv and json files.
+        writeJSON(default_file, elements, data_needed)
+        writeCSV(default_file, elements, data_needed)
+    else:                                          # Write to provided file name.
+        if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
+            output = args.output.replace('.json', '').replace('.csv', '')
+        if 'json' in args.output.lower():
+            writeJSON(output, elements, data_needed)
+        if 'csv' in args.output.lower():
+            writeCSV(output, elements, data_needed)
+
+

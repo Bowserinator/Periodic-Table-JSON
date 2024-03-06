@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 import sys
-import json, os, argparse
+import os
+import argparse
+import json
 from pathlib import Path
 
 
@@ -19,6 +21,7 @@ class c:
 
 
 def create_commandeline_parser(default_file):
+    """Create command line parser"""
     parser = argparse.ArgumentParser(
         description='Selects specific data about elements and outputs it.',
         epilog=f"""Examples:
@@ -56,8 +59,9 @@ def create_commandeline_parser(default_file):
 
 
 def read_periodic_table():
-    with open(os.path.join(Path(__file__).parents[1], 'PeriodicTableJSON.json'), encoding="utf8") as f:
-        elements = json.load(f)['elements']
+    with open(os.path.join(Path(__file__).parents[1],'PeriodicTableJSON.json'),
+              encoding="utf8") as file:
+        elements = json.load(file)['elements']
     return elements, elements[0].keys()
 
 
@@ -69,10 +73,10 @@ def parse_properties(data_needed, args, keys):
     good = props & keys_as_set
     data_needed.update({k:True for k in good})
 
-    for p in bad:
-        print(c.RED + 'Property ' + p + ' not found.' + c.END)
-    for p in good:
-        print(c.GREEN + 'Property ' + p + ' found.' + c.END)
+    for pval  in bad:
+        print(c.RED + 'Property ' + pval + ' not found.' + c.END)
+    for pval in good:
+        print(c.GREEN + 'Property ' + pval + ' found.' + c.END)
 
     return data_needed
 
@@ -96,7 +100,8 @@ def parse_interactive(data_needed, keys):
 
     clear()
     for key in keys:
-        if key in data_needed: continue
+        if key in data_needed:
+            continue
         done = False
         while True:
             show_selected()
@@ -105,14 +110,13 @@ def parse_interactive(data_needed, keys):
             if needed == 'y':
                 data_needed[key] = True
                 break
-            elif needed == 'n':
+            if needed == 'n':
                 break
-            elif needed == 'q':
+            if needed == 'q':
                 done = True
                 break
-            else:
-                print('Invalid input')
-                continue
+            print('Invalid input')
+            continue
         if done:
             break
         clear()
@@ -120,48 +124,52 @@ def parse_interactive(data_needed, keys):
 
 
 def save2file(args, elements, data_needed, default_file):
-    if not args.output or args.output == default_file:   # Use default and write to both csv and json files.
-        writeJSON(default_file, elements, data_needed)
-        writeCSV(default_file, elements, data_needed)
-    else:                                                # Write to provided file name.
+    if not args.output or args.output == default_file:
+        # Use default and write to both csv and json files.
+        write_json(default_file, elements, data_needed)
+        write_csv(default_file, elements, data_needed)
+    else:
+        # Write to provided file name.
         if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
             output = args.output.replace('.json', '').replace('.csv', '')
         if 'json' in args.output.lower():
-            writeJSON(output, elements, data_needed)
+            write_json(output, elements, data_needed)
         if 'csv' in args.output.lower():
-            writeCSV(output, elements, data_needed)
+            write_csv(output, elements, data_needed)
 
 
-def writeCSV(output, elements, data_needed):
-    with open(os.path.join(Path(__file__).parents[1], output + '.csv'), 'w', encoding="utf8") as f:
+def write_csv(output, elements, data_needed):
+    with open(os.path.join(Path(__file__).parents[1], output + '.csv'),
+              'w', encoding="utf8") as file:
         elem_to_write = []
         elem_to_write.append(','.join(data_needed.keys()))
         for element in elements:
-            e = ""
+            elmnt = ""
             for key in data_needed:
                 if data_needed[key]:
-                    e += str(element[key]) + ','
-            if(e[-1] == ','):
-                e = e[:-1]
-            elem_to_write.append(e)
+                    elmnt += str(element[key]) + ','
+            if elmnt[-1] == ',':
+                elmnt = elmnt[:-1]
+            elem_to_write.append(elmnt)
 
-        f.write("\n".join(elem_to_write))
-        f.write('\n')
+        file.write("\n".join(elem_to_write))
+        file.write('\n')
 
 
-def writeJSON(output, elements, data_needed):
-    with open(os.path.join(Path(__file__).parents[1], output + '.json'), 'w') as f:
+def write_json(output, elements, data_needed):
+    with open(os.path.join(Path(__file__).parents[1], output + '.json'),
+              'w', encoding="utf8") as file:
         elem_to_write = []
 
         for element in elements:
-            e = {}
+            elmnt = {}
             for key in data_needed:
                 if data_needed[key]:
-                    e[key] = element[key]
-            elem_to_write.append(e)
+                    elmnt[key] = element[key]
+            elem_to_write.append(elmnt)
 
-        f.write(json.dumps(elem_to_write, indent=4))
-        f.write('\n')
+        file.write(json.dumps(elem_to_write, indent=4))
+        file.write('\n')
 
 
 def clear():

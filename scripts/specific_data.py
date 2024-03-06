@@ -160,7 +160,7 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-if __name__ == '__main__':
+def main():
     default_file = 'SpecificData'
     parser = create_commandeline_parser(default_file)
 
@@ -176,3 +176,7 @@ if __name__ == '__main__':
         save2file(args, elements, data_needed, default_file)
     else:
         print(c.RED + 'No properties selected.' + c.END)
+
+
+if __name__ == '__main__':
+    main()

@@ -24,13 +24,14 @@ parser = argparse.ArgumentParser(
     formatter_class=argparse.RawDescriptionHelpFormatter,
 )
 parser.add_argument('--properties', metavar='PROPERTY_NAMES', nargs=1,
-                    help='properties to select as comma separated list')
+                    help='comma separated list of properties')
 
 parser.add_argument('--interactive', action="store_true",
                     help='whether to interactively select data')
 
-parser.add_argument('--output', metavar='FILENAME', type=str, nargs=1,
-                    help='where to output the data')
+output = 'SpecificData'
+parser.add_argument('--output', metavar='FILENAME', nargs='?', const=output, default='',
+                    help='where to output the data (default: SpecificData.{json,csv})')
 
 args = parser.parse_args()
 
@@ -110,7 +111,7 @@ if len(data_needed.keys()) == 0:
     print(c.RED + 'No properties selected.' + c.END)
     exit()
 
-def writeCSV():
+def writeCSV(output):
     with open(os.path.join(Path(__file__).parents[1], output + '.csv'), 'w', encoding="utf8") as f:
         elem_to_write = []
         elem_to_write.append(','.join(data_needed.keys()))
@@ -125,7 +126,7 @@ def writeCSV():
 
         f.write("\n".join(elem_to_write))
         f.write('\n')
-def writeJSON():
+def writeJSON(output):
     with open(os.path.join(Path(__file__).parents[1], output + '.json'), 'w') as f:
         elem_to_write = []
 
@@ -139,18 +140,20 @@ def writeJSON():
         f.write(json.dumps(elem_to_write, indent=4))
         f.write('\n')
 
-output = 'SpecificData'
-printz = ''
-if args.output:
-    if ('json' in args.output[0].lower()) or ('csv' in args.output[0].lower()):
-        output = args.output[0].replace('.json', '').replace('.csv', '')
+print(args.properties)
+print(args.output)
+print(output)
 
-    if 'json' in args.output[0].lower():
-        writeJSON()
+if args.output != "":
+    if ('json' in args.output.lower()) or ('csv' in args.output.lower()):
+        output = args.output.replace('.json', '').replace('.csv', '')
+
+    if 'json' in args.output.lower():
+        writeJSON(output)
         exit()
-    if 'csv' in args.output[0].lower():
-        writeCSV()
+    if 'csv' in args.output.lower():
+        writeCSV(output)
         exit()
 else:
-    writeJSON()
-    writeCSV()
+    writeJSON(output)
+    writeCSV(output)

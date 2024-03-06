@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser(
     Union of properties written into both files {output}.json and {output}.csv:
        $ {sys.argv[0]} --properties=name,atomic_mass --interactive
 
-    Select properties interactively:
+    Select properties interactively and write to files {output}.json and {output}.csv:
        $ {sys.argv[0]} --interactive
     """,
     formatter_class=argparse.RawDescriptionHelpFormatter,

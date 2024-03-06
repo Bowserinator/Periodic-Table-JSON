@@ -20,8 +20,12 @@ parser = argparse.ArgumentParser(
     Properties written into both files {output}.json and {output}.csv:
        $ {sys.argv[0]} --properties=name,atomic_mass
 
+    Union of properties written into both files {output}.json and {output}.csv:
+       $ {sys.argv[0]} --properties=name,atomic_mass --interactive
+
     Select properties interactively:
-       $ {sys.argv[0]} --interactive""",
+       $ {sys.argv[0]} --interactive
+    """,
     formatter_class=argparse.RawDescriptionHelpFormatter,
 )
 parser.add_argument('--properties', metavar='P1,...', nargs=1,

@@ -1,16 +1,36 @@
+#!/usr/bin/env python3
+
+import sys
 import json, os, argparse
 from pathlib import Path
 
 
-parser = argparse.ArgumentParser(description='Selects specific data about elements and outputs it.')
-parser.add_argument('--properties', metavar='-p', type=list, nargs='+',
-                    help='properties to select')
+parser = argparse.ArgumentParser(
+    description='Selects specific data about elements and outputs it.',
+    epilog=f"""Examples:
+    Output files are written to the directory above {sys.argv[0]}.
 
-parser.add_argument('--output', metavar='-o', type=str, nargs='+',
-                    help='where to output the data')
+    Properties written to a json file:
+       $ {sys.argv[0]} --properties=name,atomic_mass --output name_mass.json
 
-parser.add_argument('--interactive', metavar='-i', type=bool, nargs='+', default=False,
+    Properties written to a csv file:
+       $ {sys.argv[0]} --properties name,atomic_mass --output name_mass.csv
+
+    Properties into files SpecificData.json and SpecificData.csv:
+       $ {sys.argv[0]} --properties=name,atomic_mass
+
+    Select properties interactively:
+       $ {sys.argv[0]} --interactive""",
+    formatter_class=argparse.RawDescriptionHelpFormatter,
+)
+parser.add_argument('--properties', metavar='PROPERTY_NAMES', nargs=1,
+                    help='properties to select as comma separated list')
+
+parser.add_argument('--interactive', action="store_true",
                     help='whether to interactively select data')
+
+parser.add_argument('--output', metavar='FILENAME', type=str, nargs=1,
+                    help='where to output the data')
 
 args = parser.parse_args()
 

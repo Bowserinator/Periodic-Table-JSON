@@ -26,6 +26,13 @@
             "density": {
               "type": "number"
             },
+            "density_unit": {
+              "type": "string",
+              "enum": ["g/L", "g/cm3"]
+            },
+            "density_g_cm3": {
+              "type": ["number", "null"]
+            },
             "discovered_by": {
               "type": "string"
             },
@@ -141,6 +148,8 @@
             "boil",
             "category",
             "density",
+            "density_unit",
+            "density_g_cm3",
             "discovered_by",
             "melt",
             "molar_heat",

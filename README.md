@@ -6,6 +6,9 @@ Temperatures such as boiling points and melting points are given in Kelvin.  Den
 Because the unit of `density` depends on the phase, every element also has a `density_unit` key (`"g/L"` or `"g/cm3"`) and a `density_g_cm3` key.
 Gas densities are for 0 °C and 1 atm. For elements that sublime at atmospheric pressure (carbon, arsenic) `melt` is the triple-point temperature; values for the heaviest elements are theoretical predictions.
 
+Atomic radii are given in **pm** and are from [Atomic radii of the elements (data page)](https://en.wikipedia.org/wiki/Atomic_radii_of_the_elements_(data_page)).
+The radii is given as an array as some elements have multiple radii.
+
 Information that is missing is represented as null. Some elements may have an image link to their spectral bands. All elements have a three sentence summary from Wikipedia.
 
 **Electron configuration** is given as a string, with each orbital separated by a space.  **Electron configuration semantic** is given as a string, this is the short-hand version of the electron configuration. Elements with a semantic electron configuration marked with a "*" mean that the electron configuration has not yet been confirmed. **Electron shells** are given as an array, the first item is the number of electrons in the first shell, the 2nd item is the number of electrons in the second shell, and so on.
@@ -54,6 +57,23 @@ Here's an example of how it's formatted:
       "electron_configuration": "1s1",
       "electron_configuration_semantic": "1s1",
       "electron_affinity": 72.769,
+      "atomic_radii": {
+        "empirical": [
+            25
+        ],
+        "calculated": [
+            53
+        ],
+        "van_der_waals": [
+            120,
+            110
+        ],
+        "covalent_single": [
+            32
+        ],
+        "covalent_triple": null,
+        "metallic": null
+      },
       "electronegativity_pauling": 2.2,
       "ionization_energies": [
         1312

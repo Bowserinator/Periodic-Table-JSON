@@ -104,6 +104,68 @@
             "electron_affinity": {
               "type": "number"
             },
+            "atomic_radii": {
+              "type": "object",
+              "properties": {
+                "empirical": {
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 1
+                },
+                "calculated": {
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 1
+                },
+                "van_der_waals": {
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 1
+                },
+                "covalent_single": {
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 1
+                },
+                "covalent_triple": {
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 1
+                },
+                "metallic": {
+                  "type": ["array", "null"],
+                  "items": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "empirical",
+                "calculated",
+                "van_der_waals",
+                "covalent_single",
+                "covalent_triple",
+                "metallic"
+              ],
+              "additionalProperties": false
+            },
             "electronegativity_pauling": {
               "type": "number"
             },
@@ -172,6 +234,7 @@
             "electron_configuration",
             "electron_configuration_semantic",
             "electron_affinity",
+            "atomic_radii",
             "electronegativity_pauling",
             "ionization_energies",
             "cpk-hex",

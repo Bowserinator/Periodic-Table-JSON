@@ -153,6 +153,23 @@
         "electron_configuration": "1s1",
         "electron_configuration_semantic": "1s1",
         "electron_affinity": 72.769,
+        "atomic_radii": {
+            "empirical": [
+                25
+            ],
+            "calculated": [
+                53
+            ],
+            "van_der_waals": [
+                120,
+                110
+            ],
+            "covalent_single": [
+                32
+            ],
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             1312
@@ -198,6 +215,22 @@
         "electron_configuration": "1s2",
         "electron_configuration_semantic": "1s2",
         "electron_affinity": -48,
+        "atomic_radii": {
+            "empirical": [
+                120
+            ],
+            "calculated": [
+                31
+            ],
+            "van_der_waals": [
+                140
+            ],
+            "covalent_single": [
+                46
+            ],
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [
             2372.3,
@@ -245,6 +278,25 @@
         "electron_configuration": "1s2 2s1",
         "electron_configuration_semantic": "[He] 2s1",
         "electron_affinity": 59.6326,
+        "atomic_radii": {
+            "empirical": [
+                145
+            ],
+            "calculated": [
+                167
+            ],
+            "van_der_waals": [
+                182,
+                181
+            ],
+            "covalent_single": [
+                133
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                152
+            ]
+        },
         "electronegativity_pauling": 0.98,
         "ionization_energies": [
             520.2,
@@ -293,6 +345,26 @@
         "electron_configuration": "1s2 2s2",
         "electron_configuration_semantic": "[He] 2s2",
         "electron_affinity": -48,
+        "atomic_radii": {
+            "empirical": [
+                105
+            ],
+            "calculated": [
+                112
+            ],
+            "van_der_waals": [
+                153
+            ],
+            "covalent_single": [
+                102
+            ],
+            "covalent_triple": [
+                85
+            ],
+            "metallic": [
+                112
+            ]
+        },
         "electronegativity_pauling": 1.57,
         "ionization_energies": [
             899.5,
@@ -342,6 +414,24 @@
         "electron_configuration": "1s2 2s2 2p1",
         "electron_configuration_semantic": "[He] 2s2 2p1",
         "electron_affinity": 26.989,
+        "atomic_radii": {
+            "empirical": [
+                85
+            ],
+            "calculated": [
+                87
+            ],
+            "van_der_waals": [
+                192
+            ],
+            "covalent_single": [
+                85
+            ],
+            "covalent_triple": [
+                73
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.04,
         "ionization_energies": [
             800.6,
@@ -392,6 +482,24 @@
         "electron_configuration": "1s2 2s2 2p2",
         "electron_configuration_semantic": "[He] 2s2 2p2",
         "electron_affinity": 121.7763,
+        "atomic_radii": {
+            "empirical": [
+                70
+            ],
+            "calculated": [
+                67
+            ],
+            "van_der_waals": [
+                170
+            ],
+            "covalent_single": [
+                75
+            ],
+            "covalent_triple": [
+                60
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.55,
         "ionization_energies": [
             1086.5,
@@ -443,6 +551,24 @@
         "electron_configuration": "1s2 2s2 2p3",
         "electron_configuration_semantic": "[He] 2s2 2p3",
         "electron_affinity": -6.8,
+        "atomic_radii": {
+            "empirical": [
+                65
+            ],
+            "calculated": [
+                56
+            ],
+            "van_der_waals": [
+                155
+            ],
+            "covalent_single": [
+                71
+            ],
+            "covalent_triple": [
+                54
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 3.04,
         "ionization_energies": [
             1402.3,
@@ -495,6 +621,24 @@
         "electron_configuration": "1s2 2s2 2p4",
         "electron_configuration_semantic": "[He] 2s2 2p4",
         "electron_affinity": 140.976,
+        "atomic_radii": {
+            "empirical": [
+                60
+            ],
+            "calculated": [
+                48
+            ],
+            "van_der_waals": [
+                152
+            ],
+            "covalent_single": [
+                63
+            ],
+            "covalent_triple": [
+                53
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 3.44,
         "ionization_energies": [
             1313.9,
@@ -548,6 +692,24 @@
         "electron_configuration": "1s2 2s2 2p5",
         "electron_configuration_semantic": "[He] 2s2 2p5",
         "electron_affinity": 328.1649,
+        "atomic_radii": {
+            "empirical": [
+                50
+            ],
+            "calculated": [
+                42
+            ],
+            "van_der_waals": [
+                147
+            ],
+            "covalent_single": [
+                64
+            ],
+            "covalent_triple": [
+                53
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 3.98,
         "ionization_energies": [
             1681,
@@ -602,6 +764,22 @@
         "electron_configuration": "1s2 2s2 2p6",
         "electron_configuration_semantic": "[He] 2s2 2p6",
         "electron_affinity": -116,
+        "atomic_radii": {
+            "empirical": [
+                160
+            ],
+            "calculated": [
+                38
+            ],
+            "van_der_waals": [
+                154
+            ],
+            "covalent_single": [
+                67
+            ],
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [
             2080.7,
@@ -658,6 +836,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s1",
         "electron_configuration_semantic": "[Ne] 3s1",
         "electron_affinity": 52.867,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": [
+                190
+            ],
+            "van_der_waals": [
+                227
+            ],
+            "covalent_single": [
+                155
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                186
+            ]
+        },
         "electronegativity_pauling": 0.93,
         "ionization_energies": [
             495.8,
@@ -715,6 +911,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2",
         "electron_configuration_semantic": "[Ne] 3s2",
         "electron_affinity": -40,
+        "atomic_radii": {
+            "empirical": [
+                150
+            ],
+            "calculated": [
+                145
+            ],
+            "van_der_waals": [
+                173
+            ],
+            "covalent_single": [
+                139
+            ],
+            "covalent_triple": [
+                127
+            ],
+            "metallic": [
+                160
+            ]
+        },
         "electronegativity_pauling": 1.31,
         "ionization_energies": [
             737.7,
@@ -773,6 +989,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p1",
         "electron_configuration_semantic": "[Ne] 3s2 3p1",
         "electron_affinity": 41.762,
+        "atomic_radii": {
+            "empirical": [
+                125
+            ],
+            "calculated": [
+                118
+            ],
+            "van_der_waals": [
+                184
+            ],
+            "covalent_single": [
+                126
+            ],
+            "covalent_triple": [
+                111
+            ],
+            "metallic": [
+                143
+            ]
+        },
         "electronegativity_pauling": 1.61,
         "ionization_energies": [
             577.5,
@@ -832,6 +1068,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p2",
         "electron_configuration_semantic": "[Ne] 3s2 3p2",
         "electron_affinity": 134.0684,
+        "atomic_radii": {
+            "empirical": [
+                110
+            ],
+            "calculated": [
+                111
+            ],
+            "van_der_waals": [
+                210
+            ],
+            "covalent_single": [
+                116
+            ],
+            "covalent_triple": [
+                102
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 1.9,
         "ionization_energies": [
             786.5,
@@ -892,6 +1146,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
         "electron_configuration_semantic": "[Ne] 3s2 3p3",
         "electron_affinity": 72.037,
+        "atomic_radii": {
+            "empirical": [
+                100
+            ],
+            "calculated": [
+                98
+            ],
+            "van_der_waals": [
+                180
+            ],
+            "covalent_single": [
+                111
+            ],
+            "covalent_triple": [
+                94
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.19,
         "ionization_energies": [
             1011.8,
@@ -953,6 +1225,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p4",
         "electron_configuration_semantic": "[Ne] 3s2 3p4",
         "electron_affinity": 200.4101,
+        "atomic_radii": {
+            "empirical": [
+                100
+            ],
+            "calculated": [
+                88
+            ],
+            "van_der_waals": [
+                180
+            ],
+            "covalent_single": [
+                103
+            ],
+            "covalent_triple": [
+                95
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.58,
         "ionization_energies": [
             999.6,
@@ -1015,6 +1305,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
         "electron_configuration_semantic": "[Ne] 3s2 3p5",
         "electron_affinity": 348.575,
+        "atomic_radii": {
+            "empirical": [
+                100
+            ],
+            "calculated": [
+                79
+            ],
+            "van_der_waals": [
+                175
+            ],
+            "covalent_single": [
+                99
+            ],
+            "covalent_triple": [
+                93
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 3.16,
         "ionization_energies": [
             1251.2,
@@ -1078,6 +1386,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6",
         "electron_configuration_semantic": "[Ne] 3s2 3p6",
         "electron_affinity": -96,
+        "atomic_radii": {
+            "empirical": [
+                71
+            ],
+            "calculated": [
+                71
+            ],
+            "van_der_waals": [
+                188
+            ],
+            "covalent_single": [
+                96
+            ],
+            "covalent_triple": [
+                96
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [
             1520.6,
@@ -1143,6 +1469,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
         "electron_configuration_semantic": "[Ar] 4s1",
         "electron_affinity": 48.383,
+        "atomic_radii": {
+            "empirical": [
+                220
+            ],
+            "calculated": [
+                243
+            ],
+            "van_der_waals": [
+                275
+            ],
+            "covalent_single": [
+                196
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                227
+            ]
+        },
         "electronegativity_pauling": 0.82,
         "ionization_energies": [
             418.8,
@@ -1209,6 +1553,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
         "electron_configuration_semantic": "[Ar] 4s2",
         "electron_affinity": 2.37,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": [
+                194
+            ],
+            "van_der_waals": [
+                231
+            ],
+            "covalent_single": [
+                171
+            ],
+            "covalent_triple": [
+                133
+            ],
+            "metallic": [
+                197
+            ]
+        },
         "electronegativity_pauling": 1,
         "ionization_energies": [
             589.8,
@@ -1276,6 +1640,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d1",
         "electron_configuration_semantic": "[Ar] 3d1 4s2",
         "electron_affinity": 18,
+        "atomic_radii": {
+            "empirical": [
+                160
+            ],
+            "calculated": [
+                184
+            ],
+            "van_der_waals": [
+                211
+            ],
+            "covalent_single": [
+                148
+            ],
+            "covalent_triple": [
+                114
+            ],
+            "metallic": [
+                162
+            ]
+        },
         "electronegativity_pauling": 1.36,
         "ionization_energies": [
             633.1,
@@ -1344,6 +1728,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d2",
         "electron_configuration_semantic": "[Ar] 3d2 4s2",
         "electron_affinity": 7.289,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                176
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                136
+            ],
+            "covalent_triple": [
+                108
+            ],
+            "metallic": [
+                147
+            ]
+        },
         "electronegativity_pauling": 1.54,
         "ionization_energies": [
             658.8,
@@ -1413,6 +1815,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d3",
         "electron_configuration_semantic": "[Ar] 3d3 4s2",
         "electron_affinity": 50.911,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                171
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                134
+            ],
+            "covalent_triple": [
+                106
+            ],
+            "metallic": [
+                134
+            ]
+        },
         "electronegativity_pauling": 1.63,
         "ionization_energies": [
             650.9,
@@ -1483,6 +1903,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1 3d5",
         "electron_configuration_semantic": "[Ar] 3d5 4s1",
         "electron_affinity": 65.21,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                166
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                122
+            ],
+            "covalent_triple": [
+                103
+            ],
+            "metallic": [
+                128
+            ]
+        },
         "electronegativity_pauling": 1.66,
         "ionization_energies": [
             652.9,
@@ -1554,6 +1992,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d5",
         "electron_configuration_semantic": "[Ar] 3d5 4s2",
         "electron_affinity": -50,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                161
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                119
+            ],
+            "covalent_triple": [
+                103
+            ],
+            "metallic": [
+                127
+            ]
+        },
         "electronegativity_pauling": 1.55,
         "ionization_energies": [
             717.3,
@@ -1626,6 +2082,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d6",
         "electron_configuration_semantic": "[Ar] 3d6 4s2",
         "electron_affinity": 14.785,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                156
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                116
+            ],
+            "covalent_triple": [
+                102
+            ],
+            "metallic": [
+                126
+            ]
+        },
         "electronegativity_pauling": 1.83,
         "ionization_energies": [
             762.5,
@@ -1699,6 +2173,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d7",
         "electron_configuration_semantic": "[Ar] 3d7 4s2",
         "electron_affinity": 63.898,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                152
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                111
+            ],
+            "covalent_triple": [
+                96
+            ],
+            "metallic": [
+                125
+            ]
+        },
         "electronegativity_pauling": 1.88,
         "ionization_energies": [
             760.4,
@@ -1773,6 +2265,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d8",
         "electron_configuration_semantic": "[Ar] 3d8 4s2",
         "electron_affinity": 111.65,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                149
+            ],
+            "van_der_waals": [
+                163
+            ],
+            "covalent_single": [
+                110
+            ],
+            "covalent_triple": [
+                101
+            ],
+            "metallic": [
+                124
+            ]
+        },
         "electronegativity_pauling": 1.91,
         "ionization_energies": [
             737.1,
@@ -1848,6 +2360,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1 3d10",
         "electron_configuration_semantic": "[Ar] 3d10 4s1",
         "electron_affinity": 119.235,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                145
+            ],
+            "van_der_waals": [
+                140
+            ],
+            "covalent_single": [
+                112
+            ],
+            "covalent_triple": [
+                120
+            ],
+            "metallic": [
+                128
+            ]
+        },
         "electronegativity_pauling": 1.9,
         "ionization_energies": [
             745.5,
@@ -1924,6 +2456,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10",
         "electron_configuration_semantic": "[Ar] 3d10 4s2",
         "electron_affinity": -58,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                142
+            ],
+            "van_der_waals": [
+                139
+            ],
+            "covalent_single": [
+                118
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                134
+            ]
+        },
         "electronegativity_pauling": 1.65,
         "ionization_energies": [
             906.4,
@@ -1992,6 +2542,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p1",
         "electron_configuration_semantic": "[Ar] 3d10 4s2 4p1",
         "electron_affinity": 41,
+        "atomic_radii": {
+            "empirical": [
+                130
+            ],
+            "calculated": [
+                136
+            ],
+            "van_der_waals": [
+                187
+            ],
+            "covalent_single": [
+                124
+            ],
+            "covalent_triple": [
+                121
+            ],
+            "metallic": [
+                135
+            ]
+        },
         "electronegativity_pauling": 1.81,
         "ionization_energies": [
             578.8,
@@ -2043,6 +2613,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p2",
         "electron_configuration_semantic": "[Ar] 3d10 4s2 4p2",
         "electron_affinity": 118.9352,
+        "atomic_radii": {
+            "empirical": [
+                125
+            ],
+            "calculated": [
+                125
+            ],
+            "van_der_waals": [
+                211
+            ],
+            "covalent_single": [
+                121
+            ],
+            "covalent_triple": [
+                114
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.01,
         "ionization_energies": [
             762,
@@ -2095,6 +2683,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p3",
         "electron_configuration_semantic": "[Ar] 3d10 4s2 4p3",
         "electron_affinity": 77.65,
+        "atomic_radii": {
+            "empirical": [
+                115
+            ],
+            "calculated": [
+                114
+            ],
+            "van_der_waals": [
+                185
+            ],
+            "covalent_single": [
+                121
+            ],
+            "covalent_triple": [
+                106
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.18,
         "ionization_energies": [
             947,
@@ -2148,6 +2754,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p4",
         "electron_configuration_semantic": "[Ar] 3d10 4s2 4p4",
         "electron_affinity": 194.9587,
+        "atomic_radii": {
+            "empirical": [
+                115
+            ],
+            "calculated": [
+                103
+            ],
+            "van_der_waals": [
+                190
+            ],
+            "covalent_single": [
+                116
+            ],
+            "covalent_triple": [
+                107
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.55,
         "ionization_energies": [
             941,
@@ -2202,6 +2826,25 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5",
         "electron_configuration_semantic": "[Ar] 3d10 4s2 4p5",
         "electron_affinity": 324.537,
+        "atomic_radii": {
+            "empirical": [
+                115
+            ],
+            "calculated": [
+                94
+            ],
+            "van_der_waals": [
+                185,
+                183
+            ],
+            "covalent_single": [
+                114
+            ],
+            "covalent_triple": [
+                110
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.96,
         "ionization_energies": [
             1139.9,
@@ -2257,6 +2900,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6",
         "electron_configuration_semantic": "[Ar] 3d10 4s2 4p6",
         "electron_affinity": -96,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": [
+                88
+            ],
+            "van_der_waals": [
+                202
+            ],
+            "covalent_single": [
+                117
+            ],
+            "covalent_triple": [
+                108
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 3,
         "ionization_energies": [
             1350.8,
@@ -2335,6 +2994,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1",
         "electron_configuration_semantic": "[Kr] 5s1",
         "electron_affinity": 46.884,
+        "atomic_radii": {
+            "empirical": [
+                235
+            ],
+            "calculated": [
+                265
+            ],
+            "van_der_waals": [
+                303
+            ],
+            "covalent_single": [
+                210
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                248
+            ]
+        },
         "electronegativity_pauling": 0.82,
         "ionization_energies": [
             403,
@@ -2393,6 +3070,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2",
         "electron_configuration_semantic": "[Kr] 5s2",
         "electron_affinity": 5.023,
+        "atomic_radii": {
+            "empirical": [
+                200
+            ],
+            "calculated": [
+                219
+            ],
+            "van_der_waals": [
+                249
+            ],
+            "covalent_single": [
+                185
+            ],
+            "covalent_triple": [
+                139
+            ],
+            "metallic": [
+                215
+            ]
+        },
         "electronegativity_pauling": 0.95,
         "ionization_energies": [
             549.5,
@@ -2452,6 +3149,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1",
         "electron_configuration_semantic": "[Kr] 4d1 5s2",
         "electron_affinity": 29.6,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": [
+                212
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                163
+            ],
+            "covalent_triple": [
+                124
+            ],
+            "metallic": [
+                180
+            ]
+        },
         "electronegativity_pauling": 1.22,
         "ionization_energies": [
             600,
@@ -2512,6 +3227,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d2",
         "electron_configuration_semantic": "[Kr] 4d2 5s2",
         "electron_affinity": 41.806,
+        "atomic_radii": {
+            "empirical": [
+                155
+            ],
+            "calculated": [
+                206
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                154
+            ],
+            "covalent_triple": [
+                121
+            ],
+            "metallic": [
+                160
+            ]
+        },
         "electronegativity_pauling": 1.33,
         "ionization_energies": [
             640.1,
@@ -2566,6 +3299,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d4",
         "electron_configuration_semantic": "[Kr] 4d4 5s1",
         "electron_affinity": 88.516,
+        "atomic_radii": {
+            "empirical": [
+                145
+            ],
+            "calculated": [
+                198
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                147
+            ],
+            "covalent_triple": [
+                116
+            ],
+            "metallic": [
+                146
+            ]
+        },
         "electronegativity_pauling": 1.6,
         "ionization_energies": [
             652.1,
@@ -2621,6 +3372,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d5",
         "electron_configuration_semantic": "[Kr] 4d5 5s1",
         "electron_affinity": 72.1,
+        "atomic_radii": {
+            "empirical": [
+                145
+            ],
+            "calculated": [
+                190
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                138
+            ],
+            "covalent_triple": [
+                113
+            ],
+            "metallic": [
+                139
+            ]
+        },
         "electronegativity_pauling": 2.16,
         "ionization_energies": [
             684.3,
@@ -2699,6 +3468,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d5",
         "electron_configuration_semantic": "[Kr] 4d5 5s2",
         "electron_affinity": 53,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                183
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                128
+            ],
+            "covalent_triple": [
+                110
+            ],
+            "metallic": [
+                136
+            ]
+        },
         "electronegativity_pauling": 1.9,
         "ionization_energies": [
             702,
@@ -2750,6 +3537,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d7",
         "electron_configuration_semantic": "[Kr] 4d7 5s1",
         "electron_affinity": 100.96,
+        "atomic_radii": {
+            "empirical": [
+                130
+            ],
+            "calculated": [
+                178
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                125
+            ],
+            "covalent_triple": [
+                103
+            ],
+            "metallic": [
+                134
+            ]
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             710.2,
@@ -2801,6 +3606,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d8",
         "electron_configuration_semantic": "[Kr] 4d8 5s1",
         "electron_affinity": 110.27,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                173
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                125
+            ],
+            "covalent_triple": [
+                106
+            ],
+            "metallic": [
+                134
+            ]
+        },
         "electronegativity_pauling": 2.28,
         "ionization_energies": [
             719.7,
@@ -2851,6 +3674,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 4d10",
         "electron_configuration_semantic": "[Kr] 4d10",
         "electron_affinity": 54.24,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                169
+            ],
+            "van_der_waals": [
+                163
+            ],
+            "covalent_single": [
+                120
+            ],
+            "covalent_triple": [
+                112
+            ],
+            "metallic": [
+                137
+            ]
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             804.4,
@@ -2902,6 +3745,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d10",
         "electron_configuration_semantic": "[Kr] 4d10 5s1",
         "electron_affinity": 125.862,
+        "atomic_radii": {
+            "empirical": [
+                160
+            ],
+            "calculated": [
+                165
+            ],
+            "van_der_waals": [
+                172
+            ],
+            "covalent_single": [
+                128
+            ],
+            "covalent_triple": [
+                137
+            ],
+            "metallic": [
+                144
+            ]
+        },
         "electronegativity_pauling": 1.93,
         "ionization_energies": [
             731,
@@ -2953,6 +3816,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10",
         "electron_configuration_semantic": "[Kr] 4d10 5s2",
         "electron_affinity": -68,
+        "atomic_radii": {
+            "empirical": [
+                155
+            ],
+            "calculated": [
+                161
+            ],
+            "van_der_waals": [
+                158
+            ],
+            "covalent_single": [
+                136
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                151
+            ]
+        },
         "electronegativity_pauling": 1.69,
         "ionization_energies": [
             867.8,
@@ -3004,6 +3885,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p1",
         "electron_configuration_semantic": "[Kr] 4d10 5s2 5p1",
         "electron_affinity": 37.043,
+        "atomic_radii": {
+            "empirical": [
+                155
+            ],
+            "calculated": [
+                156
+            ],
+            "van_der_waals": [
+                193
+            ],
+            "covalent_single": [
+                142
+            ],
+            "covalent_triple": [
+                146
+            ],
+            "metallic": [
+                167
+            ]
+        },
         "electronegativity_pauling": 1.78,
         "ionization_energies": [
             558.3,
@@ -3056,6 +3957,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p2",
         "electron_configuration_semantic": "[Kr] 4d10 5s2 5p2",
         "electron_affinity": 107.2984,
+        "atomic_radii": {
+            "empirical": [
+                145
+            ],
+            "calculated": [
+                145
+            ],
+            "van_der_waals": [
+                217
+            ],
+            "covalent_single": [
+                140
+            ],
+            "covalent_triple": [
+                132
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 1.96,
         "ionization_energies": [
             708.6,
@@ -3109,6 +4028,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p3",
         "electron_configuration_semantic": "[Kr] 4d10 5s2 5p3",
         "electron_affinity": 101.059,
+        "atomic_radii": {
+            "empirical": [
+                145
+            ],
+            "calculated": [
+                133
+            ],
+            "van_der_waals": [
+                206
+            ],
+            "covalent_single": [
+                140
+            ],
+            "covalent_triple": [
+                127
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.05,
         "ionization_energies": [
             834,
@@ -3163,6 +4100,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p4",
         "electron_configuration_semantic": "[Kr] 4d10 5s2 5p4",
         "electron_affinity": 190.161,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                123
+            ],
+            "van_der_waals": [
+                206
+            ],
+            "covalent_single": [
+                136
+            ],
+            "covalent_triple": [
+                121
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.1,
         "ionization_energies": [
             869.3,
@@ -3218,6 +4173,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p5",
         "electron_configuration_semantic": "[Kr] 4d10 5s2 5p5",
         "electron_affinity": 295.1531,
+        "atomic_radii": {
+            "empirical": [
+                140
+            ],
+            "calculated": [
+                115
+            ],
+            "van_der_waals": [
+                198
+            ],
+            "covalent_single": [
+                133
+            ],
+            "covalent_triple": [
+                125
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.66,
         "ionization_energies": [
             1008.4,
@@ -3269,6 +4242,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6",
         "electron_configuration_semantic": "[Kr] 4d10 5s2 5p6",
         "electron_affinity": -77,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": [
+                108
+            ],
+            "van_der_waals": [
+                216
+            ],
+            "covalent_single": [
+                131
+            ],
+            "covalent_triple": [
+                122
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.6,
         "ionization_energies": [
             1170.4,
@@ -3321,6 +4310,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1",
         "electron_configuration_semantic": "[Xe] 6s1",
         "electron_affinity": 45.505,
+        "atomic_radii": {
+            "empirical": [
+                260
+            ],
+            "calculated": [
+                298
+            ],
+            "van_der_waals": [
+                343
+            ],
+            "covalent_single": [
+                232
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                265
+            ]
+        },
         "electronegativity_pauling": 0.79,
         "ionization_energies": [
             375.7,
@@ -3373,6 +4380,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2",
         "electron_configuration_semantic": "[Xe] 6s2",
         "electron_affinity": 13.954,
+        "atomic_radii": {
+            "empirical": [
+                215
+            ],
+            "calculated": [
+                253
+            ],
+            "van_der_waals": [
+                268
+            ],
+            "covalent_single": [
+                196
+            ],
+            "covalent_triple": [
+                149
+            ],
+            "metallic": [
+                222
+            ]
+        },
         "electronegativity_pauling": 0.89,
         "ionization_energies": [
             502.9,
@@ -3425,6 +4452,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1",
         "electron_configuration_semantic": "[Xe] 5d16s2",
         "electron_affinity": 53,
+        "atomic_radii": {
+            "empirical": [
+                195
+            ],
+            "calculated": [
+                226
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                180
+            ],
+            "covalent_triple": [
+                139
+            ],
+            "metallic": [
+                187
+            ]
+        },
         "electronegativity_pauling": 1.1,
         "ionization_energies": [
             538.1,
@@ -3479,6 +4524,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1 4f1",
         "electron_configuration_semantic": "[Xe] 4f1 5d1 6s2",
         "electron_affinity": 55,
+        "atomic_radii": {
+            "empirical": [
+                185
+            ],
+            "calculated": [
+                210
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                163
+            ],
+            "covalent_triple": [
+                131
+            ],
+            "metallic": [
+                181.8
+            ]
+        },
         "electronegativity_pauling": 1.12,
         "ionization_energies": [
             534.4,
@@ -3534,6 +4597,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f3",
         "electron_configuration_semantic": "[Xe] 4f3 6s2",
         "electron_affinity": 93,
+        "atomic_radii": {
+            "empirical": [
+                185
+            ],
+            "calculated": [
+                247
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                176
+            ],
+            "covalent_triple": [
+                128
+            ],
+            "metallic": [
+                182.4
+            ]
+        },
         "electronegativity_pauling": 1.13,
         "ionization_energies": [
             527,
@@ -3588,6 +4669,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f4",
         "electron_configuration_semantic": "[Xe] 4f4 6s2",
         "electron_affinity": 184.87,
+        "atomic_radii": {
+            "empirical": [
+                185
+            ],
+            "calculated": [
+                206
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                174
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                181.4
+            ]
+        },
         "electronegativity_pauling": 1.14,
         "ionization_energies": [
             533.1,
@@ -3641,6 +4738,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f5",
         "electron_configuration_semantic": "[Xe] 4f5 6s2",
         "electron_affinity": 12.45,
+        "atomic_radii": {
+            "empirical": [
+                185
+            ],
+            "calculated": [
+                205
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                173
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                183.4
+            ]
+        },
         "electronegativity_pauling": 1.13,
         "ionization_energies": [
             540,
@@ -3694,6 +4807,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f6",
         "electron_configuration_semantic": "[Xe] 4f6 6s2",
         "electron_affinity": 15.63,
+        "atomic_radii": {
+            "empirical": [
+                185
+            ],
+            "calculated": [
+                238
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                172
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                180.4
+            ]
+        },
         "electronegativity_pauling": 1.17,
         "ionization_energies": [
             544.5,
@@ -3747,6 +4876,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7",
         "electron_configuration_semantic": "[Xe] 4f7 6s2",
         "electron_affinity": 11.2,
+        "atomic_radii": {
+            "empirical": [
+                185
+            ],
+            "calculated": [
+                231
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                168
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                180.4
+            ]
+        },
         "electronegativity_pauling": 1.2,
         "ionization_energies": [
             547.1,
@@ -3800,6 +4945,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7 5d1",
         "electron_configuration_semantic": "[Xe] 4f7 5d1 6s2",
         "electron_affinity": 13.22,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": [
+                233
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                169
+            ],
+            "covalent_triple": [
+                132
+            ],
+            "metallic": [
+                180.4
+            ]
+        },
         "electronegativity_pauling": 1.2,
         "ionization_energies": [
             593.4,
@@ -3853,6 +5016,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f9",
         "electron_configuration_semantic": "[Xe] 4f9 6s2",
         "electron_affinity": 112.4,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                225
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                168
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                177.3
+            ]
+        },
         "electronegativity_pauling": 1.1,
         "ionization_energies": [
             565.8,
@@ -3906,6 +5085,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f10",
         "electron_configuration_semantic": "[Xe] 4f10 6s2",
         "electron_affinity": 33.96,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                228
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                167
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                178.1
+            ]
+        },
         "electronegativity_pauling": 1.22,
         "ionization_energies": [
             573,
@@ -3959,6 +5154,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f11",
         "electron_configuration_semantic": "[Xe] 4f11 6s2",
         "electron_affinity": 32.61,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                226
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                166
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                176.2
+            ]
+        },
         "electronegativity_pauling": 1.23,
         "ionization_energies": [
             581,
@@ -4012,6 +5223,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f12",
         "electron_configuration_semantic": "[Xe] 4f12 6s2",
         "electron_affinity": 30.1,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                226
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                165
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                176.1
+            ]
+        },
         "electronegativity_pauling": 1.24,
         "ionization_energies": [
             589.3,
@@ -4065,6 +5292,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f13",
         "electron_configuration_semantic": "[Xe] 4f13 6s2",
         "electron_affinity": 99,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                222
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                164
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                175.9
+            ]
+        },
         "electronegativity_pauling": 1.25,
         "ionization_energies": [
             596.7,
@@ -4118,6 +5361,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14",
         "electron_configuration_semantic": "[Xe] 4f14 6s2",
         "electron_affinity": -1.93,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                222
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                170
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                176
+            ]
+        },
         "electronegativity_pauling": 1.1,
         "ionization_energies": [
             603.4,
@@ -4171,6 +5430,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d1",
         "electron_configuration_semantic": "[Xe] 4f14 5d1 6s2",
         "electron_affinity": 33.4,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": [
+                217
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                162
+            ],
+            "covalent_triple": [
+                131
+            ],
+            "metallic": [
+                173.8
+            ]
+        },
         "electronegativity_pauling": 1.27,
         "ionization_energies": [
             523.5,
@@ -4225,6 +5502,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d2",
         "electron_configuration_semantic": "[Xe] 4f14 5d2 6s2",
         "electron_affinity": 17.18,
+        "atomic_radii": {
+            "empirical": [
+                155
+            ],
+            "calculated": [
+                208
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                152
+            ],
+            "covalent_triple": [
+                122
+            ],
+            "metallic": [
+                159
+            ]
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             658.5,
@@ -4278,6 +5573,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d3",
         "electron_configuration_semantic": "[Xe] 4f14 5d3 6s2",
         "electron_affinity": 31,
+        "atomic_radii": {
+            "empirical": [
+                145
+            ],
+            "calculated": [
+                200
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                146
+            ],
+            "covalent_triple": [
+                119
+            ],
+            "metallic": [
+                146
+            ]
+        },
         "electronegativity_pauling": 1.5,
         "ionization_energies": [
             761,
@@ -4329,6 +5642,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d4",
         "electron_configuration_semantic": "[Xe] 4f14 5d4 6s2",
         "electron_affinity": 78.76,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                193
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                137
+            ],
+            "covalent_triple": [
+                115
+            ],
+            "metallic": [
+                139
+            ]
+        },
         "electronegativity_pauling": 2.36,
         "ionization_energies": [
             770,
@@ -4380,6 +5711,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d5",
         "electron_configuration_semantic": "[Xe] 4f14 5d5 6s2",
         "electron_affinity": 5.8273,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                188
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                131
+            ],
+            "covalent_triple": [
+                110
+            ],
+            "metallic": [
+                137
+            ]
+        },
         "electronegativity_pauling": 1.9,
         "ionization_energies": [
             760,
@@ -4433,6 +5782,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d6",
         "electron_configuration_semantic": "[Xe] 4f14 5d6 6s2",
         "electron_affinity": 103.99,
+        "atomic_radii": {
+            "empirical": [
+                130
+            ],
+            "calculated": [
+                185
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                129
+            ],
+            "covalent_triple": [
+                109
+            ],
+            "metallic": [
+                135
+            ]
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             840,
@@ -4484,6 +5851,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d7",
         "electron_configuration_semantic": "[Xe] 4f14 5d7 6s2",
         "electron_affinity": 150.94,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                180
+            ],
+            "van_der_waals": null,
+            "covalent_single": [
+                122
+            ],
+            "covalent_triple": [
+                107
+            ],
+            "metallic": [
+                135.5
+            ]
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             880,
@@ -4535,6 +5920,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d9",
         "electron_configuration_semantic": "[Xe] 4f14 5d9 6s1",
         "electron_affinity": 205.041,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                177
+            ],
+            "van_der_waals": [
+                175
+            ],
+            "covalent_single": [
+                123
+            ],
+            "covalent_triple": [
+                110
+            ],
+            "metallic": [
+                138.5
+            ]
+        },
         "electronegativity_pauling": 2.28,
         "ionization_energies": [
             870,
@@ -4586,6 +5991,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d10",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s1",
         "electron_affinity": 222.747,
+        "atomic_radii": {
+            "empirical": [
+                135
+            ],
+            "calculated": [
+                174
+            ],
+            "van_der_waals": [
+                166
+            ],
+            "covalent_single": [
+                124
+            ],
+            "covalent_triple": [
+                123
+            ],
+            "metallic": [
+                144
+            ]
+        },
         "electronegativity_pauling": 2.54,
         "ionization_energies": [
             890.1,
@@ -4637,6 +6062,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2",
         "electron_affinity": -48,
+        "atomic_radii": {
+            "empirical": [
+                150
+            ],
+            "calculated": [
+                171
+            ],
+            "van_der_waals": [
+                155
+            ],
+            "covalent_single": [
+                133
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                151
+            ]
+        },
         "electronegativity_pauling": 2,
         "ionization_energies": [
             1007.1,
@@ -4689,6 +6132,26 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p1",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p1",
         "electron_affinity": 36.4,
+        "atomic_radii": {
+            "empirical": [
+                190
+            ],
+            "calculated": [
+                156
+            ],
+            "van_der_waals": [
+                196
+            ],
+            "covalent_single": [
+                144
+            ],
+            "covalent_triple": [
+                150
+            ],
+            "metallic": [
+                170
+            ]
+        },
         "electronegativity_pauling": 1.62,
         "ionization_energies": [
             589.4,
@@ -4741,6 +6204,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p2",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p2",
         "electron_affinity": 34.4204,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": [
+                154
+            ],
+            "van_der_waals": [
+                202
+            ],
+            "covalent_single": [
+                144
+            ],
+            "covalent_triple": [
+                137
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 1.87,
         "ionization_energies": [
             715.6,
@@ -4795,6 +6276,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p3",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p3",
         "electron_affinity": 90.924,
+        "atomic_radii": {
+            "empirical": [
+                160
+            ],
+            "calculated": [
+                143
+            ],
+            "van_der_waals": [
+                207
+            ],
+            "covalent_single": [
+                151
+            ],
+            "covalent_triple": [
+                135
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.02,
         "ionization_energies": [
             703,
@@ -4850,6 +6349,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p4",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p4",
         "electron_affinity": 136,
+        "atomic_radii": {
+            "empirical": [
+                190
+            ],
+            "calculated": [
+                135
+            ],
+            "van_der_waals": [
+                197
+            ],
+            "covalent_single": [
+                145
+            ],
+            "covalent_triple": [
+                129
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2,
         "ionization_energies": [
             812.1
@@ -4900,6 +6417,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p5",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p5",
         "electron_affinity": 233,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": [
+                127
+            ],
+            "van_der_waals": [
+                202
+            ],
+            "covalent_single": [
+                147
+            ],
+            "covalent_triple": [
+                138
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             899.003
@@ -4950,6 +6483,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6",
         "electron_configuration_semantic": "[Xe] 4f14 5d10 6s2 6p6",
         "electron_affinity": -68,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": [
+                120
+            ],
+            "van_der_waals": [
+                220
+            ],
+            "covalent_single": [
+                142
+            ],
+            "covalent_triple": [
+                133
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 2.2,
         "ionization_energies": [
             1037
@@ -5001,6 +6550,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s1",
         "electron_configuration_semantic": "[Rn] 7s1",
         "electron_affinity": 46.89,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": [
+                348
+            ],
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": 0.79,
         "ionization_energies": [
             380
@@ -5052,6 +6611,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2",
         "electron_configuration_semantic": "[Rn] 7s2",
         "electron_affinity": 9.6485,
+        "atomic_radii": {
+            "empirical": [
+                215
+            ],
+            "calculated": null,
+            "van_der_waals": [
+                283
+            ],
+            "covalent_single": [
+                201
+            ],
+            "covalent_triple": [
+                159
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 0.9,
         "ionization_energies": [
             509.3,
@@ -5104,6 +6679,20 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 6d1",
         "electron_configuration_semantic": "[Rn] 6d1 7s2",
         "electron_affinity": 33.77,
+        "atomic_radii": {
+            "empirical": [
+                195
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                186
+            ],
+            "covalent_triple": [
+                140
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": 1.1,
         "ionization_energies": [
             499,
@@ -5156,6 +6745,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 6d2",
         "electron_configuration_semantic": "[Rn] 6d2 7s2",
         "electron_affinity": 112.72,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                175
+            ],
+            "covalent_triple": [
+                136
+            ],
+            "metallic": [
+                179
+            ]
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             587,
@@ -5210,6 +6815,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f2 6d1",
         "electron_configuration_semantic": "[Rn] 5f2 6d1 7s2",
         "electron_affinity": 53.03,
+        "atomic_radii": {
+            "empirical": [
+                180
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                169
+            ],
+            "covalent_triple": [
+                129
+            ],
+            "metallic": [
+                163
+            ]
+        },
         "electronegativity_pauling": 1.5,
         "ionization_energies": [
             568
@@ -5261,6 +6882,24 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f3 6d1",
         "electron_configuration_semantic": "[Rn] 5f3 6d1 7s2",
         "electron_affinity": 50.94,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": null,
+            "van_der_waals": [
+                186
+            ],
+            "covalent_single": [
+                170
+            ],
+            "covalent_triple": [
+                118
+            ],
+            "metallic": [
+                156
+            ]
+        },
         "electronegativity_pauling": 1.38,
         "ionization_energies": [
             597.6,
@@ -5313,6 +6952,22 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f4 6d1",
         "electron_configuration_semantic": "[Rn] 5f4 6d1 7s2",
         "electron_affinity": 45.85,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                171
+            ],
+            "covalent_triple": [
+                116
+            ],
+            "metallic": [
+                155
+            ]
+        },
         "electronegativity_pauling": 1.36,
         "ionization_energies": [
             604.5
@@ -5364,6 +7019,20 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f6",
         "electron_configuration_semantic": "[Rn] 5f6 7s2",
         "electron_affinity": -48.33,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                172
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                159
+            ]
+        },
         "electronegativity_pauling": 1.28,
         "ionization_energies": [
             584.7
@@ -5415,6 +7084,20 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7",
         "electron_configuration_semantic": "[Rn] 5f7 7s2",
         "electron_affinity": 9.93,
+        "atomic_radii": {
+            "empirical": [
+                175
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                166
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                173
+            ]
+        },
         "electronegativity_pauling": 1.13,
         "ionization_energies": [
             578
@@ -5466,6 +7149,20 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7 6d1",
         "electron_configuration_semantic": "[Rn] 5f7 6d1 7s2",
         "electron_affinity": 27.17,
+        "atomic_radii": {
+            "empirical": [
+                176
+            ],
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": [
+                166
+            ],
+            "covalent_triple": null,
+            "metallic": [
+                174
+            ]
+        },
         "electronegativity_pauling": 1.28,
         "ionization_energies": [
             581
@@ -5517,6 +7214,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f9",
         "electron_configuration_semantic": "[Rn] 5f9 7s2",
         "electron_affinity": -165.24,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": [
+                170
+            ]
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             601
@@ -5568,6 +7275,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f10",
         "electron_configuration_semantic": "[Rn] 5f10 7s2",
         "electron_affinity": -97.31,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": [
+                186
+            ]
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             608
@@ -5619,6 +7336,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f11",
         "electron_configuration_semantic": "[Rn] 5f11 7s2",
         "electron_affinity": -28.6,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": [
+                186
+            ]
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             619
@@ -5670,6 +7397,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f12",
         "electron_configuration_semantic": "[Rn] 5f12 7s2",
         "electron_affinity": 33.96,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             627
@@ -5721,6 +7456,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f13",
         "electron_configuration_semantic": "[Rn] 5f13 7s2",
         "electron_affinity": 93.91,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             635
@@ -5772,6 +7515,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14",
         "electron_configuration_semantic": "[Rn] 5f14 7s2",
         "electron_affinity": -223.22,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             642
@@ -5823,6 +7574,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 7p1",
         "electron_configuration_semantic": "[Rn] 5f14 7s2 7p1",
         "electron_affinity": -30.04,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": 1.3,
         "ionization_energies": [
             470
@@ -5874,6 +7633,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d2",
         "electron_configuration_semantic": "[Rn] 5f14 6d2 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                131
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [
             580
@@ -5925,6 +7694,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d3",
         "electron_configuration_semantic": "*[Rn] 5f14 6d3 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                126
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "d1004f",
@@ -5974,6 +7753,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d4",
         "electron_configuration_semantic": "*[Rn] 5f14 6d4 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                121
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "d90045",
@@ -6023,6 +7812,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d5",
         "electron_configuration_semantic": "*[Rn] 5f14 6d5 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                119
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "e00038",
@@ -6072,6 +7871,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d6",
         "electron_configuration_semantic": "*[Rn] 5f14 6d6 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                118
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "e6002e",
@@ -6121,6 +7930,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d7",
         "electron_configuration_semantic": "*[Rn] 5f14 6d7 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                113
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": "eb0026",
@@ -6170,6 +7989,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d8",
         "electron_configuration_semantic": "*[Rn] 5f14 6d9 7s1",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                112
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6219,6 +8048,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d9",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s1",
         "electron_affinity": 151,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                118
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6268,6 +8107,16 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": [
+                130
+            ],
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6317,6 +8166,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p1",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p1",
         "electron_affinity": 66.6,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6366,6 +8223,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p2",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p2",
         "electron_affinity": null,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6415,6 +8280,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p3",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p3",
         "electron_affinity": 35.3,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6464,6 +8337,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p4",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p4",
         "electron_affinity": 74.9,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6513,6 +8394,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p5",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p5",
         "electron_affinity": 165.9,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6562,6 +8451,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6",
         "electron_configuration_semantic": "*[Rn] 5f14 6d10 7s2 7p6",
         "electron_affinity": 5.40318,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,
@@ -6612,6 +8509,14 @@
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6 8s1",
         "electron_configuration_semantic": "*[Uuo] 8s1",
         "electron_affinity": 63.87,
+        "atomic_radii": {
+            "empirical": null,
+            "calculated": null,
+            "van_der_waals": null,
+            "covalent_single": null,
+            "covalent_triple": null,
+            "metallic": null
+        },
         "electronegativity_pauling": null,
         "ionization_energies": [],
         "cpk-hex": null,

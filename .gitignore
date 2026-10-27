@@ -1,0 +1,5 @@
+__pycache__
+.idea
+venv
+periodic_table.egg-info
+table.py

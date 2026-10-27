@@ -4450,7 +4450,7 @@
             2
         ],
         "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1",
-        "electron_configuration_semantic": "[Xe] 5d16s2",
+        "electron_configuration_semantic": "[Xe] 5d1 6s2",
         "electron_affinity": 53,
         "atomic_radii": {
             "empirical": [

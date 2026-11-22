@@ -4,7 +4,7 @@ A json of the entire periodic table. Feel free to use it in your projects.
 Temperatures such as boiling points and melting points are given in Kelvin.  Densities (`density`) are given in g/L for gases and g/cm³ for solids and liquids and molar heat in J/(mol*K).
 
 Because the unit of `density` depends on the phase, every element also has a `density_unit` key (`"g/L"` or `"g/cm3"`) and a `density_g_cm3` key.
-Gas densities are for 0 °C and 1 atm. For elements that sublime at atmospheric pressure (carbon, arsenic) `melt` is the triple-point temperature; values for the heaviest elements are theoretical predictions.
+Gas densities are for 0 °C and 1 atm. For elements that sublime at atmospheric pressure (carbon, arsenic) there is no liquid phase, so `melt` and `boil` both hold the sublimation temperature at 1 atm (not the triple point, which lies at a much higher pressure). For phosphorus, `melt` and `boil` refer to white phosphorus. Values for the heaviest elements are theoretical predictions.
 
 Atomic radii are given in **pm** and are from [Atomic radii of the elements (data page)](https://en.wikipedia.org/wiki/Atomic_radii_of_the_elements_(data_page)).
 The radii is given as an array as some elements have multiple radii.
